@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algebraic Structures on BK HQV</title>
+    <link>https://uni.delnegend.com/AlgebraicStructures/</link>
+    <description>Recent content in Algebraic Structures on BK HQV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://uni.delnegend.com/AlgebraicStructures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Introduction to Algebraic Structures</title>
+      <link>https://uni.delnegend.com/AlgebraicStructures/1_Introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/AlgebraicStructures/1_Introduction/</guid>
+      <description>I. Introduction 1. Algebra (meaning: &amp;lsquo;reunion of broken parts&amp;rsquo;) 2. Why study algebra? II. Applications with Algebra 1. Information 2. Applications 3. Cryptography 4. Coding theory III. Terminology IV. Number system 1. Properties of $\text{ }\mathbb{R}$ 2. Properties of $\text{ }\mathbb{C}$ 3. Properties of $\text{ }\mathbb{Q}$ 4. Properties of $\text{ }\mathbb{Z}$ V. The integers VI. Mathematical induction I. Introduction 1. Algebra (meaning: &amp;lsquo;reunion of broken parts&amp;rsquo;) Algebra is the study of mathematical symbols and the rules for manipulating these symbols.</description>
+    </item>
+    
+    <item>
+      <title>2. Groups</title>
+      <link>https://uni.delnegend.com/AlgebraicStructures/2_Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/AlgebraicStructures/2_Groups/</guid>
+      <description>I. Binary Operations Binary operations Properties II. Groups Definition 1 Proposition 1 Proposition 2 Proposition 3 Proposition 4 Definition 2 III. Subgroups Definition 1 Proposition 1 IV. Cyclic Groups Definition 1 Definition 2 Proposition 1 V. Cosets 1. Definition 1 2. Definition 2 3. Definition 3 Proposition 1 Proposition 2 Proposition 3 VI. Lagrange&amp;rsquo;s Theorem VII. Normal Subgroups 1. Definition } In mathematics, algebraic structure consists of a non-empty set A, a collection of operations on A (typically binary operations such as addition and multiplication), and a finite set of identities, known as axioms, that these operations must satisfy.</description>
+    </item>
+    
+    <item>
+      <title>3. Mapping and functions</title>
+      <link>https://uni.delnegend.com/AlgebraicStructures/3_map_func/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/AlgebraicStructures/3_map_func/</guid>
+      <description>Cartesian products Mapping Function Applications Cartesian products Given sets A and B, we can define a new set $A \times B$, called the Cartesian product of A and B, as a set of ordered pairs. That is,
+$$A \times B = \text{\{} (a, b): a \in A \text{ and } b \in B \text{\}}$$
+Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \emptyset$.</description>
+    </item>
+    
+  </channel>
+</rss>

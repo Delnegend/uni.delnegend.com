@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Signals and Systems on BK HQV</title>
+    <link>https://uni.delnegend.com/SignalSystem/</link>
+    <description>Recent content in Signals and Systems on BK HQV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://uni.delnegend.com/SignalSystem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Signals</title>
+      <link>https://uni.delnegend.com/SignalSystem/1_Signals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/1_Signals/</guid>
+      <description>I. Objectives II. Classifying signals 1. Continuous-time and discrete-time signals 2. Analog vs digital signals 3. Periodic and aperiodic signals 4. Even and odd signals 5. Energy and power signals III. Signals&amp;rsquo; transformation 1. Time shift Time shift transformation Time shift summary 2. Time reversal Time reversal transformation Time reversal summary 3. Time scaling Time scaling transformation Time scaling summary IV. Elementary signals 1. Delta signal 2. Unit signal 3.</description>
+    </item>
+    
+    <item>
+      <title>2. System</title>
+      <link>https://uni.delnegend.com/SignalSystem/2_Systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/2_Systems/</guid>
+      <description>I. Objectives II. An introduction to systems 1. System types 2. System interconnections Series and parallel Feedback III. Systems&amp;rsquo; properties 1. Causality 2. Stability 3. Time-invariance 4. Linearity IV. LTI systems 1. Delta signal 2. A simple system I. Objectives At the end of this lesson, you should be able to
+Recognize basic system types and system interconnections Deermine (and justify) properties of a system Causality Stability Time-invariance Linearity Have some feeling about LTI systems II.</description>
+    </item>
+    
+    <item>
+      <title>3. Fourier Series Representation of Continuous-time Periodic Signals</title>
+      <link>https://uni.delnegend.com/SignalSystem/3_FourierContinuous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/3_FourierContinuous/</guid>
+      <description>I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi + j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7.</description>
+    </item>
+    
+    <item>
+      <title>4. Fourier Series Representation of Discrete-time Periodic Signals</title>
+      <link>https://uni.delnegend.com/SignalSystem/4_FourierDiscrete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/4_FourierDiscrete/</guid>
+      <description>I. Lesson Objectives II. Fourier Representation 1. Periodic signal Fundamental period 2 basic periodic signals Exercies: sum of $e^{j\omega_0n}$ 2. Definition Fourier series Fourier series equation pair Examples III. Properties 1. Multiplication 2. Parseval&amp;rsquo;s Relation I. Lesson Objectives At the end of this chapter, you should be able to:
+Be familiar with discrete complex signal. Find Fourier coefficients of any discrete periodic signal. Understand various properties of Fourier series. II.</description>
+    </item>
+    
+    <item>
+      <title>5. Discrete Linear Time-Invariant Systems</title>
+      <link>https://uni.delnegend.com/SignalSystem/5_DiscreteLTI/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/5_DiscreteLTI/</guid>
+      <description>I. Lesson objectives II. Convolution sum Signal representation using impulses Remind: delta impulse Weighted Sum of Shifted Impulses Convolution III. Properties Commutative Distributive Associative Invertibility Causality Stability IV. Exercises I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the input-output relationship of a LTI system. Calculate the convolution sum using different approaches. Determine (and justify) properties of a LTI system: Causality Stability &amp;hellip; II.</description>
+    </item>
+    
+    <item>
+      <title>6. Continuous Linear Time-Invariant (LTI) System</title>
+      <link>https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/</guid>
+      <description>I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the origin of the Delta signal in continuous-time domain.</description>
+    </item>
+    
+  </channel>
+</rss>

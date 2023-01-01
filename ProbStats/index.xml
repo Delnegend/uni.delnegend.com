@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Probability and Statistics on BK HQV</title>
+    <link>https://uni.delnegend.com/ProbStats/</link>
+    <description>Recent content in Probability and Statistics on BK HQV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://uni.delnegend.com/ProbStats/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Basic Probability 1</title>
+      <link>https://uni.delnegend.com/ProbStats/1_BasicProb1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/1_BasicProb1/</guid>
+      <description>I. Probability Theorem Overview 1. What is probability? 2. A probabilistic model II. Sample Space 1. Definition 2. Conditions 3. Set theorem Mathematical background: sets Probabilistic model III. Probability laws 1. Definition Probability Axiom 2. Uniform law Discrete uniform law Example A Continuous uniform law Probability calculation steps I. Probability Theorem Overview 1. What is probability? Provides rules for systematically thinking about uncertain situations. Definitions of probabilities:
+Physical tendencies. Long-term frequency (repeatable).</description>
+    </item>
+    
+    <item>
+      <title>2. Basic Probability 2</title>
+      <link>https://uni.delnegend.com/ProbStats/2_BasicProb2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/2_BasicProb2/</guid>
+      <description>I. Conditional probability 1. Definition Conditional probability Multiplication rule 2. Total probability theorem Definition 3. Bayes&amp;rsquo; rule Bayesian Inference - A flash introduction II. Independence 1. Definition Intuition explanation Intuition &amp;ldquo;definition&amp;rdquo; Definition of independence 2. Conditional independence III. Counting 1. Counting principle Discrete Uniform Law Counting principle Examples 2. Combinations I. Conditional probability 1. Definition Consider 2 experiments:
+Roll a fair 6-sided dice:
+$\Omega = {1, 2, 3, 4, 5, 6}$.</description>
+    </item>
+    
+    <item>
+      <title>3. Discrete Random Variables 1</title>
+      <link>https://uni.delnegend.com/ProbStats/3_DiscreteRandVar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/3_DiscreteRandVar/</guid>
+      <description>I. Discrete Random Variables 1. Definition Discrete random variables 2. Probability Mass Function II. Common random variables 1. Bernoulli 2. Uniform 3. Binomial 4. Geometric III. Expectation 1. The Mean Bernoulli random variable Linearity of expectation: 2. Expected Value Rule 3. The Variance Bernoulli random variable Properties of variance I. Discrete Random Variables 1. Definition Discrete random variables An example: A fair coin is tossed 3 times. The random variable $X$ is the number of heads.</description>
+    </item>
+    
+    <item>
+      <title>4. Discrete Random Variables 2</title>
+      <link>https://uni.delnegend.com/ProbStats/4_DiscreteRandVar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/4_DiscreteRandVar/</guid>
+      <description>The course so far I. Conditional PMF on an event 1. Conditional PMF 2. Conditional expectation 3. Total expectation theorem Review Conditioned on an event Mean an variance of the geometric II. Multiple discrete random variables 1. Joint PMF 2. Marginal PMF 3. Expectation III. Conditional PMF on a random variable 1. Conditional PMF Conditional PMF on a random variable Joint, marginal, conditional PMF 2. Conditional expectation Conditional expectations on a random variable Total expectation theorem 3.</description>
+    </item>
+    
+    <item>
+      <title>5. Advanced Topics</title>
+      <link>https://uni.delnegend.com/ProbStats/5_Advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/5_Advanced/</guid>
+      <description>The course so far I. Calculation of normal probability 1. Standard normal distribution Standard gaussian random variable Standard normal table Examples 2. Normal distribution Standardizing a random variable Example II. Derived distributions 1. Discrete random variables A simple example A linear function of a discrete random variable 2. Continuous random variables A linear function of a continuous random variable A linear function of a normal random variable 3. The PDF of a general function III.</description>
+    </item>
+    
+    <item>
+      <title>6. Limit Theorem</title>
+      <link>https://uni.delnegend.com/ProbStats/6_LimitTheorem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/6_LimitTheorem/</guid>
+      <description>The course so far I. The context II. Inequalities Markov&amp;rsquo;s inequality Chebyshev&amp;rsquo;s inequality III. Limit theorem The weak law of large numbers The central limit theorem The course so far Fundamental probability. Discrete random variables, probability mass function (PMF). Continuous random variables, probability density function (PDF). I. The context A sequence $X_1, X_2, \dots$ of independent identically distributed random variables with mean $\mu$ and variance $\sigma^2$. Let $S_n = X_1 + X_2 + \dots + X_n$.</description>
+    </item>
+    
+  </channel>
+</rss>

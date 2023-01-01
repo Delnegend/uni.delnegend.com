@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fundamentals of Databases on BK HQV</title>
+    <link>https://uni.delnegend.com/FundamentalsDatabases/</link>
+    <description>Recent content in Fundamentals of Databases on BK HQV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://uni.delnegend.com/FundamentalsDatabases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Overview</title>
+      <link>https://uni.delnegend.com/FundamentalsDatabases/1_Overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/FundamentalsDatabases/1_Overview/</guid>
+      <description>I. Introduction, basic definitions 1. Why study databases? 2. Database application examples 3. Databases are everywhere 4. Basic definitions 5. A sample database 6. Main Characteristics of a Database Approach II. History of databases 1. History of DB Technology III. Trends in database technology 1. DB Technology&amp;rsquo;s Trends 3-Tier Architecture Client-Server Model IV. Database management systems 1. What is DBMS? 2. Relational database 3. Typical DMBS functionalities 4. Database users 5.</description>
+    </item>
+    
+  </channel>
+</rss>

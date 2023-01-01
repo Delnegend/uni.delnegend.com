@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Object Oriented Programming on BK HQV</title>
+    <link>https://uni.delnegend.com/OOP/</link>
+    <description>Recent content in Object Oriented Programming on BK HQV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://uni.delnegend.com/OOP/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Introduction to OOP</title>
+      <link>https://uni.delnegend.com/OOP/01_Intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/01_Intro/</guid>
+      <description>1. Contents 2. Computer Programming 3. Programming languages 3.1. Machine language 3.2 Assembly language 3.3 High-level languages 3.3.1. Classifying high-level languages 3.3.1.1 Procedure programming languages 3.3.1.2 Object oriented programming languages 1. Contents Brief history of computer programming. Procedure programming. Object oriented programming. 2. Computer Programming A computer program is a list of instructions that tell the computer what to do. Example of a simple Python program: print(&amp;#34;Hello World!&amp;#34;) 3. Programming languages 3 main categories of programming languages: 3.</description>
+    </item>
+    
+    <item>
+      <title>02. Introduction to Java</title>
+      <link>https://uni.delnegend.com/OOP/02_Java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/02_Java/</guid>
+      <description>1. Brief history of Java 2. Java platforms and applications 3. Writing your first Java program Installing Java Editor/IDE: Running Java Codes Java Virtual Machine (JVM) Writing your first Java program 4. Compile and run your first Java program 5. Code structure Application with more than one class Compile and run 6. Basic data types and operators Data types Operators Unary operators Binary operators Ternary operators 7. Loop control and decision making Loop control statements Example of while loop Example of do.</description>
+    </item>
+    
+    <item>
+      <title>03. Objects and Classes</title>
+      <link>https://uni.delnegend.com/OOP/03_object_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/03_object_class/</guid>
+      <description>I. Classes vs. Objects 1. Important OO concepts 2. Java program 3. Objects 3.1. State 3.2. Behavior 3.3. Identity 4. Classes 5. Class vs. Object II. Designing a Class 1. Designing a class 2. Writing a class Write the class Write a tester class 3. Object Reference 4. Messaging beween objects III. Methods and Instance Variables 1. Methods - how objects behave 2. State affects behavior and vice versa 3.</description>
+    </item>
+    
+    <item>
+      <title>04. Objects and Object References</title>
+      <link>https://uni.delnegend.com/OOP/04_object_ref/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/04_object_ref/</guid>
+      <description>I. Data types 1. Variables and Types 2. Primitive Data Types II. Objects 1. Object References - Controlling Objects 2. Object References 3. Object Equality 4. Object&amp;rsquo;s life on memory III. Instance variables vs local variables IV. Parameters 1. Parameter passing &amp;amp; return value 2. Parameter passing of primitive types 3. Parameter passing of object references IV. Methods 1. Method overloading 2. Remind 3. How about this case? V. The &amp;ldquo;this&amp;rdquo; reference VI.</description>
+    </item>
+    
+    <item>
+      <title>05. Class members</title>
+      <link>https://uni.delnegend.com/OOP/05_class_members/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/05_class_members/</guid>
+      <description>1. Class methods 2. Instance methods vs. class methods 3. Using class methods Correct code Better code 4. Class variables 5. Class variables vs instance variables 6. Using class (static) variables 1. Class methods Examples:
+double x = Math.round(3.14); int y = Math.abs(-5); Methods in the Math class don&amp;rsquo;t use any instance variable value. So they don;t need to know about a specific Math object. All we need is the Math class.</description>
+    </item>
+    
+    <item>
+      <title>06. Inheritance and polymorphism</title>
+      <link>https://uni.delnegend.com/OOP/06_intehritance_polymorphism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/06_intehritance_polymorphism/</guid>
+      <description>Important OO concepts What is inheritance? Inheritance declaration Example Overriding - which method is called? Rules for overriding Wrong overriding IS-A &amp;amp; HAS-A relationships Protected access level Design an inheritance structure Case study Types of inheritance structure Important OO concepts What is polymorphism? Polymorphism example Polymorphic arguments and return types Why care about polymorphism? Object class Important OO concepts What is inheritance? Inheritance is a relationship where a child class inherits members, i.</description>
+    </item>
+    
+    <item>
+      <title>07. Abstraction</title>
+      <link>https://uni.delnegend.com/OOP/07_abstraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/07_abstraction/</guid>
+      <description>Important OO Concepts What is Abstraction? Abstraction vs Inheritance design Abstract classes Abstract vs Concrete Abstract methods Important OO Concepts What is Abstraction? Abstraction: simplify a complex system by breaking down into smaller, fundamental parts: naming the parts explaining their functionality Abstraction vs Inheritance design Dog d = new Dog(); Cat c = new Cat(); $\rightarrow$ We can imagine how Dog object and Cat object look like.
+Animal anim = new Animal(); $\rightarrow$ But, what does a generic Animal object look like?</description>
+    </item>
+    
+    <item>
+      <title>08. Interfaces in Java</title>
+      <link>https://uni.delnegend.com/OOP/08_interfaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/08_interfaces/</guid>
+      <description>Important OO Concepts Why care about interfaces? What is Interface? Creating Interface Multiple inheritance with interface Extends vs Implements keyword Implement multiple interfaces Extend an interface with inheritance Important OO Concepts Why care about interfaces? What is Interface? In Java, interface is a special type of class which: Define a set of method prototypes. Does not provide the implementation for the prototypes. Can also define final constant. public interface Animal { public abstract void eat(); public abstract void travel(); } Creating Interface To define an interface: public interface Animal { // user keyword &amp;#34;interface&amp;#34; instead of &amp;#34;class&amp;#34; public abstract void eat(); // the methods are ALL abstract public abstract void travel(); } To implement an interface: public class Mammal implements Animal { // keyword &amp;#34;implements&amp;#34; public void eat() { System.</description>
+    </item>
+    
+    <item>
+      <title>09. Exceptions</title>
+      <link>https://uni.delnegend.com/OOP/09_exceptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/09_exceptions/</guid>
+      <description>What is Exception? Example: open file Example: invalid input Example: divide by zero Throwing Exceptions Throw point Catching exceptions How try and catch work? Finally block How finally block works? Eample: finally block Java Exception Hierarchy Handling exceptions Exception handling methods Rethrowing exceptiosn Tracing exceptions What is Exception? Exception is an indication of problem that arises during the execution of a program. Exception happens in case of: Designing errors. Programming errors.</description>
+    </item>
+    
+    <item>
+      <title>10. Streams and Files</title>
+      <link>https://uni.delnegend.com/OOP/10_streams_and_files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/10_streams_and_files/</guid>
+      <description>Data streams Types of streams InputStream hierarchy Methods of InputStream OutputStream hierarchy Methods of OutputStream Reader hierarchy Methods of Reader Writer hierarchy Methods of Writer Important types of streams Input/output stream object Use of buffered streams: Standard I/O streams The file class Create a File object File&amp;rsquo;s methods Manipulate text file Read from a text file Write to a text file Manipulate binary file DataInputStream/DataOutputStream Write primitive data Read primitive data File of objects The class RandomAccessFile Data streams Data are stored as a sequence of bytes: But, we can cosnider data as having some higher-level structure as being a sequence of characters or objects.</description>
+    </item>
+    
+  </channel>
+</rss>

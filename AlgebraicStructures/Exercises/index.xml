@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exercises on BK HQV</title>
+    <link>https://uni.delnegend.com/AlgebraicStructures/Exercises/</link>
+    <description>Recent content in Exercises on BK HQV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://uni.delnegend.com/AlgebraicStructures/Exercises/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Ex. Groups</title>
+      <link>https://uni.delnegend.com/AlgebraicStructures/Exercises/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/AlgebraicStructures/Exercises/01/</guid>
+      <description>Exercise 1 Show that $\mathbb{R}^* = \mathbb{R} \backslash \text{\{} 0 \text{\}}$ is a group under multiplication.
+Solution ↕ Let $a$ and $b$ be elements of $\mathbb{R}^*$. Then $ab = ab \cdot 1 = ab \cdot \frac{1}{ab} = \frac{ab}{ab} = 1$. Exercise 2 Give the group $\mathbb{R}^*$ and $\mathbb{Z}$, let $G = \mathbb{R}^* \times \mathbb{Z}$. Define a binary operation $\circ$ on $G$ by $(a;m) \circ (b;n) = (ab;m+n)$. Show that $G$ is a group under this operation.</description>
+    </item>
+    
+    <item>
+      <title>Retake 2020</title>
+      <link>https://uni.delnegend.com/AlgebraicStructures/Exercises/Retake2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/AlgebraicStructures/Exercises/Retake2020/</guid>
+      <description>Code 1 Question 1 Solve the following linear equation system where $x,y \in \mathbb{Z}_11$:
+$$\begin{aligned} 2x + 4y \equiv 3 \pmod{11} \\ 3x - 7y \equiv 3 \pmod{11} \end{aligned}$$
+Specify your algebra development to justify your answer.
+Question 2 Find an example of a cyclic group $U \subset \mathbb{Z}_11$. Justify the generator of the cyclic group.
+Question 3 Using induction to prove that the following statement is true:
+$a^2 - 1$ is divisible by 8 for all odd and positive integers of a.</description>
+    </item>
+    
+  </channel>
+</rss>

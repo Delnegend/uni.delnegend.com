@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome on BK HQV</title>
+    <link>https://uni.delnegend.com/</link>
+    <description>Recent content in Welcome on BK HQV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://uni.delnegend.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0. Introduction</title>
+      <link>https://uni.delnegend.com/OS/0_intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OS/0_intro/</guid>
+      <description>What is an Operating System? Abstract view of Components of Computer Computer system structure Computer system organization Computer-System operation Common functions of interrupt Interrupt: Timeline I/O cycle 2 methods for handling I/O Memory Secondary storage Memory hierarchy Multi-programming (batch systems) Multi-tasking (time-sharing) Memory layout for multiprogramming systems OS protection: dual-mode operation Transition from user mode to kernel mode Process management Process management activities Memory management File-system management Caching Characteristics of various types of storage Migration of data &amp;ldquo;A&amp;rdquo; from disk to register Protection and security Computer-system architecture Symmetric multiprocessing architecture Dual-core design Non-uniform memory access (NUMA) systems Clustered system System interfaces Basic shell commands Exercise (cmds) What is an Operating System?</description>
+    </item>
+    
+    <item>
+      <title>01. Ex. Basic Prob. 1</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/01/</guid>
+      <description>Exercise 1 Exercise 2 Exercise 3 Exercise 4 Exercise 5 Exercise 6 Exercise 1 a) Consider rolling a six-sided dice. TThe set of outcomes where the roll is:
+A: an even number. B: greater than 3. Calculate and compare the sets on both side of De Morgan&amp;rsquo;s law.
+$(A \cup B)^c = A^c \cap B^c$ $(A \cap B)^c = A^c \cup B^c$ Solution ↕ $A = {2,4,6}$
+$B = {4,5,6}$</description>
+    </item>
+    
+    <item>
+      <title>01. Ex. Groups</title>
+      <link>https://uni.delnegend.com/AlgebraicStructures/Exercises/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/AlgebraicStructures/Exercises/01/</guid>
+      <description>Exercise 1 Show that $\mathbb{R}^* = \mathbb{R} \backslash \text{\{} 0 \text{\}}$ is a group under multiplication.
+Solution ↕ Let $a$ and $b$ be elements of $\mathbb{R}^*$. Then $ab = ab \cdot 1 = ab \cdot \frac{1}{ab} = \frac{ab}{ab} = 1$. Exercise 2 Give the group $\mathbb{R}^*$ and $\mathbb{Z}$, let $G = \mathbb{R}^* \times \mathbb{Z}$. Define a binary operation $\circ$ on $G$ by $(a;m) \circ (b;n) = (ab;m+n)$. Show that $G$ is a group under this operation.</description>
+    </item>
+    
+    <item>
+      <title>01. Introduction to OOP</title>
+      <link>https://uni.delnegend.com/OOP/01_Intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/01_Intro/</guid>
+      <description>1. Contents 2. Computer Programming 3. Programming languages 3.1. Machine language 3.2 Assembly language 3.3 High-level languages 3.3.1. Classifying high-level languages 3.3.1.1 Procedure programming languages 3.3.1.2 Object oriented programming languages 1. Contents Brief history of computer programming. Procedure programming. Object oriented programming. 2. Computer Programming A computer program is a list of instructions that tell the computer what to do. Example of a simple Python program: print(&amp;#34;Hello World!&amp;#34;) 3. Programming languages 3 main categories of programming languages: 3.</description>
+    </item>
+    
+    <item>
+      <title>02. Ex. Basic Prob. 2</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/02/</guid>
+      <description>Exercise 1 Exercise 2 Exercise 3 Exercise 4 Exercise 5 Exercise 6 Exercise 7 Exercise 8 Exercise 1 A bin contains 5 defective (that immediately fail when put in use), 10 partially defective (that fail after a couple of hours of use), and 25 acceptable transistors. A transistor is chosen at random from the bin and put into use. If it does not immediately fail, what is the probability it is acceptable?</description>
+    </item>
+    
+    <item>
+      <title>02. Introduction to Java</title>
+      <link>https://uni.delnegend.com/OOP/02_Java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/02_Java/</guid>
+      <description>1. Brief history of Java 2. Java platforms and applications 3. Writing your first Java program Installing Java Editor/IDE: Running Java Codes Java Virtual Machine (JVM) Writing your first Java program 4. Compile and run your first Java program 5. Code structure Application with more than one class Compile and run 6. Basic data types and operators Data types Operators Unary operators Binary operators Ternary operators 7. Loop control and decision making Loop control statements Example of while loop Example of do.</description>
+    </item>
+    
+    <item>
+      <title>03. Ex. Discrete Uni. Law</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/03/</guid>
+      <description>A. Discrete Random Variables and Probability Mass Functions Exercise 1 Exercise 2 Exercise 3 B. Expectation of random variables Exercise 4 Exercise 5 Exercise 6 Exercise 7 Exercise 8 C. Variance and standard deviation Exercise 9 Exercise 10 Exercise 11 Exercise 12 A. Discrete Random Variables and Probability Mass Functions Exercise 1 Let X represent the number of heads that can come up when tossing a coin in two cases: twice and three times.</description>
+    </item>
+    
+    <item>
+      <title>03. Objects and Classes</title>
+      <link>https://uni.delnegend.com/OOP/03_object_class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/03_object_class/</guid>
+      <description>I. Classes vs. Objects 1. Important OO concepts 2. Java program 3. Objects 3.1. State 3.2. Behavior 3.3. Identity 4. Classes 5. Class vs. Object II. Designing a Class 1. Designing a class 2. Writing a class Write the class Write a tester class 3. Object Reference 4. Messaging beween objects III. Methods and Instance Variables 1. Methods - how objects behave 2. State affects behavior and vice versa 3.</description>
+    </item>
+    
+    <item>
+      <title>04. Ex. Discrete Rand. Var.</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/04/</guid>
+      <description>Exercise 1 Exercise 2 Exercise 3 Exercise 4 Exercise 5 Exercise 6 Exercise 7 Exercise 8 Exercise 9 Exercise 1 a) $X$: the roll of a fair 6-sided dice. $A$: the event that the roll is a number greater or equal to 4. $PMF_{p_{X|A}}(x) = ?$ Solution ↕ $ PMF_{p_{X|A}}(x) = P(X \geq 4) = P(X = 4) + P(X = 5) + P(X = 6) = \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = \frac{3}{6} = \frac{1}{2} $ b) $X$: the toss of a coin 3 times.</description>
+    </item>
+    
+    <item>
+      <title>04. Objects and Object References</title>
+      <link>https://uni.delnegend.com/OOP/04_object_ref/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/04_object_ref/</guid>
+      <description>I. Data types 1. Variables and Types 2. Primitive Data Types II. Objects 1. Object References - Controlling Objects 2. Object References 3. Object Equality 4. Object&amp;rsquo;s life on memory III. Instance variables vs local variables IV. Parameters 1. Parameter passing &amp;amp; return value 2. Parameter passing of primitive types 3. Parameter passing of object references IV. Methods 1. Method overloading 2. Remind 3. How about this case? V. The &amp;ldquo;this&amp;rdquo; reference VI.</description>
+    </item>
+    
+    <item>
+      <title>05. Class members</title>
+      <link>https://uni.delnegend.com/OOP/05_class_members/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/05_class_members/</guid>
+      <description>1. Class methods 2. Instance methods vs. class methods 3. Using class methods Correct code Better code 4. Class variables 5. Class variables vs instance variables 6. Using class (static) variables 1. Class methods Examples:
+double x = Math.round(3.14); int y = Math.abs(-5); Methods in the Math class don&amp;rsquo;t use any instance variable value. So they don;t need to know about a specific Math object. All we need is the Math class.</description>
+    </item>
+    
+    <item>
+      <title>05. Ex. Continuous Uni. Law</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/05/</guid>
+      <description>Exercise 1 Exercise 1 A probability density function $PDF$ such that $$ f_X(x) = \begin{cases} cx^2 &amp;amp; \text{if } 0 &amp;lt; x &amp;lt; 3 \\ 0 &amp;amp; \text{otherwise} \end{cases} $$
+a) Find the constant $c$ Expand ↕ $\int_{0}^{3} cx^2 dx = 1$
+$\Leftrightarrow c \times \int_{0}^{3} x^2 = 1$
+$\Leftrightarrow c \times \frac{x^3}{3} \Bigg|_{0}^{3} = 1$
+$\Leftrightarrow c \times \frac{3^3}{3} - \frac{0^3}{3} = 1$
+$\Leftrightarrow c \times \frac{27}{3} = 1$</description>
+    </item>
+    
+    <item>
+      <title>06. Inheritance and polymorphism</title>
+      <link>https://uni.delnegend.com/OOP/06_intehritance_polymorphism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/06_intehritance_polymorphism/</guid>
+      <description>Important OO concepts What is inheritance? Inheritance declaration Example Overriding - which method is called? Rules for overriding Wrong overriding IS-A &amp;amp; HAS-A relationships Protected access level Design an inheritance structure Case study Types of inheritance structure Important OO concepts What is polymorphism? Polymorphism example Polymorphic arguments and return types Why care about polymorphism? Object class Important OO concepts What is inheritance? Inheritance is a relationship where a child class inherits members, i.</description>
+    </item>
+    
+    <item>
+      <title>07. Abstraction</title>
+      <link>https://uni.delnegend.com/OOP/07_abstraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/07_abstraction/</guid>
+      <description>Important OO Concepts What is Abstraction? Abstraction vs Inheritance design Abstract classes Abstract vs Concrete Abstract methods Important OO Concepts What is Abstraction? Abstraction: simplify a complex system by breaking down into smaller, fundamental parts: naming the parts explaining their functionality Abstraction vs Inheritance design Dog d = new Dog(); Cat c = new Cat(); $\rightarrow$ We can imagine how Dog object and Cat object look like.
+Animal anim = new Animal(); $\rightarrow$ But, what does a generic Animal object look like?</description>
+    </item>
+    
+    <item>
+      <title>08. Interfaces in Java</title>
+      <link>https://uni.delnegend.com/OOP/08_interfaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/08_interfaces/</guid>
+      <description>Important OO Concepts Why care about interfaces? What is Interface? Creating Interface Multiple inheritance with interface Extends vs Implements keyword Implement multiple interfaces Extend an interface with inheritance Important OO Concepts Why care about interfaces? What is Interface? In Java, interface is a special type of class which: Define a set of method prototypes. Does not provide the implementation for the prototypes. Can also define final constant. public interface Animal { public abstract void eat(); public abstract void travel(); } Creating Interface To define an interface: public interface Animal { // user keyword &amp;#34;interface&amp;#34; instead of &amp;#34;class&amp;#34; public abstract void eat(); // the methods are ALL abstract public abstract void travel(); } To implement an interface: public class Mammal implements Animal { // keyword &amp;#34;implements&amp;#34; public void eat() { System.</description>
+    </item>
+    
+    <item>
+      <title>09. Exceptions</title>
+      <link>https://uni.delnegend.com/OOP/09_exceptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/09_exceptions/</guid>
+      <description>What is Exception? Example: open file Example: invalid input Example: divide by zero Throwing Exceptions Throw point Catching exceptions How try and catch work? Finally block How finally block works? Eample: finally block Java Exception Hierarchy Handling exceptions Exception handling methods Rethrowing exceptiosn Tracing exceptions What is Exception? Exception is an indication of problem that arises during the execution of a program. Exception happens in case of: Designing errors. Programming errors.</description>
+    </item>
+    
+    <item>
+      <title>09. Limit theorem</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/09/</guid>
+      <description>Exercise 1 Exercise 1 The independent random variables X and Y each have normal distributions. The means of X and Y are 8 and 14 respectively, and the variances are 7 and 16, respectively. Find the following probabilities, giving your answers correct to 3 significant figures.
+a. $P(X &amp;lt; 10)$
+b. $P(X &amp;lt; ̄10)$, where X ̄is the mean of a sample 3 independent observations of X. c. $P(X &amp;lt; Y)$</description>
+    </item>
+    
+    <item>
+      <title>1. Basic Probability 1</title>
+      <link>https://uni.delnegend.com/ProbStats/1_BasicProb1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/1_BasicProb1/</guid>
+      <description>I. Probability Theorem Overview 1. What is probability? 2. A probabilistic model II. Sample Space 1. Definition 2. Conditions 3. Set theorem Mathematical background: sets Probabilistic model III. Probability laws 1. Definition Probability Axiom 2. Uniform law Discrete uniform law Example A Continuous uniform law Probability calculation steps I. Probability Theorem Overview 1. What is probability? Provides rules for systematically thinking about uncertain situations. Definitions of probabilities:
+Physical tendencies. Long-term frequency (repeatable).</description>
+    </item>
+    
+    <item>
+      <title>1. Introduction to Algebraic Structures</title>
+      <link>https://uni.delnegend.com/AlgebraicStructures/1_Introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/AlgebraicStructures/1_Introduction/</guid>
+      <description>I. Introduction 1. Algebra (meaning: &amp;lsquo;reunion of broken parts&amp;rsquo;) 2. Why study algebra? II. Applications with Algebra 1. Information 2. Applications 3. Cryptography 4. Coding theory III. Terminology IV. Number system 1. Properties of $\text{ }\mathbb{R}$ 2. Properties of $\text{ }\mathbb{C}$ 3. Properties of $\text{ }\mathbb{Q}$ 4. Properties of $\text{ }\mathbb{Z}$ V. The integers VI. Mathematical induction I. Introduction 1. Algebra (meaning: &amp;lsquo;reunion of broken parts&amp;rsquo;) Algebra is the study of mathematical symbols and the rules for manipulating these symbols.</description>
+    </item>
+    
+    <item>
+      <title>1. Overview</title>
+      <link>https://uni.delnegend.com/FundamentalsDatabases/1_Overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/FundamentalsDatabases/1_Overview/</guid>
+      <description>I. Introduction, basic definitions 1. Why study databases? 2. Database application examples 3. Databases are everywhere 4. Basic definitions 5. A sample database 6. Main Characteristics of a Database Approach II. History of databases 1. History of DB Technology III. Trends in database technology 1. DB Technology&amp;rsquo;s Trends 3-Tier Architecture Client-Server Model IV. Database management systems 1. What is DBMS? 2. Relational database 3. Typical DMBS functionalities 4. Database users 5.</description>
+    </item>
+    
+    <item>
+      <title>1. Signal</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/01/</guid>
+      <description>1.4 P.79 1.5 P.79 1.6 P.79 1.21 P.81 1.22 P.81 1.4 P.79 Let $x[n]$ be a signal with $x[n] = 0$ for $n&amp;lt;2$ and $n&amp;gt;4$. For each signal given below, detemine the values of $n$ for which it is guaranteed to be zero.
+a. $x[n-3]$
+Solution 🧈 $x[n] = 0 \forall n&lt;2$ and $n&gt;4$ $\Rightarrow x[n-3] = 0 \forall n-3&lt;2$ and $n-3&gt;4 \\ \Leftrightarrow n&lt;5$ and $n&gt;7$ b. $x[n+4]$</description>
+    </item>
+    
+    <item>
+      <title>1. Signals</title>
+      <link>https://uni.delnegend.com/SignalSystem/1_Signals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/1_Signals/</guid>
+      <description>I. Objectives II. Classifying signals 1. Continuous-time and discrete-time signals 2. Analog vs digital signals 3. Periodic and aperiodic signals 4. Even and odd signals 5. Energy and power signals III. Signals&amp;rsquo; transformation 1. Time shift Time shift transformation Time shift summary 2. Time reversal Time reversal transformation Time reversal summary 3. Time scaling Time scaling transformation Time scaling summary IV. Elementary signals 1. Delta signal 2. Unit signal 3.</description>
+    </item>
+    
+    <item>
+      <title>10. Review</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/10/</guid>
+      <description>Exercise 1 Exercise 2 Exercise 3 Exercise 4 Exercise 5 Exercise 6 Exercise 7 Exercise 8 Exercise 1 Find the number of different arrangements of the letters in the word &amp;ldquo;PERSEVERE&amp;rdquo; if
+a. no 2 &amp;ldquo;E&amp;quot;s can be next to each other
+b. each arrangement must start and end with &amp;ldquo;S&amp;rdquo; and &amp;ldquo;P&amp;rdquo; with no 2 &amp;ldquo;E&amp;rdquo; together
+Exercise 2 7 people, 4 women, 3 men, are forming a queue.</description>
+    </item>
+    
+    <item>
+      <title>10. Streams and Files</title>
+      <link>https://uni.delnegend.com/OOP/10_streams_and_files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OOP/10_streams_and_files/</guid>
+      <description>Data streams Types of streams InputStream hierarchy Methods of InputStream OutputStream hierarchy Methods of OutputStream Reader hierarchy Methods of Reader Writer hierarchy Methods of Writer Important types of streams Input/output stream object Use of buffered streams: Standard I/O streams The file class Create a File object File&amp;rsquo;s methods Manipulate text file Read from a text file Write to a text file Manipulate binary file DataInputStream/DataOutputStream Write primitive data Read primitive data File of objects The class RandomAccessFile Data streams Data are stored as a sequence of bytes: But, we can cosnider data as having some higher-level structure as being a sequence of characters or objects.</description>
+    </item>
+    
+    <item>
+      <title>2. Basic Probability 2</title>
+      <link>https://uni.delnegend.com/ProbStats/2_BasicProb2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/2_BasicProb2/</guid>
+      <description>I. Conditional probability 1. Definition Conditional probability Multiplication rule 2. Total probability theorem Definition 3. Bayes&amp;rsquo; rule Bayesian Inference - A flash introduction II. Independence 1. Definition Intuition explanation Intuition &amp;ldquo;definition&amp;rdquo; Definition of independence 2. Conditional independence III. Counting 1. Counting principle Discrete Uniform Law Counting principle Examples 2. Combinations I. Conditional probability 1. Definition Consider 2 experiments:
+Roll a fair 6-sided dice:
+$\Omega = {1, 2, 3, 4, 5, 6}$.</description>
+    </item>
+    
+    <item>
+      <title>2. Groups</title>
+      <link>https://uni.delnegend.com/AlgebraicStructures/2_Groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/AlgebraicStructures/2_Groups/</guid>
+      <description>I. Binary Operations Binary operations Properties II. Groups Definition 1 Proposition 1 Proposition 2 Proposition 3 Proposition 4 Definition 2 III. Subgroups Definition 1 Proposition 1 IV. Cyclic Groups Definition 1 Definition 2 Proposition 1 V. Cosets 1. Definition 1 2. Definition 2 3. Definition 3 Proposition 1 Proposition 2 Proposition 3 VI. Lagrange&amp;rsquo;s Theorem VII. Normal Subgroups 1. Definition } In mathematics, algebraic structure consists of a non-empty set A, a collection of operations on A (typically binary operations such as addition and multiplication), and a finite set of identities, known as axioms, that these operations must satisfy.</description>
+    </item>
+    
+    <item>
+      <title>2. System</title>
+      <link>https://uni.delnegend.com/SignalSystem/2_Systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/2_Systems/</guid>
+      <description>I. Objectives II. An introduction to systems 1. System types 2. System interconnections Series and parallel Feedback III. Systems&amp;rsquo; properties 1. Causality 2. Stability 3. Time-invariance 4. Linearity IV. LTI systems 1. Delta signal 2. A simple system I. Objectives At the end of this lesson, you should be able to
+Recognize basic system types and system interconnections Deermine (and justify) properties of a system Causality Stability Time-invariance Linearity Have some feeling about LTI systems II.</description>
+    </item>
+    
+    <item>
+      <title>2. System</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/02/</guid>
+      <description>1.15 P.80 1.17 P.81 1.18 P.81 1.27 P.83 1.28 P.84 1.31 P.85 1.42 P.90 1.15 P.80 Consider a system $S$ with input $x[n]$ and output $y[n]$. This system is obtained through a series interconnection of a system $S_1$ followed by a system $S_2$. The input-output relationship of the system $S$ is given by
+$$S_1: y_1[n] = 2x_1[n] + 4x_1[n-1]$$ $$S_2: y_2[n] = x_2[n-2] + \frac{1}{2}x_2[n-3]$$
+where $x_1[n]$ and $x_2[n]$ denote input signals.</description>
+    </item>
+    
+    <item>
+      <title>3. Discrete Random Variables 1</title>
+      <link>https://uni.delnegend.com/ProbStats/3_DiscreteRandVar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/3_DiscreteRandVar/</guid>
+      <description>I. Discrete Random Variables 1. Definition Discrete random variables 2. Probability Mass Function II. Common random variables 1. Bernoulli 2. Uniform 3. Binomial 4. Geometric III. Expectation 1. The Mean Bernoulli random variable Linearity of expectation: 2. Expected Value Rule 3. The Variance Bernoulli random variable Properties of variance I. Discrete Random Variables 1. Definition Discrete random variables An example: A fair coin is tossed 3 times. The random variable $X$ is the number of heads.</description>
+    </item>
+    
+    <item>
+      <title>3. Fourier Series ()</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/03/</guid>
+      <description>3.1 3.4 3.5 3.17 3.22 3.46 3.1 A continuous-time periodic signal $x(t)$ is real valued and has a fundamental period $T = 8$. The nonzero Fourier series coefficients for $x(t)$ are $$a_1 = a_{-1} = 2, a^{*}_{-3} = 4j$$
+Express $x(t)$ in the form $$x(t) = \sum_{k=0}^{\infty} A_k cos(\omega_k t + \phi_k)$$
+3.4 Use the Fourier series analysis equation (3.39) to calculate the coefficients ak for the continuous-time periodic signal $$x(t) = \begin{cases} 1.</description>
+    </item>
+    
+    <item>
+      <title>3. Fourier Series Representation of Continuous-time Periodic Signals</title>
+      <link>https://uni.delnegend.com/SignalSystem/3_FourierContinuous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/3_FourierContinuous/</guid>
+      <description>I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi + j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7.</description>
+    </item>
+    
+    <item>
+      <title>3. Mapping and functions</title>
+      <link>https://uni.delnegend.com/AlgebraicStructures/3_map_func/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/AlgebraicStructures/3_map_func/</guid>
+      <description>Cartesian products Mapping Function Applications Cartesian products Given sets A and B, we can define a new set $A \times B$, called the Cartesian product of A and B, as a set of ordered pairs. That is,
+$$A \times B = \text{\{} (a, b): a \in A \text{ and } b \in B \text{\}}$$
+Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \emptyset$.</description>
+    </item>
+    
+    <item>
+      <title>4. Discrete Random Variables 2</title>
+      <link>https://uni.delnegend.com/ProbStats/4_DiscreteRandVar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/4_DiscreteRandVar/</guid>
+      <description>The course so far I. Conditional PMF on an event 1. Conditional PMF 2. Conditional expectation 3. Total expectation theorem Review Conditioned on an event Mean an variance of the geometric II. Multiple discrete random variables 1. Joint PMF 2. Marginal PMF 3. Expectation III. Conditional PMF on a random variable 1. Conditional PMF Conditional PMF on a random variable Joint, marginal, conditional PMF 2. Conditional expectation Conditional expectations on a random variable Total expectation theorem 3.</description>
+    </item>
+    
+    <item>
+      <title>4. Fourier Series []</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/04/</guid>
+      <description>3.2 3.9 3.11 3.28 3.2 A discrete-time periodic signal $x[n]$ is real value and has a fundamental period $N = 5$. The nonzero Fourier series coefficients for $x[n]$ are
+$$a_0 = 1, a_2 = a^{*}_{-2} = e^{j\pi/4}$$
+$$a_4 = a^{*}_{-4} = 2e^{-j\pi/3}$$
+Express $x[n]$ in the form
+$$x[n] = \sum_{k=1}^{\infty} A_k sin(\omega_k n + \phi_k)$$
+3.9 Use the analysis equation (3.95) to evaluate the numerical values of one period of the Fourier series coefficients of the periodic signal</description>
+    </item>
+    
+    <item>
+      <title>4. Fourier Series Representation of Discrete-time Periodic Signals</title>
+      <link>https://uni.delnegend.com/SignalSystem/4_FourierDiscrete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/4_FourierDiscrete/</guid>
+      <description>I. Lesson Objectives II. Fourier Representation 1. Periodic signal Fundamental period 2 basic periodic signals Exercies: sum of $e^{j\omega_0n}$ 2. Definition Fourier series Fourier series equation pair Examples III. Properties 1. Multiplication 2. Parseval&amp;rsquo;s Relation I. Lesson Objectives At the end of this chapter, you should be able to:
+Be familiar with discrete complex signal. Find Fourier coefficients of any discrete periodic signal. Understand various properties of Fourier series. II.</description>
+    </item>
+    
+    <item>
+      <title>5. Advanced Topics</title>
+      <link>https://uni.delnegend.com/ProbStats/5_Advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/5_Advanced/</guid>
+      <description>The course so far I. Calculation of normal probability 1. Standard normal distribution Standard gaussian random variable Standard normal table Examples 2. Normal distribution Standardizing a random variable Example II. Derived distributions 1. Discrete random variables A simple example A linear function of a discrete random variable 2. Continuous random variables A linear function of a continuous random variable A linear function of a normal random variable 3. The PDF of a general function III.</description>
+    </item>
+    
+    <item>
+      <title>5. Discrete Linear Time-Invariant Systems</title>
+      <link>https://uni.delnegend.com/SignalSystem/5_DiscreteLTI/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/5_DiscreteLTI/</guid>
+      <description>I. Lesson objectives II. Convolution sum Signal representation using impulses Remind: delta impulse Weighted Sum of Shifted Impulses Convolution III. Properties Commutative Distributive Associative Invertibility Causality Stability IV. Exercises I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the input-output relationship of a LTI system. Calculate the convolution sum using different approaches. Determine (and justify) properties of a LTI system: Causality Stability &amp;hellip; II.</description>
+    </item>
+    
+    <item>
+      <title>5. LTI []</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/05/</guid>
+      <description>2.3 2.4 2.7 2.24 2.3 Consider an input $x[n]$ and unit impulse response $h[n]$ given by
+$$x[n] = (\frac{1}{2})^{n-2}u[n-2]$$
+$$h[n] = u[n+2]$$
+Determine and plot the output $y[n] = x[n] * h[n]$.
+Solution We have $y[n] = x[n] * h[n] = \sum_{k = -\infty}^{\infty} x[k]h[n-k]$
+$x[n] = (\frac{1}{2})^{n-2}u[n-2]$
+$h[n] = u[n+2] \implies h[n-k] = u[n-k+2]$
+$y[n] = \sum_{k = -\infty}^{\infty} (\frac{1}{2})^{k-2}u[k-2]u[n-k+2]$
+Set $m = k-2$
+$y[n] = \sum_{m = -\infty}^{\infty} (\frac{1}{2})^{m}u[m]u[n-m-2]$</description>
+    </item>
+    
+    <item>
+      <title>6. Continuous Linear Time-Invariant (LTI) System</title>
+      <link>https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/</guid>
+      <description>I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the origin of the Delta signal in continuous-time domain.</description>
+    </item>
+    
+    <item>
+      <title>6. Limit Theorem</title>
+      <link>https://uni.delnegend.com/ProbStats/6_LimitTheorem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/6_LimitTheorem/</guid>
+      <description>The course so far I. The context II. Inequalities Markov&amp;rsquo;s inequality Chebyshev&amp;rsquo;s inequality III. Limit theorem The weak law of large numbers The central limit theorem The course so far Fundamental probability. Discrete random variables, probability mass function (PMF). Continuous random variables, probability density function (PDF). I. The context A sequence $X_1, X_2, \dots$ of independent identically distributed random variables with mean $\mu$ and variance $\sigma^2$. Let $S_n = X_1 + X_2 + \dots + X_n$.</description>
+    </item>
+    
+    <item>
+      <title>6. LTI ()</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/06/</guid>
+      <description>2.8 2.9 2.10 2.22 2.23 2.8 Determine and sketch the convolution of the following 2 signals:
+$$x(t) = \begin{cases} t + 1 &amp;amp; \text{if } 0 \leq n \leq 1 \\ 2-t &amp;amp; \text{if } 1 &amp;lt; t \leq 2 \\ 0 &amp;amp; \text{otherwise} \end{cases}$$
+$$h(t) = \delta(t+2) + 2\delta(t+1)$$
+2.9 Let $h(t) = e^{2t}u(-t+4)+e^{-2t}u(t-5)$
+Determine A and B such that
+$$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp;amp; \text{if } \tau &amp;lt; A \\ 0 &amp;amp; \text{if } A &amp;lt; \tau &amp;lt; B \\ e^{2(t-\tau)} &amp;amp; \text{if } B &amp;lt; \tau \end{cases}$$</description>
+    </item>
+    
+    <item>
+      <title>Final Exam 2021</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/Final2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/Final2021/</guid>
+      <description>Question 1 a. Consider event $A$ and $B$. Prove that $P(A) = P(A \cap B) + P(A \cap B^c)$
+b. The tree diagram shows a complete picture of the various probabilities associated with event $A$ and $B$. Find $P(A|B)$. It is noted that $A&amp;rsquo; = A^c$ and $B&amp;rsquo; = B^c$.
+Question 2 Lisa goes to school by bicycle $60%$ of the time and by bus $40%$ of the time. If she uses her bicycle she arrives on time $95%$ of the time but if she catches the bus she comes late $2%$ of the time.</description>
+    </item>
+    
+    <item>
+      <title>Final Exam 2022</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/Final2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/Final2022/</guid>
+      <description>Question 1 Question 2 Question 3 Question 4 Question 1 Given that $P(A) = 0.7, P(B) = 0.5$ and $P(A|B) = 0.8$. Find
+$P(A \cap B)$ $P(A \cup B)$ $P(B^c | A)$ Question 2 A box contains 3 red balls and 5 blue balls. One ball is taken at random from the box and not replaced. A yellow ball is then put into the box. A second ball is now taken at random from the box.</description>
+    </item>
+    
+    <item>
+      <title>I. Introduction into projects</title>
+      <link>https://uni.delnegend.com/ProjectManagement/Part1/I/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProjectManagement/Part1/I/</guid>
+      <description>1. Concept, overview of project - historical projects 2. Origin and etymology of the word &amp;ldquo;project&amp;rdquo; 3. Project synonyms Synonyms Related words 4. Definition of project 5. Characteristics of projects 6. Other common characteristics of projects 7. This is not a project 8. Project stakeholders 9. Reasons for success or failure of projects Reasons for failure Reasons for success 10. How to prepare a project: 1. Concept, overview of project - historical projects Flag Tower of Hanoi The tower was built in 1812 during the Nguyen dynasty as an observation post to the Hanoi Citadel.</description>
+    </item>
+    
+    <item>
+      <title>II. Classification of projects</title>
+      <link>https://uni.delnegend.com/ProjectManagement/Part1/II/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProjectManagement/Part1/II/</guid>
+      <description>1. Based on the fundamentals: term Long term (Years) Short term (Months) 2. Based on the fundamentals: type Strategic project Tactical project 3. According to the source of fund 4. According to foreign aided project 5. According to technique 6. According to function Disaster prevention projects Development projects Abstract 2 main project components. 7. Service sector project 8. According to scale and size 9. According to time frame and speed 10.</description>
+    </item>
+    
+    <item>
+      <title>III. Representative project examples</title>
+      <link>https://uni.delnegend.com/ProjectManagement/Part1/III/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProjectManagement/Part1/III/</guid>
+      <description>1. University for Science and Technology of Ha Noi (USTH) Bologna Process 2. Loan project ADB 3. Disaster Prevention Project in Vietnam 1. University for Science and Technology of Ha Noi (USTH) The Bilateral project for Education and Training based on Inter-governmental Agreement between Vietnam and France: &amp;ldquo;Establishment and Development of University for Science and Technology of Ha Noi&amp;rdquo; Bologna Process The Bologna Process is an intergovernmental higher education reform process that includes 49 European countries and a number of European organizations, including EUA.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Algorithms and Data Structures</title>
+      <link>https://uni.delnegend.com/ADS/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ADS/01/</guid>
+      <description> Obejctives Obejctives Course objectives:
+Provide basic knowledge about algorithms and data structures. Be able to choose appropriate data structures for a specific problem. Approach different algorithms and solve a problem in informatics. Why study Algorithms?
+Many problems in informatics can be solved by using a computer. want it to go faster? process more data? want it to do something that would otherwise be impossible? Technology improves many aspects but might be costly good algorithmic design can do much better and cheaper super-computers cannot handle bad algorithms Data structure can make the algorithms much simpler, easier to maintain, and often faster </description>
+    </item>
+    
+    <item>
+      <title>Midterm 2021</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2021/</guid>
+      <description>1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 1. Strictly follow this question to find out which exercises you have to do
+a. Dividend = your student ID (for example, BI11-179 means Dividend = 179). Plus 2 with the remainder after dividing by 3, this is your 1st question (179/3=59, R2), your first question is 2+2=4.
+b. Dividend = the above quotient (i.e 59). Plus 5 with the remainder after dividing by 3, this is your second question (59 / 3 = 19 (remainder 2), your second equation is number 2 + 5 = 7)</description>
+    </item>
+    
+    <item>
+      <title>Midterm Exam 2022</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/Midterm2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/Midterm2022/</guid>
+      <description>Question 1 Question 2 Question 3 Question 1 Find the number of different 7-digit numbers which can be formed from the seven digits: 2, 2, 3, 5, 7, 7, 8 in each of the following cases:
+a) Find the probability that the odd digits are together and the even digits are together.
+Solution 🧈 Number of ways to arrange the digits: $\frac{7!}{2! \times 2!}$ because there are 2 2’s and 2 7’s.</description>
+    </item>
+    
+    <item>
+      <title>Part 2. Project management basics</title>
+      <link>https://uni.delnegend.com/ProjectManagement/Part2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProjectManagement/Part2/</guid>
+      <description>I. Values, needs, phases of project management and the steps in managing a project II. The basics phrases of the project management III. Project manager IV. Project organization and team in project management V. Project planning, scheduling, monitoring and controlling VI. Project controlling, project evaluation and termination VII. Concept, definition, and types of research projects I. Values, needs, phases of project management and the steps in managing a project II.</description>
+    </item>
+    
+    <item>
+      <title>Retake 2020</title>
+      <link>https://uni.delnegend.com/AlgebraicStructures/Exercises/Retake2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/AlgebraicStructures/Exercises/Retake2020/</guid>
+      <description>Code 1 Question 1 Solve the following linear equation system where $x,y \in \mathbb{Z}_11$:
+$$\begin{aligned} 2x + 4y \equiv 3 \pmod{11} \\ 3x - 7y \equiv 3 \pmod{11} \end{aligned}$$
+Specify your algebra development to justify your answer.
+Question 2 Find an example of a cyclic group $U \subset \mathbb{Z}_11$. Justify the generator of the cyclic group.
+Question 3 Using induction to prove that the following statement is true:
+$a^2 - 1$ is divisible by 8 for all odd and positive integers of a.</description>
+    </item>
+    
+  </channel>
+</rss>

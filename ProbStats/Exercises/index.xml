@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exercises on BK HQV</title>
+    <link>https://uni.delnegend.com/ProbStats/Exercises/</link>
+    <description>Recent content in Exercises on BK HQV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://uni.delnegend.com/ProbStats/Exercises/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01. Ex. Basic Prob. 1</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/01/</guid>
+      <description>Exercise 1 Exercise 2 Exercise 3 Exercise 4 Exercise 5 Exercise 6 Exercise 1 a) Consider rolling a six-sided dice. TThe set of outcomes where the roll is:
+A: an even number. B: greater than 3. Calculate and compare the sets on both side of De Morgan&amp;rsquo;s law.
+$(A \cup B)^c = A^c \cap B^c$ $(A \cap B)^c = A^c \cup B^c$ Solution ↕ $A = {2,4,6}$
+$B = {4,5,6}$</description>
+    </item>
+    
+    <item>
+      <title>02. Ex. Basic Prob. 2</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/02/</guid>
+      <description>Exercise 1 Exercise 2 Exercise 3 Exercise 4 Exercise 5 Exercise 6 Exercise 7 Exercise 8 Exercise 1 A bin contains 5 defective (that immediately fail when put in use), 10 partially defective (that fail after a couple of hours of use), and 25 acceptable transistors. A transistor is chosen at random from the bin and put into use. If it does not immediately fail, what is the probability it is acceptable?</description>
+    </item>
+    
+    <item>
+      <title>03. Ex. Discrete Uni. Law</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/03/</guid>
+      <description>A. Discrete Random Variables and Probability Mass Functions Exercise 1 Exercise 2 Exercise 3 B. Expectation of random variables Exercise 4 Exercise 5 Exercise 6 Exercise 7 Exercise 8 C. Variance and standard deviation Exercise 9 Exercise 10 Exercise 11 Exercise 12 A. Discrete Random Variables and Probability Mass Functions Exercise 1 Let X represent the number of heads that can come up when tossing a coin in two cases: twice and three times.</description>
+    </item>
+    
+    <item>
+      <title>04. Ex. Discrete Rand. Var.</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/04/</guid>
+      <description>Exercise 1 Exercise 2 Exercise 3 Exercise 4 Exercise 5 Exercise 6 Exercise 7 Exercise 8 Exercise 9 Exercise 1 a) $X$: the roll of a fair 6-sided dice. $A$: the event that the roll is a number greater or equal to 4. $PMF_{p_{X|A}}(x) = ?$ Solution ↕ $ PMF_{p_{X|A}}(x) = P(X \geq 4) = P(X = 4) + P(X = 5) + P(X = 6) = \frac{1}{6} + \frac{1}{6} + \frac{1}{6} = \frac{3}{6} = \frac{1}{2} $ b) $X$: the toss of a coin 3 times.</description>
+    </item>
+    
+    <item>
+      <title>05. Ex. Continuous Uni. Law</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/05/</guid>
+      <description>Exercise 1 Exercise 1 A probability density function $PDF$ such that $$ f_X(x) = \begin{cases} cx^2 &amp;amp; \text{if } 0 &amp;lt; x &amp;lt; 3 \\ 0 &amp;amp; \text{otherwise} \end{cases} $$
+a) Find the constant $c$ Expand ↕ $\int_{0}^{3} cx^2 dx = 1$
+$\Leftrightarrow c \times \int_{0}^{3} x^2 = 1$
+$\Leftrightarrow c \times \frac{x^3}{3} \Bigg|_{0}^{3} = 1$
+$\Leftrightarrow c \times \frac{3^3}{3} - \frac{0^3}{3} = 1$
+$\Leftrightarrow c \times \frac{27}{3} = 1$</description>
+    </item>
+    
+    <item>
+      <title>09. Limit theorem</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/09/</guid>
+      <description>Exercise 1 Exercise 1 The independent random variables X and Y each have normal distributions. The means of X and Y are 8 and 14 respectively, and the variances are 7 and 16, respectively. Find the following probabilities, giving your answers correct to 3 significant figures.
+a. $P(X &amp;lt; 10)$
+b. $P(X &amp;lt; ̄10)$, where X ̄is the mean of a sample 3 independent observations of X. c. $P(X &amp;lt; Y)$</description>
+    </item>
+    
+    <item>
+      <title>10. Review</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/10/</guid>
+      <description>Exercise 1 Exercise 2 Exercise 3 Exercise 4 Exercise 5 Exercise 6 Exercise 7 Exercise 8 Exercise 1 Find the number of different arrangements of the letters in the word &amp;ldquo;PERSEVERE&amp;rdquo; if
+a. no 2 &amp;ldquo;E&amp;quot;s can be next to each other
+b. each arrangement must start and end with &amp;ldquo;S&amp;rdquo; and &amp;ldquo;P&amp;rdquo; with no 2 &amp;ldquo;E&amp;rdquo; together
+Exercise 2 7 people, 4 women, 3 men, are forming a queue.</description>
+    </item>
+    
+    <item>
+      <title>Final Exam 2021</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/Final2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/Final2021/</guid>
+      <description>Question 1 a. Consider event $A$ and $B$. Prove that $P(A) = P(A \cap B) + P(A \cap B^c)$
+b. The tree diagram shows a complete picture of the various probabilities associated with event $A$ and $B$. Find $P(A|B)$. It is noted that $A&amp;rsquo; = A^c$ and $B&amp;rsquo; = B^c$.
+Question 2 Lisa goes to school by bicycle $60%$ of the time and by bus $40%$ of the time. If she uses her bicycle she arrives on time $95%$ of the time but if she catches the bus she comes late $2%$ of the time.</description>
+    </item>
+    
+    <item>
+      <title>Final Exam 2022</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/Final2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/Final2022/</guid>
+      <description>Question 1 Question 2 Question 3 Question 4 Question 1 Given that $P(A) = 0.7, P(B) = 0.5$ and $P(A|B) = 0.8$. Find
+$P(A \cap B)$ $P(A \cup B)$ $P(B^c | A)$ Question 2 A box contains 3 red balls and 5 blue balls. One ball is taken at random from the box and not replaced. A yellow ball is then put into the box. A second ball is now taken at random from the box.</description>
+    </item>
+    
+    <item>
+      <title>Midterm Exam 2022</title>
+      <link>https://uni.delnegend.com/ProbStats/Exercises/Midterm2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ProbStats/Exercises/Midterm2022/</guid>
+      <description>Question 1 Question 2 Question 3 Question 1 Find the number of different 7-digit numbers which can be formed from the seven digits: 2, 2, 3, 5, 7, 7, 8 in each of the following cases:
+a) Find the probability that the odd digits are together and the even digits are together.
+Solution 🧈 Number of ways to arrange the digits: $\frac{7!}{2! \times 2!}$ because there are 2 2’s and 2 7’s.</description>
+    </item>
+    
+  </channel>
+</rss>

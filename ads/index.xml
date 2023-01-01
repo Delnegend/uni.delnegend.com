@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ADS on BK HQV</title>
+    <link>https://uni.delnegend.com/ads/</link>
+    <description>Recent content in ADS on BK HQV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://uni.delnegend.com/ads/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Algorithms and Data Structures</title>
+      <link>https://uni.delnegend.com/ADS/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ADS/01/</guid>
+      <description> Obejctives Obejctives Course objectives:
+Provide basic knowledge about algorithms and data structures. Be able to choose appropriate data structures for a specific problem. Approach different algorithms and solve a problem in informatics. Why study Algorithms?
+Many problems in informatics can be solved by using a computer. want it to go faster? process more data? want it to do something that would otherwise be impossible? Technology improves many aspects but might be costly good algorithmic design can do much better and cheaper super-computers cannot handle bad algorithms Data structure can make the algorithms much simpler, easier to maintain, and often faster </description>
+    </item>
+    
+  </channel>
+</rss>
