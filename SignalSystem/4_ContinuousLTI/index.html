@@ -12,11 +12,10 @@
 <meta name="generator" content="Hugo 0.109.0">
 
 
-  <meta name="description" content="Cartesian products Mapping Function Applications Cartesian products Given sets A and B, we can define a new set $A \times B$, called the Cartesian product of A and B, as a set of ordered pairs. That is,
-$$A \times B = \text{\{} (a, b): a \in A \text{ and } b \in B \text{\}}$$
-Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \emptyset$." />
+  <meta name="description" content="I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the origin of the Delta signal in continuous-time domain." />
 
-    <title>3. Mapping and functions | BK HQV</title>
+    <title>4. Continuous Linear Time-Invariant (LTI) System | BK HQV</title>
 
     <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
 <link
@@ -37,40 +36,38 @@ Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \e
     
   <meta
     property="og:title"
-    content="3. Mapping and functions"
+    content="4. Continuous Linear Time-Invariant (LTI) System"
   />
   <meta property="og:site_name" content="BK HQV" />
-  <meta property="og:description" content="Cartesian products Mapping Function Applications Cartesian products Given sets A and B, we can define a new set $A \times B$, called the Cartesian product of A and B, as a set of ordered pairs. That is,
-$$A \times B = \text{\{} (a, b): a \in A \text{ and } b \in B \text{\}}$$
-Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \emptyset$." />
+  <meta property="og:description" content="I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the origin of the Delta signal in continuous-time domain." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://uni.delnegend.com/AlgebraicStructures/3_map_func/" />
+<meta property="og:url" content="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/" />
 
-<meta property="article:section" content="Algebraic Structures" />
+<meta property="article:section" content="Signal System" />
 
 
   <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="3. Mapping and functions" />
-  <meta name="twitter:description" content="Cartesian products Mapping Function Applications Cartesian products Given sets A and B, we can define a new set $A \times B$, called the Cartesian product of A and B, as a set of ordered pairs. That is,
-$$A \times B = \text{\{} (a, b): a \in A \text{ and } b \in B \text{\}}$$
-Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \emptyset$." />
+<meta name="twitter:title" content="4. Continuous Linear Time-Invariant (LTI) System" />
+  <meta name="twitter:description" content="I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the origin of the Delta signal in continuous-time domain." />
 
 
   <script type="application/ld+json">
   {
       "@context": "http://schema.org",
       "@type": "TechArticle",
-      "articleSection": "Algebraic Structures",
-      "name": "3. Mapping and functions",
-      "url" : "https://uni.delnegend.com/AlgebraicStructures/3_map_func/",
-      "headline": "3. Mapping and functions",
-      "description": "Cartesian products Mapping Function Applications Cartesian products Given sets A and B, we can define a new set $A \\times B$, called the Cartesian product of A and B, as a set of ordered pairs. That is,\n$$A \\times B = \\text{\\{} (a, b): a \\in A \\text{ and } b \\in B \\text{\\}}$$\nLet $A = \\text{\\{} 1, 2, 3 \\text{\\}}, B = \\text{\\{} x, y \\text{\\}}$, and $C = \\emptyset$.",
-      "wordCount" : "673",
+      "articleSection": "Signal System",
+      "name": "4. Continuous Linear Time-Invariant (LTI) System",
+      "url" : "https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/",
+      "headline": "4. Continuous Linear Time-Invariant (LTI) System",
+      "description": "I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:\nUnderstand the origin of the Delta signal in continuous-time domain.",
+      "wordCount" : "290",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://uni.delnegend.com/AlgebraicStructures/3_map_func/"
+          "@id": "https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/"
       },
       "copyrightHolder" : "BK HQV",
       "copyrightYear" : "0001",
@@ -154,7 +151,7 @@ Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \e
   href="../../custom.css"
   media="all"
 />
-  <link href="https://uni.delnegend.com/AlgebraicStructures/3_map_func/" rel="canonical" type="text/html" />
+  <link href="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/" rel="canonical" type="text/html" />
 
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
@@ -431,7 +428,7 @@ Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \e
               type="checkbox"
               
                 class="gdoc-nav__toggle" id="navtree-b98694ea"
-                checked
+                
               
             />
             <label
@@ -569,7 +566,7 @@ Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \e
                 <span class="flex">
                   <a
                     href="../../AlgebraicStructures/3_map_func/"
-                    class="gdoc-nav__entry is-active"
+                    class="gdoc-nav__entry"
                   >
                     3. Mapping and functions
                   </a>
@@ -2339,7 +2336,7 @@ Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \e
               type="checkbox"
               
                 class="gdoc-nav__toggle" id="navtree-407dc6f0"
-                
+                checked
               
             />
             <label
@@ -2513,7 +2510,7 @@ Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \e
                 <span class="flex">
                   <a
                     href="../../SignalSystem/4_ContinuousLTI/"
-                    class="gdoc-nav__entry"
+                    class="gdoc-nav__entry is-active"
                   >
                     4. Continuous Linear Time-Invariant (LTI) System
                   </a>
@@ -3023,7 +3020,7 @@ Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \e
     
   
   
-    <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='../../'><span itemprop='name'>Welcome</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/AlgebraicStructures/' href='../../AlgebraicStructures/'><span itemprop='name'>Algebraic Structures</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>3. Mapping and functions</span><meta itemprop='position' content='3' /></li>
+    <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='../../'><span itemprop='name'>Welcome</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/SignalSystem/' href='../../SignalSystem/'><span itemprop='name'>Signals and Systems</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>4. Continuous Linear Time-Invariant (LTI) System</span><meta itemprop='position' content='3' /></li>
   
 
   
@@ -3041,25 +3038,147 @@ Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \e
   <article
     class="gdoc-markdown gdoc-markdown__align--left"
   >
-    <h1>3. Mapping and functions</h1>
+    <h1>4. Continuous Linear Time-Invariant (LTI) System</h1>
     <div class="gdoc-toc gdoc-toc__level--6">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#cartesian-products">Cartesian products</a></li>
-    <li><a href="#mapping">Mapping</a></li>
-    <li><a href="#function">Function</a></li>
-    <li><a href="#applications">Applications</a></li>
+    <li><a href="#i-lesson-objectives">I. Lesson objectives</a></li>
+    <li><a href="#ii-continuous-time-delta">II. Continuous-time Delta</a>
+      <ul>
+        <li><a href="#1-weighted-sum-of-shifted-impulses">1. Weighted Sum of Shifted Impulses</a>
+          <ul>
+            <li><a href="#delta-in-continuous-time-domain">Delta in Continuous-time Domain</a></li>
+            <li><a href="#weighted-sum-of-shifted-impulses">Weighted Sum of Shifted Impulses</a></li>
+          </ul>
+        </li>
+        <li><a href="#2-definition">2. Definition</a>
+          <ul>
+            <li><a href="#summary-continuous-time-delta-impulse">Summary: Continuous-time Delta Impulse</a></li>
+          </ul>
+        </li>
+        <li><a href="#3-discrete-vs-continuous">3. Discrete vs Continuous</a>
+          <ul>
+            <li><a href="#deltat-and-ut">$\delta(t)$ and $u(t)$</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#iii-convolution-integral">III. Convolution Integral</a>
+      <ul>
+        <li><a href="#definition">Definition</a>
+          <ul>
+            <li><a href="#convolution-integral-of-a-lti-system">Convolution Integral of a LTI system</a></li>
+          </ul>
+        </li>
+        <li><a href="#example">Example</a></li>
+      </ul>
+    </li>
+    <li><a href="#iv-properties">IV. Properties</a></li>
   </ul>
 </nav>
       <hr />
     </div>
 <div class="gdoc-page__anchorwrap">
-    <h1 id="cartesian-products">
-        Cartesian products
-        <a data-clipboard-text="https://uni.delnegend.com/AlgebraicStructures/3_map_func/#cartesian-products" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Cartesian products" aria-label="Anchor to: Cartesian products" href="#cartesian-products">
+    <h1 id="i-lesson-objectives">
+        I. Lesson objectives
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#i-lesson-objectives" class="gdoc-page__anchor clip flex align-center" title="Anchor to: I. Lesson objectives" aria-label="Anchor to: I. Lesson objectives" href="#i-lesson-objectives">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
+</div>
+<p>At the end of this chapter, you should be able to:</p>
+<ul>
+<li>Understand the <c-red>origin</c-red> of the Delta signal in continuous-time domain.</li>
+<li>Calculate convolution <c-red>integral</c-red>.</li>
+</ul>
+<div class="gdoc-page__anchorwrap">
+    <h1 id="ii-continuous-time-delta">
+        II. Continuous-time Delta
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#ii-continuous-time-delta" class="gdoc-page__anchor clip flex align-center" title="Anchor to: II. Continuous-time Delta" aria-label="Anchor to: II. Continuous-time Delta" href="#ii-continuous-time-delta">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h1>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="1-weighted-sum-of-shifted-impulses">
+        1. Weighted Sum of Shifted Impulses
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#1-weighted-sum-of-shifted-impulses" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 1. Weighted Sum of Shifted Impulses" aria-label="Anchor to: 1. Weighted Sum of Shifted Impulses" href="#1-weighted-sum-of-shifted-impulses">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="delta-in-continuous-time-domain">
+        Delta in Continuous-time Domain
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#delta-in-continuous-time-domain" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Delta in Continuous-time Domain" aria-label="Anchor to: Delta in Continuous-time Domain" href="#delta-in-continuous-time-domain">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<ul>
+<li>Question: how should we define the continuous Delta signal?</li>
+<li>Let&rsquo;s start with
+$$\delta_{\Delta} (t) = \begin{cases}
+1 &amp; \text{if } t = 0 \\
+0 &amp; \text{otherwise}
+\end{cases}$$</li>
+</ul>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="weighted-sum-of-shifted-impulses">
+        Weighted Sum of Shifted Impulses
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#weighted-sum-of-shifted-impulses" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Weighted Sum of Shifted Impulses" aria-label="Anchor to: Weighted Sum of Shifted Impulses" href="#weighted-sum-of-shifted-impulses">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="01_weighted_sum_of_shifted_impulses.avif" />
+    <img src="01_weighted_sum_of_shifted_impulses.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  
+</figure></p>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Approximation"></i></div>
+  <div class="gdoc-hint__text"><!-- x with a hat = sum with k from -inf to +inf: x(k Delta) delta_Delta (t-k Delta) Delta -->
+<p>$$\hat{x}(t) = \sum_{k=-\infty}^{\infty} x(k \Delta) \delta_{\Delta} (t-k \Delta) \Delta$$</div>
+</blockquote>
+
+<p>The smaller the $\Delta$, the more accurate the approximation.</p>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Final Result"></i></div>
+  <div class="gdoc-hint__text"><!-- x(t) = integral from -inf to inf: x(tau)delta(t - tau) dtau -->
+<p>$$x(t) = \int_{-\infty}^{\infty} x(\tau) \delta(t - \tau) d\tau$$</div>
+</blockquote>
+
+<div class="gdoc-page__anchorwrap">
+    <h2 id="2-definition">
+        2. Definition
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#2-definition" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2. Definition" aria-label="Anchor to: 2. Definition" href="#2-definition">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="summary-continuous-time-delta-impulse">
+        Summary: Continuous-time Delta Impulse
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#summary-continuous-time-delta-impulse" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Summary: Continuous-time Delta Impulse" aria-label="Anchor to: Summary: Continuous-time Delta Impulse" href="#summary-continuous-time-delta-impulse">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
 </div>
 
 
@@ -3067,172 +3186,170 @@ Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \e
 
 
 <blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
-  <div class="gdoc-hint__text"><p>Given sets A and B, we can define a new set $A \times B$, called the Cartesian product of A and B, as a set of ordered pairs. That is,</p>
-<p>$$A \times B = \text{\{} (a, b): a \in A \text{ and } b \in B \text{\}}$$</p>
-</div>
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Delta Signal"></i></div>
+  <div class="gdoc-hint__text">$$\delta(t) = \begin{cases}
+\infty &amp; \text{if } t = 0 \\
+0 &amp; \text{otherwise}
+\end{cases}$$</div>
 </blockquote>
 
-
-
-
-
-
-<blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Example"></i></div>
-  <div class="gdoc-hint__text"><p>Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \emptyset$. Then</p>
-<p>$$A \times B = \text{\{} (1, x), (1, y), (2, x), (2, y), (3, x), (3, y) \text{\}}$$</p>
-<p>$$A \times C = \emptyset$$</p>
-</div>
-</blockquote>
-
-<p>We define the Cartesian product of n sets to be</p>
-<p>$$A_1 \times A_2 \times \cdots \times A_n = \text{\{} (a_1, a_2, \cdots, a_n): a_i \in A_i \text{ for } i = 1, 2, \cdots, n \text{\}}$$</p>
-
-
-
-
-
-<blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Example"></i></div>
-  <div class="gdoc-hint__text">$\mathbb{R}^3$ consists of all of 3-tuples of real numbers.</div>
-</blockquote>
-
-<p>Subsets of $A \times B$ are called relations. A mapping or a function $f \subset A \times B$ from a set $A$ to a set $B$ to be the special type of relation such that.</p>
-<p>$$a \in A, \text{ there exists a unique} b \in B, (a, b) \in f$$</p>
-<hr>
-<p>We often write $f(a) = b$ instead of $(a, b) \in A \times B$.</p>
+<p>Properties:</p>
+<!-- Integral from -inf to inf: delta(t)dt = 1 -->
+<ul>
+<li>$\int_{-\infty}^{\infty} \delta(t) dt = 1$</li>
+</ul>
+<!-- Integral from -inf to inf: x(t)delta(t- tau)dt = x(tau) -->
+<ul>
+<li>$\int_{-\infty}^{\infty} x(t) \delta(t - \tau) dt = x(\tau)$</li>
+</ul>
 <div class="gdoc-page__anchorwrap">
-    <h1 id="mapping">
-        Mapping
-        <a data-clipboard-text="https://uni.delnegend.com/AlgebraicStructures/3_map_func/#mapping" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Mapping" aria-label="Anchor to: Mapping" href="#mapping">
+    <h2 id="3-discrete-vs-continuous">
+        3. Discrete vs Continuous
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#3-discrete-vs-continuous" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3. Discrete vs Continuous" aria-label="Anchor to: 3. Discrete vs Continuous" href="#3-discrete-vs-continuous">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<div class="table-wrap"> <table>
+<thead>
+<tr>
+<th style="text-align:center">Discrete Delta</th>
+<th style="text-align:center">Continuous Delta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">$\delta[n] = \begin{cases} 1 &amp; \text{if } n = 0 \\ 0 &amp; \text{otherwise} \end{cases}$</td>
+<td style="text-align:center">$\delta(t) = \begin{cases} \infty &amp; \text{if } t = 0 \\ 0 &amp; \text{otherwise} \end{cases}$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\sum_{n=-\infty}^{\infty} \delta[n] = 1$</td>
+<td style="text-align:center">$\int_{-\infty}^{\infty} \delta(t) dt = 1$</td>
+</tr>
+<tr>
+<td style="text-align:center">$\sum_{n=-\infty}^{\infty} x[n] \delta[n - n_0] = x[n_0]$</td>
+<td style="text-align:center">$\int_{-\infty}^{\infty} x(t) \delta(t - \tau) dt = x(\tau)$</td>
+</tr>
+<tr>
+<td style="text-align:center">$x[n] = \sum_{k=-\infty}^{\infty} x[k] \delta[n - k]$</td>
+<td style="text-align:center">$x(t) = \int_{-\infty}^{\infty} x(\tau) \delta(t - \tau) d\tau$</td>
+</tr>
+</tbody>
+</table> </div>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="deltat-and-ut">
+        $\delta(t)$ and $u(t)$
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#deltat-and-ut" class="gdoc-page__anchor clip flex align-center" title="Anchor to: $\delta(t)$ and $u(t)$" aria-label="Anchor to: $\delta(t)$ and $u(t)$" href="#deltat-and-ut">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<p>$$u(t) = \inf_{-\infty}^{t} \delta(t - \tau) d\tau$$</p>
+<div class="gdoc-page__anchorwrap">
+    <h1 id="iii-convolution-integral">
+        III. Convolution Integral
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#iii-convolution-integral" class="gdoc-page__anchor clip flex align-center" title="Anchor to: III. Convolution Integral" aria-label="Anchor to: III. Convolution Integral" href="#iii-convolution-integral">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
 </div>
-<ul>
-<li>Definition: each element of a set X (domain) is associated with one and only one element of another set Y (range/co-domain).</li>
-</ul>
-<p>A map is often used as a synonym for a function. Only a one-to-one and many-to-one mapping can be called a function.</p>
-<p>
-
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="01_mapping.avif" />
-    <img src="01_mapping.webp" alt="" type="image/webp" loading="lazy">
-  </picture>
-  <figcaption>Domain $X = \text{\\{} 1, 2, 3 \text{\\}}$, codomain $Y = \text{\\{} A, B, C, D \text{\\}}$.</figcaption>
-</figure></p>
-<p>The function $f: X \rightarrow Y$ is defined by the set of pairs $f = \text{\{} (1, A), (2, B), (3, C) \text{\}}$.</p>
-<p>
-
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="02_mapping.avif" />
-    <img src="02_mapping.webp" alt="" type="image/webp" loading="lazy">
-  </picture>
-  
-</figure></p>
 <div class="gdoc-page__anchorwrap">
-    <h1 id="function">
-        Function
-        <a data-clipboard-text="https://uni.delnegend.com/AlgebraicStructures/3_map_func/#function" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Function" aria-label="Anchor to: Function" href="#function">
+    <h2 id="definition">
+        Definition
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#definition" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Definition" aria-label="Anchor to: Definition" href="#definition">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="convolution-integral-of-a-lti-system">
+        Convolution Integral of a LTI system
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#convolution-integral-of-a-lti-system" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Convolution Integral of a LTI system" aria-label="Anchor to: Convolution Integral of a LTI system" href="#convolution-integral-of-a-lti-system">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<p>Impulse response $h(t)$</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<video id="_xwrkdihlpgbsquajmtvnzyoecf" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/convolution_integral/thumb.webp">
+</video>
+
+<script defer>
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    
+    fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/en.vtt')
+      .then(response => response.text())
+      .then(data => {
+        player = document.getElementById('_xwrkdihlpgbsquajmtvnzyoecf');
+        track = document.createElement('track');
+        track.kind = 'captions';
+        track.label = 'English';
+        track.srclang = 'en';
+        track.src = URL.createObjectURL(new Blob([data], {type: 'text/vtt'}));
+        track.default = true;
+        player.appendChild(track);
+    });
+    const plyr_xwrkdihlpgbsquajmtvnzyoecf = Plyr.setup('#_xwrkdihlpgbsquajmtvnzyoecf', {
+      captions: { active: true, update: true },
+      seekTime: 5,
+      previewThumbnails: {
+        enabled: true,
+        src: 'https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/sprite.vtt',
+      },
+      iconUrl: '/plyr.svg',
+      invertTime: false,
+    });
+    if (Hls.isSupported()) {
+      let player = document.getElementById('_xwrkdihlpgbsquajmtvnzyoecf');
+      let hls = new Hls();
+      hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/video\/_.m3u8');
+      hls.attachMedia(player);
+      plyr_xwrkdihlpgbsquajmtvnzyoecf[0].on('languagechange', function() {
+        setTimeout(function() {
+          hls.subtitleTrack = player.currentTrack;
+        }, 50);
+      });
+    }
+  });
+</script>
+
+
+
+<div class="center">
+<p><a
+  class="gdoc-markdown__link"
+  href="https://www.youtube.com/watch?v=ShPguecXaaU"
+>Convolution integral example - graphical method</a></p>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="example">
+        Example
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#example" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Example" aria-label="Anchor to: Example" href="#example">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h1 id="iv-properties">
+        IV. Properties
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/#iv-properties" class="gdoc-page__anchor clip flex align-center" title="Anchor to: IV. Properties" aria-label="Anchor to: IV. Properties" href="#iv-properties">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
 </div>
-
-
-
-
-
-<blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
-  <div class="gdoc-hint__text">A function is a mapping from a set X to a set Y such that each element of X is associated with one and only one element of Y.</div>
-</blockquote>
-
-<p>For a function to exist, the domain and the co-domain must be non-empty.</p>
-<p>Consider another function:</p>
-<p>$$y = \sqrt{x+1}$$</p>
-<p>Interval notation: If $x \in \mathbb{R}$</p>
-<ul>
-<li>$(a, b) = ]a, b[ \rightarrow a &lt; b x &lt; b$</li>
-<li>$(a, b] = ]a, b] \rightarrow a &lt; b x \leq b$</li>
-<li>$[a, b) = [a, b[ \rightarrow a \leq b x &lt; b$</li>
-<li>$[a, b] = [a, b] \rightarrow a \leq b x \leq b$</li>
-</ul>
-<p>Operations on functions</p>
-<p>$$(f+g)(x) = f(x) + g(x)$$</p>
-<p>$$(fg)(x) = f(x)g(x)$$</p>
-<p>$$(f-g)(x) = f(x) - g(x)$$</p>
-<p>$$(\frac{f}{g})(x) = \frac{f(x)}{g(x)}$$</p>
-<p>Suppose $D_f$ is the domain of $f$ and $D_g$ is the domain of $g$. Then the domain of $f + g$, $f - g$, $f \cdot g$ are the same and equal to the $D_f \cap D_g$. While the domain of $\frac{f}{g}$ is $x \in D_f \cap D_g$ such that $g(x) \neq 0$.</p>
-<p>How to find the inverse function $f^{-1}(x)$ of the function $f(x)$?</p>
-<ul>
-<li>Domain $f(x)$ is equal to Range $f^{-1}$</li>
-<li>Range $f(x)$ is equal to Domain $f^{-1}$</li>
-</ul>
-<p>According to the definition, the inverse function does not always exist.</p>
-<ul>
-<li>Check the mapping,</li>
-<li>Define the domain and range.</li>
-</ul>
-<p>
-
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="reverse_func.avif" />
-    <img src="reverse_func.webp" alt="" type="image/webp" loading="lazy">
-  </picture>
-  
-</figure></p>
-<p>$$f(x) = 2x+1; f^{-1}(x) = \frac{x-1}{2}$$</p>
-<p>$$f(x) = x^2; f^{-1}(x) = \sqrt{x}$$</p>
-<p>Do the inverse function exist?</p>
-<p>$$(f \circ f^{-1})(x) = f(f^{-1} \circ f)(x) = x$$</p>
-<p>Note: functions composition $f(g(x)) = (f \circ g)(x)$<br>
-The domain of $f \circ g$ is $\text{\{} x \in D_g: g(x) \in D_f \text{\}}$, all values $x$ in the domain of $g$ such that $g(x)$ is in the domain of $f$.</p>
-
-
-
-
-
-<blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Example"></i></div>
-  <div class="gdoc-hint__text">Let $f(x) = x^2$ and $g(x) = 2x+5$ then calculate $(f \circ g)(x) and (g \circ f)(x)$. Conclude?</div>
-</blockquote>
-
-
-
-
-
-
-<blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Example"></i></div>
-  <div class="gdoc-hint__text">Let $f(x) = x^3+1$ and $g(x) = \sqrt{x}-2$ then find the domain of $(f \circ g)(x)$ and $(g \circ f)(x)$. Conclude?</div>
-</blockquote>
-
-<div class="gdoc-page__anchorwrap">
-    <h1 id="applications">
-        Applications
-        <a data-clipboard-text="https://uni.delnegend.com/AlgebraicStructures/3_map_func/#applications" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Applications" aria-label="Anchor to: Applications" href="#applications">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h1>
-</div>
-<p>For encoding and decoding</p>
-<ul>
-<li>Encode a message using a bijective function so that the receiver can decode the encoded message.</li>
-<li>If there is no inverse function, the encoded message can be decoded with another meaning.</li>
-</ul>
-<p>This principle is used for data conversion, transformation, projection, etc.</p>
-<ul>
-<li>Conversion between Fahrenheit and Celsius.</li>
-<li>Fourier transform/inverse Fourier transform (analog and digital signal processing).</li>
-</ul>
 
   </article>
 

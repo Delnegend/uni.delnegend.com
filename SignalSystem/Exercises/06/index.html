@@ -12,14 +12,14 @@
 <meta name="generator" content="Hugo 0.109.0">
 
 
-  <meta name="description" content="2.8 2.9 2.10 2.22 2.23 2.8 Determine and sketch the convolution of the following 2 signals:
-$$x(t) = \begin{cases} t &#43; 1 &amp; \text{if } 0 \leq n \leq 1 \\ 2-t &amp; \text{if } 1 &lt; t \leq 2 \\ 0 &amp; \text{otherwise} \end{cases}$$
-$$h(t) = \delta(t&#43;2) &#43; 2\delta(t&#43;1)$$
-2.9 Let $h(t) = e^{2t}u(-t&#43;4)&#43;e^{-2t}u(t-5)$
-Determine A and B such that
-$$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &amp; \text{if } A &lt; \tau &lt; B \\ e^{2(t-\tau)} &amp; \text{if } B &lt; \tau \end{cases}$$" />
+  <meta name="description" content="3.2 3.9 3.11 3.28 3.2 A discrete-time periodic signal $x[n]$ is real value and has a fundamental period $N = 5$. The nonzero Fourier series coefficients for $x[n]$ are
+$$a_0 = 1, a_2 = a^{*}_{-2} = e^{j\pi/4}$$
+$$a_4 = a^{*}_{-4} = 2e^{-j\pi/3}$$
+Express $x[n]$ in the form
+$$x[n] = \sum_{k=1}^{\infty} A_k sin(\omega_k n &#43; \phi_k)$$
+3.9 Use the analysis equation (3.95) to evaluate the numerical values of one period of the Fourier series coefficients of the periodic signal" />
 
-    <title>6. LTI () | BK HQV</title>
+    <title>6. Fourier Series [] | BK HQV</title>
 
     <link rel="icon" type="image/svg+xml" href="../../../favicon/favicon.svg" />
 <link
@@ -40,15 +40,15 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
     
   <meta
     property="og:title"
-    content="6. LTI ()"
+    content="6. Fourier Series []"
   />
   <meta property="og:site_name" content="BK HQV" />
-  <meta property="og:description" content="2.8 2.9 2.10 2.22 2.23 2.8 Determine and sketch the convolution of the following 2 signals:
-$$x(t) = \begin{cases} t &#43; 1 &amp; \text{if } 0 \leq n \leq 1 \\ 2-t &amp; \text{if } 1 &lt; t \leq 2 \\ 0 &amp; \text{otherwise} \end{cases}$$
-$$h(t) = \delta(t&#43;2) &#43; 2\delta(t&#43;1)$$
-2.9 Let $h(t) = e^{2t}u(-t&#43;4)&#43;e^{-2t}u(t-5)$
-Determine A and B such that
-$$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &amp; \text{if } A &lt; \tau &lt; B \\ e^{2(t-\tau)} &amp; \text{if } B &lt; \tau \end{cases}$$" />
+  <meta property="og:description" content="3.2 3.9 3.11 3.28 3.2 A discrete-time periodic signal $x[n]$ is real value and has a fundamental period $N = 5$. The nonzero Fourier series coefficients for $x[n]$ are
+$$a_0 = 1, a_2 = a^{*}_{-2} = e^{j\pi/4}$$
+$$a_4 = a^{*}_{-4} = 2e^{-j\pi/3}$$
+Express $x[n]$ in the form
+$$x[n] = \sum_{k=1}^{\infty} A_k sin(\omega_k n &#43; \phi_k)$$
+3.9 Use the analysis equation (3.95) to evaluate the numerical values of one period of the Fourier series coefficients of the periodic signal" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://uni.delnegend.com/SignalSystem/Exercises/06/" />
 
@@ -56,13 +56,13 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
 
 
   <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="6. LTI ()" />
-  <meta name="twitter:description" content="2.8 2.9 2.10 2.22 2.23 2.8 Determine and sketch the convolution of the following 2 signals:
-$$x(t) = \begin{cases} t &#43; 1 &amp; \text{if } 0 \leq n \leq 1 \\ 2-t &amp; \text{if } 1 &lt; t \leq 2 \\ 0 &amp; \text{otherwise} \end{cases}$$
-$$h(t) = \delta(t&#43;2) &#43; 2\delta(t&#43;1)$$
-2.9 Let $h(t) = e^{2t}u(-t&#43;4)&#43;e^{-2t}u(t-5)$
-Determine A and B such that
-$$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &amp; \text{if } A &lt; \tau &lt; B \\ e^{2(t-\tau)} &amp; \text{if } B &lt; \tau \end{cases}$$" />
+<meta name="twitter:title" content="6. Fourier Series []" />
+  <meta name="twitter:description" content="3.2 3.9 3.11 3.28 3.2 A discrete-time periodic signal $x[n]$ is real value and has a fundamental period $N = 5$. The nonzero Fourier series coefficients for $x[n]$ are
+$$a_0 = 1, a_2 = a^{*}_{-2} = e^{j\pi/4}$$
+$$a_4 = a^{*}_{-4} = 2e^{-j\pi/3}$$
+Express $x[n]$ in the form
+$$x[n] = \sum_{k=1}^{\infty} A_k sin(\omega_k n &#43; \phi_k)$$
+3.9 Use the analysis equation (3.95) to evaluate the numerical values of one period of the Fourier series coefficients of the periodic signal" />
 
 
   <script type="application/ld+json">
@@ -70,11 +70,11 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
       "@context": "http://schema.org",
       "@type": "TechArticle",
       "articleSection": "Signal System",
-      "name": "6. LTI ()",
+      "name": "6. Fourier Series []",
       "url" : "https://uni.delnegend.com/SignalSystem/Exercises/06/",
-      "headline": "6. LTI ()",
-      "description": "2.8 2.9 2.10 2.22 2.23 2.8 Determine and sketch the convolution of the following 2 signals:\n$$x(t) = \\begin{cases} t \u002b 1 \u0026 \\text{if } 0 \\leq n \\leq 1 \\\\ 2-t \u0026 \\text{if } 1 \u003c t \\leq 2 \\\\ 0 \u0026 \\text{otherwise} \\end{cases}$$\n$$h(t) = \\delta(t\u002b2) \u002b 2\\delta(t\u002b1)$$\n2.9 Let $h(t) = e^{2t}u(-t\u002b4)\u002be^{-2t}u(t-5)$\nDetermine A and B such that\n$$h(t - \\tau) = \\begin{cases} e^{-2(t-\\tau)} \u0026 \\text{if } \\tau \u003c A \\\\ 0 \u0026 \\text{if } A \u003c \\tau \u003c B \\\\ e^{2(t-\\tau)} \u0026 \\text{if } B \u003c \\tau \\end{cases}$$",
-      "wordCount" : "298",
+      "headline": "6. Fourier Series []",
+      "description": "3.2 3.9 3.11 3.28 3.2 A discrete-time periodic signal $x[n]$ is real value and has a fundamental period $N = 5$. The nonzero Fourier series coefficients for $x[n]$ are\n$$a_0 = 1, a_2 = a^{*}_{-2} = e^{j\\pi\/4}$$\n$$a_4 = a^{*}_{-4} = 2e^{-j\\pi\/3}$$\nExpress $x[n]$ in the form\n$$x[n] = \\sum_{k=1}^{\\infty} A_k sin(\\omega_k n \u002b \\phi_k)$$\n3.9 Use the analysis equation (3.95) to evaluate the numerical values of one period of the Fourier series coefficients of the periodic signal",
+      "wordCount" : "220",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
@@ -339,17 +339,24 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
             <input
               type="checkbox"
               
-                class="gdoc-nav__toggle" id="navtree-0c876ae7"
+                class="gdoc-nav__toggle" id="navtree-e3a53700"
                 
               
             />
             <label
               
-                for="navtree-0c876ae7" class="flex justify-between align-center"
+                for="navtree-e3a53700" class="flex justify-between align-center"
               
             >
               
-                <span class="flex">ADS</span>
+                <span class="flex">
+                  <a
+                    href="../../../ADS/"
+                    class="gdoc-nav__entry"
+                  >
+                    ADS
+                  </a>
+                </span>
               
               
                 <svg class="gdoc-icon toggle gdoc_keyboard_arrow_left">
@@ -2478,10 +2485,10 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
               
                 <span class="flex">
                   <a
-                    href="../../../SignalSystem/3_FourierContinuous/"
+                    href="../../../SignalSystem/3_DiscreteLTI/"
                     class="gdoc-nav__entry"
                   >
-                    3. Fourier Series Representation of Continuous-time Periodic Signals
+                    3. Discrete Linear Time-Invariant Systems
                   </a>
                 </span>
               
@@ -2514,10 +2521,10 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
               
                 <span class="flex">
                   <a
-                    href="../../../SignalSystem/4_FourierDiscrete/"
+                    href="../../../SignalSystem/4_ContinuousLTI/"
                     class="gdoc-nav__entry"
                   >
-                    4. Fourier Series Representation of Discrete-time Periodic Signals
+                    4. Continuous Linear Time-Invariant (LTI) System
                   </a>
                 </span>
               
@@ -2550,10 +2557,10 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
               
                 <span class="flex">
                   <a
-                    href="../../../SignalSystem/5_DiscreteLTI/"
+                    href="../../../SignalSystem/5_FourierContinuous/"
                     class="gdoc-nav__entry"
                   >
-                    5. Discrete Linear Time-Invariant Systems
+                    5. Fourier Series Representation of Continuous-time Periodic Signals
                   </a>
                 </span>
               
@@ -2586,10 +2593,10 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
               
                 <span class="flex">
                   <a
-                    href="../../../SignalSystem/6_ContinuousLTI/"
+                    href="../../../SignalSystem/6_FourierDiscrete/"
                     class="gdoc-nav__entry"
                   >
-                    6. Continuous Linear Time-Invariant (LTI) System
+                    6. Fourier Series Representation of Discrete-time Periodic Signals
                   </a>
                 </span>
               
@@ -2754,7 +2761,7 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
                     href="../../../SignalSystem/Exercises/03/"
                     class="gdoc-nav__entry"
                   >
-                    3. Fourier Series ()
+                    3. LTI []
                   </a>
                 </span>
               
@@ -2790,7 +2797,7 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
                     href="../../../SignalSystem/Exercises/04/"
                     class="gdoc-nav__entry"
                   >
-                    4. Fourier Series []
+                    4. LTI ()
                   </a>
                 </span>
               
@@ -2826,7 +2833,7 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
                     href="../../../SignalSystem/Exercises/05/"
                     class="gdoc-nav__entry"
                   >
-                    5. LTI []
+                    5. Fourier Series ()
                   </a>
                 </span>
               
@@ -2862,7 +2869,7 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
                     href="../../../SignalSystem/Exercises/06/"
                     class="gdoc-nav__entry is-active"
                   >
-                    6. LTI ()
+                    6. Fourier Series []
                   </a>
                 </span>
               
@@ -2899,6 +2906,42 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
                     class="gdoc-nav__entry"
                   >
                     Midterm 2021
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="../../../SignalSystem/Exercises/Miterm-2022/"
+                    class="gdoc-nav__entry"
+                  >
+                    Midterm 2022
                   </a>
                 </span>
               
@@ -2995,7 +3038,7 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
     
   
   
-    <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='../../../'><span itemprop='name'>Welcome</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/SignalSystem/' href='../../../SignalSystem/'><span itemprop='name'>Signals and Systems</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/SignalSystem/Exercises/' href='../../../SignalSystem/Exercises/'><span itemprop='name'>Exercises</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>6. LTI ()</span><meta itemprop='position' content='4' /></li>
+    <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='../../../'><span itemprop='name'>Welcome</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/SignalSystem/' href='../../../SignalSystem/'><span itemprop='name'>Signals and Systems</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/SignalSystem/Exercises/' href='../../../SignalSystem/Exercises/'><span itemprop='name'>Exercises</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>6. Fourier Series []</span><meta itemprop='position' content='4' /></li>
   
 
   
@@ -3015,103 +3058,82 @@ $$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &
   <article
     class="gdoc-markdown gdoc-markdown__align--left"
   >
-    <h1>6. LTI ()</h1>
+    <h1>6. Fourier Series []</h1>
     <div class="gdoc-toc gdoc-toc__level--6">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#28">2.8</a></li>
-    <li><a href="#29">2.9</a></li>
-    <li><a href="#210">2.10</a></li>
-    <li><a href="#222">2.22</a></li>
-    <li><a href="#223">2.23</a></li>
+    <li><a href="#32">3.2</a></li>
+    <li><a href="#39">3.9</a></li>
+    <li><a href="#311">3.11</a></li>
+    <li><a href="#328">3.28</a></li>
   </ul>
 </nav>
       <hr />
     </div>
 <div class="gdoc-page__anchorwrap">
-    <h1 id="28">
-        2.8
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/Exercises/06/#28" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2.8" aria-label="Anchor to: 2.8" href="#28">
+    <h1 id="32">
+        3.2
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/Exercises/06/#32" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3.2" aria-label="Anchor to: 3.2" href="#32">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
 </div>
-<p>Determine and sketch the convolution of the following 2 signals:</p>
-<p>$$x(t) = \begin{cases} t + 1 &amp; \text{if } 0 \leq n \leq 1 \\ 2-t &amp; \text{if } 1 &lt; t \leq 2 \\ 0 &amp; \text{otherwise} \end{cases}$$</p>
-<p>$$h(t) = \delta(t+2) + 2\delta(t+1)$$</p>
+<p>A discrete-time periodic signal $x[n]$ is real value and has a fundamental period $N = 5$. The nonzero Fourier series coefficients for $x[n]$ are</p>
+<p>$$a_0 = 1, a_2 = a^{*}_{-2} = e^{j\pi/4}$$</p>
+<p>$$a_4 = a^{*}_{-4} = 2e^{-j\pi/3}$$</p>
+<p>Express $x[n]$ in the form</p>
+<p>$$x[n] = \sum_{k=1}^{\infty} A_k sin(\omega_k n + \phi_k)$$</p>
 <div class="gdoc-page__anchorwrap">
-    <h1 id="29">
-        2.9
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/Exercises/06/#29" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2.9" aria-label="Anchor to: 2.9" href="#29">
+    <h1 id="39">
+        3.9
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/Exercises/06/#39" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3.9" aria-label="Anchor to: 3.9" href="#39">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
 </div>
-<p>Let $h(t) = e^{2t}u(-t+4)+e^{-2t}u(t-5)$</p>
-<p>Determine A and B such that</p>
-<p>$$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp; \text{if } \tau &lt; A \\ 0 &amp; \text{if } A &lt; \tau &lt; B \\ e^{2(t-\tau)} &amp; \text{if } B &lt; \tau \end{cases}$$</p>
+<p>Use the analysis equation (3.95) to evaluate the numerical values of one period of the Fourier series coefficients of the periodic signal</p>
+<p>$$x[n] = \sum_{m=-\infty}^\infty \text{\{} 4\delta[n-4m] + 8\delta[n-1-4m] \text{\}}$$</p>
 <div class="gdoc-page__anchorwrap">
-    <h1 id="210">
-        2.10
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/Exercises/06/#210" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2.10" aria-label="Anchor to: 2.10" href="#210">
+    <h1 id="311">
+        3.11
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/Exercises/06/#311" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3.11" aria-label="Anchor to: 3.11" href="#311">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
 </div>
-<p>Suppose that</p>
-<p>$$x(t) = \begin{cases} 1 &amp; \text{if } 0 \leq t \leq 1 \\ 0 &amp; \text{otherwise} \end{cases}$$</p>
-<p>and $h(t) = x(t/\alpha)$, where $0 &lt; \alpha &lt; 1$.</p>
-<p>a. Determine and sketch $y(t) = x(t) * h(t)$</p>
-<p>b. If $dy(t)/dt$ contains only 3 discontinuities, what is the value of $\alpha$?</p>
+<p>Suppose we are given the following information about a signal $x[n]$:</p>
+<ol>
+<li>$x[n]$ is a real and even signal.</li>
+<li>$x[n]$ has period $N = 10$ and Fourier coefficients $a_k$.</li>
+<li>$a_{11} = 5$</li>
+<li>$\frac{1}{10} \sum_{n=0}{9} |x[n]|^2 = 50$</li>
+</ol>
+<p>Show that $x[n] = A cos(Bn + C)$, and specify numerical value for the constant A, B, and C.</p>
 <div class="gdoc-page__anchorwrap">
-    <h1 id="222">
-        2.22
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/Exercises/06/#222" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2.22" aria-label="Anchor to: 2.22" href="#222">
+    <h1 id="328">
+        3.28
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/Exercises/06/#328" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3.28" aria-label="Anchor to: 3.28" href="#328">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
 </div>
-<p>For each of the following pairs of waveforms, use the convolution integral to find the response $y(t)$ of the LTI system with impulse response $h(t)$ to the input $x(t)$. Sketch your results.</p>
+<p>Determine the Fourier series coefficients of the following discrete-time periodic signals. Plot the magnitude and phase of each set of coefficients $a_k$.</p>
 <p>
 
 
 <figure>
   <picture>
-    <source type="image/avif" srcset="P2.22.avif" />
-    <img src="P2.22.webp" alt="" type="image/webp" loading="lazy">
+    <source type="image/avif" srcset="P3.28.avif" />
+    <img src="P3.28.webp" alt="" type="image/webp" loading="lazy">
   </picture>
-  <figcaption>P2.22</figcaption>
+  <figcaption>P3.28</figcaption>
 </figure></p>
-<p>a. $x(t) = e^{\delta t}u(t), h(t) = e^{\beta t}u(t)$. Do this both when $\alpha \neq \beta$ and when $\alpha = \beta$.</p>
-<p>b. $x(t) = u(t) - 2u(t-2) + u(t-5)$ and $h(t) = e^{2t}u(1-t)$</p>
-<p>c. $x(t)$ and $h(t)$ as in fig. P22.2(a).</p>
-<p>d. $x(t)$ and $h(t)$ as in fig. P22.2(b).</p>
-<p>e. $x(t)$ and $h(t)$ as in fig. P22.2(c).</p>
-<div class="gdoc-page__anchorwrap">
-    <h1 id="223">
-        2.23
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/Exercises/06/#223" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2.23" aria-label="Anchor to: 2.23" href="#223">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h1>
-</div>
-<p>Let $h(t)$ be the triangular pulse shown in fig P.2.23(a), and let $x(t)$ be the impulse train depicted in fig P2.23(b). That is,</p>
-<p>$$x(t) = \sum_{k = -\infty}^{\infty} \delta(t - kT)$$</p>
-<p>
-
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="P2.23.avif" />
-    <img src="P2.23.webp" alt="" type="image/webp" loading="lazy">
-  </picture>
-  <figcaption>P2.23</figcaption>
-</figure></p>
-<p>Determine and sketch $y(t) = x(t) * h(t)$ for the following values of $T$.</p>
-<p>a. $T = 4$</p>
-<p>b. $T = 2$</p>
-<p>c. $T = 3/2$</p>
-<p>d. $T = 1$</p>
+<p>a. Each $x[n]$ depicted in fig 3.28(a)-(c)</p>
+<p>b. $x[n] = sin(2\pi n/3) cos(\pi n/2)$</p>
+<p>c. $x[n]$ periodic with period 4 and</p>
+<p>$$x[n] = 1 - sin\frac{\pi n}{4} \text{for } 0 \leq n \leq 3$$</p>
+<p>d. $x[n]$ periodic with period 12 and</p>
+<p>$$x[n] = 1 - sin\frac{\pi n}{4} \text{for } 0 \leq n \leq 11$$</p>
 
   </article>
 

@@ -12,21 +12,23 @@
 <meta name="generator" content="Hugo 0.109.0">
 
 
+  <meta name="description" content="I. Lesson objectives II. Convolution sum Signal representation using impulses Remind: delta impulse Weighted Sum of Shifted Impulses Convolution III. Properties Commutative Distributive Associative Invertibility Causality Stability IV. Exercises I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the input-output relationship of a LTI system. Calculate the convolution sum using different approaches. Determine (and justify) properties of a LTI system: Causality Stability &hellip; II." />
 
-    <title>ADS | BK HQV</title>
+    <title>3. Discrete Linear Time-Invariant Systems | BK HQV</title>
 
-    <link rel="icon" type="image/svg+xml" href="../favicon/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
 <link
   rel="icon"
   type="image/png"
   sizes="32x32"
-  href="../favicon/favicon-32x32.png"
+  href="../../favicon/favicon-32x32.png"
 />
 <link
   rel="icon"
   type="image/png"
   sizes="16x16"
-  href="../favicon/favicon-16x16.png"
+  href="../../favicon/favicon-16x16.png"
 />
 
     
@@ -34,33 +36,38 @@
     
   <meta
     property="og:title"
-    content="ADS"
+    content="3. Discrete Linear Time-Invariant Systems"
   />
   <meta property="og:site_name" content="BK HQV" />
+  <meta property="og:description" content="I. Lesson objectives II. Convolution sum Signal representation using impulses Remind: delta impulse Weighted Sum of Shifted Impulses Convolution III. Properties Commutative Distributive Associative Invertibility Causality Stability IV. Exercises I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the input-output relationship of a LTI system. Calculate the convolution sum using different approaches. Determine (and justify) properties of a LTI system: Causality Stability … II." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://uni.delnegend.com/ads/" />
+<meta property="og:url" content="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/" />
 
-<meta property="article:section" content="Ads" />
+<meta property="article:section" content="Signal System" />
 
 
   <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="ADS" />
+<meta name="twitter:title" content="3. Discrete Linear Time-Invariant Systems" />
+  <meta name="twitter:description" content="I. Lesson objectives II. Convolution sum Signal representation using impulses Remind: delta impulse Weighted Sum of Shifted Impulses Convolution III. Properties Commutative Distributive Associative Invertibility Causality Stability IV. Exercises I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the input-output relationship of a LTI system. Calculate the convolution sum using different approaches. Determine (and justify) properties of a LTI system: Causality Stability … II." />
 
 
   <script type="application/ld+json">
   {
       "@context": "http://schema.org",
       "@type": "TechArticle",
-      "articleSection": "Ads",
-      "name": "ADS",
-      "url" : "https://uni.delnegend.com/ads/",
-      "headline": "ADS",
-      "wordCount" : "0",
+      "articleSection": "Signal System",
+      "name": "3. Discrete Linear Time-Invariant Systems",
+      "url" : "https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/",
+      "headline": "3. Discrete Linear Time-Invariant Systems",
+      "description": "I. Lesson objectives II. Convolution sum Signal representation using impulses Remind: delta impulse Weighted Sum of Shifted Impulses Convolution III. Properties Commutative Distributive Associative Invertibility Causality Stability IV. Exercises I. Lesson objectives At the end of this chapter, you should be able to:\nUnderstand the input-output relationship of a LTI system. Calculate the convolution sum using different approaches. Determine (and justify) properties of a LTI system: Causality Stability … II.",
+      "wordCount" : "310",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://uni.delnegend.com/ads/"
+          "@id": "https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/"
       },
       "copyrightHolder" : "BK HQV",
       "copyrightYear" : "0001",
@@ -83,81 +90,81 @@
 
 
     
-  <script src="../js/colortheme-d3e4d351.bundle.min.js"></script>
-<script src="../js/main-56ca818c.bundle.min.js"></script>
+  <script src="../../js/colortheme-d3e4d351.bundle.min.js"></script>
+<script src="../../js/main-56ca818c.bundle.min.js"></script>
 
 <link
   rel="preload"
   as="font"
-  href="../fonts/Metropolis.woff2"
+  href="../../fonts/Metropolis.woff2"
   type="font/woff2"
   crossorigin="anonymous"
 />
 <link
   rel="preload"
   as="font"
-  href="../fonts/LiberationSans.woff2"
+  href="../../fonts/LiberationSans.woff2"
   type="font/woff2"
   crossorigin="anonymous"
 />
 
 <link
   rel="preload"
-  href="../main-1ebf16ca.min.css"
+  href="../../main-1ebf16ca.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="../main-1ebf16ca.min.css"
+  href="../../main-1ebf16ca.min.css"
   media="all"
 />
 
 <link
   rel="preload"
-  href="../mobile-79ddc617.min.css"
+  href="../../mobile-79ddc617.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="../mobile-79ddc617.min.css"
+  href="../../mobile-79ddc617.min.css"
   media="screen and (max-width: 45rem)"
 />
 
 <link
   rel="preload"
-  href="../print-735ccc12.min.css"
+  href="../../print-735ccc12.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="../print-735ccc12.min.css"
+  href="../../print-735ccc12.min.css"
   media="print"
 />
 
 <link
   rel="preload"
-  href="../custom.css"
+  href="../../custom.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="../custom.css"
+  href="../../custom.css"
   media="all"
 />
-  <link href="https://uni.delnegend.com/ads/" rel="canonical" type="text/html" />
+  <link href="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/" rel="canonical" type="text/html" />
 
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
     
 
 
-<link rel="stylesheet" href="../katex.min.css">
-<link rel="stylesheet" href="../plyr.css">
+<link rel="stylesheet" href="../../katex.min.css">
+<link rel="stylesheet" href="../../plyr.css">
 
-<script src="../katex.min.js" defer></script>
-<script src="../auto-render.min.js" defer></script>
-<script src="../plyr.min.js" defer></script>
-<script src="../hls.light.min.js" defer></script>
+<script src="../../katex.min.js" defer></script>
+<script src="../../auto-render.min.js" defer></script>
+<script src="../../plyr.min.js" defer></script>
+<script src="../../hls.light.min.js" defer></script>
 
 </script>
 <script defer>
@@ -205,7 +212,7 @@
         <span class="flex align-center">
           <img
             class="gdoc-brand__img"
-            src="../husth.png"
+            src="../../husth.png"
             alt=""
           />
           <span class="gdoc-brand__title">BK HQV</span>
@@ -320,17 +327,24 @@
             <input
               type="checkbox"
               
-                class="gdoc-nav__toggle" id="navtree-0c876ae7"
-                checked
+                class="gdoc-nav__toggle" id="navtree-e3a53700"
+                
               
             />
             <label
               
-                for="navtree-0c876ae7" class="flex justify-between align-center"
+                for="navtree-e3a53700" class="flex justify-between align-center"
               
             >
               
-                <span class="flex">ADS</span>
+                <span class="flex">
+                  <a
+                    href="../../ADS/"
+                    class="gdoc-nav__entry"
+                  >
+                    ADS
+                  </a>
+                </span>
               
               
                 <svg class="gdoc-icon toggle gdoc_keyboard_arrow_left">
@@ -379,7 +393,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ADS/01/"
+                    href="../../ADS/01/"
                     class="gdoc-nav__entry"
                   >
                     Introduction to Algorithms and Data Structures
@@ -425,7 +439,7 @@
               
                 <span class="flex">
                   <a
-                    href="../AlgebraicStructures/"
+                    href="../../AlgebraicStructures/"
                     class="gdoc-nav__entry"
                   >
                     Algebraic Structures
@@ -479,7 +493,7 @@
               
                 <span class="flex">
                   <a
-                    href="../AlgebraicStructures/1_Introduction/"
+                    href="../../AlgebraicStructures/1_Introduction/"
                     class="gdoc-nav__entry"
                   >
                     1. Introduction to Algebraic Structures
@@ -515,7 +529,7 @@
               
                 <span class="flex">
                   <a
-                    href="../AlgebraicStructures/2_Groups/"
+                    href="../../AlgebraicStructures/2_Groups/"
                     class="gdoc-nav__entry"
                   >
                     2. Groups
@@ -551,7 +565,7 @@
               
                 <span class="flex">
                   <a
-                    href="../AlgebraicStructures/3_map_func/"
+                    href="../../AlgebraicStructures/3_map_func/"
                     class="gdoc-nav__entry"
                   >
                     3. Mapping and functions
@@ -590,7 +604,7 @@
               
                 <span class="flex">
                   <a
-                    href="../AlgebraicStructures/Exercises/"
+                    href="../../AlgebraicStructures/Exercises/"
                     class="gdoc-nav__entry"
                   >
                     Exercises
@@ -644,7 +658,7 @@
               
                 <span class="flex">
                   <a
-                    href="../AlgebraicStructures/Exercises/01/"
+                    href="../../AlgebraicStructures/Exercises/01/"
                     class="gdoc-nav__entry"
                   >
                     01. Ex. Groups
@@ -680,7 +694,7 @@
               
                 <span class="flex">
                   <a
-                    href="../AlgebraicStructures/Exercises/Retake2020/"
+                    href="../../AlgebraicStructures/Exercises/Retake2020/"
                     class="gdoc-nav__entry"
                   >
                     Retake 2020
@@ -733,7 +747,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProjectManagement/"
+                    href="../../ProjectManagement/"
                     class="gdoc-nav__entry"
                   >
                     Basic principles of project management
@@ -790,7 +804,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProjectManagement/Part1/"
+                    href="../../ProjectManagement/Part1/"
                     class="gdoc-nav__entry"
                   >
                     Part 1. Project management basics
@@ -844,7 +858,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProjectManagement/Part1/I/"
+                    href="../../ProjectManagement/Part1/I/"
                     class="gdoc-nav__entry"
                   >
                     I. Introduction into projects
@@ -880,7 +894,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProjectManagement/Part1/II/"
+                    href="../../ProjectManagement/Part1/II/"
                     class="gdoc-nav__entry"
                   >
                     II. Classification of projects
@@ -916,7 +930,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProjectManagement/Part1/III/"
+                    href="../../ProjectManagement/Part1/III/"
                     class="gdoc-nav__entry"
                   >
                     III. Representative project examples
@@ -959,7 +973,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProjectManagement/Part2/"
+                    href="../../ProjectManagement/Part2/"
                     class="gdoc-nav__entry"
                   >
                     Part 2. Project management basics
@@ -1005,7 +1019,7 @@
               
                 <span class="flex">
                   <a
-                    href="../FundamentalsDatabases/"
+                    href="../../FundamentalsDatabases/"
                     class="gdoc-nav__entry"
                   >
                     Fundamentals of Databases
@@ -1059,7 +1073,7 @@
               
                 <span class="flex">
                   <a
-                    href="../FundamentalsDatabases/1_Overview/"
+                    href="../../FundamentalsDatabases/1_Overview/"
                     class="gdoc-nav__entry"
                   >
                     1. Overview
@@ -1105,7 +1119,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OOP/"
+                    href="../../OOP/"
                     class="gdoc-nav__entry"
                   >
                     Object Oriented Programming
@@ -1159,7 +1173,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OOP/01_Intro/"
+                    href="../../OOP/01_Intro/"
                     class="gdoc-nav__entry"
                   >
                     01. Introduction to OOP
@@ -1195,7 +1209,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OOP/02_Java/"
+                    href="../../OOP/02_Java/"
                     class="gdoc-nav__entry"
                   >
                     02. Introduction to Java
@@ -1231,7 +1245,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OOP/03_object_class/"
+                    href="../../OOP/03_object_class/"
                     class="gdoc-nav__entry"
                   >
                     03. Objects and Classes
@@ -1267,7 +1281,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OOP/04_object_ref/"
+                    href="../../OOP/04_object_ref/"
                     class="gdoc-nav__entry"
                   >
                     04. Objects and Object References
@@ -1303,7 +1317,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OOP/05_class_members/"
+                    href="../../OOP/05_class_members/"
                     class="gdoc-nav__entry"
                   >
                     05. Class members
@@ -1339,7 +1353,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OOP/06_intehritance_polymorphism/"
+                    href="../../OOP/06_intehritance_polymorphism/"
                     class="gdoc-nav__entry"
                   >
                     06. Inheritance and polymorphism
@@ -1375,7 +1389,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OOP/07_abstraction/"
+                    href="../../OOP/07_abstraction/"
                     class="gdoc-nav__entry"
                   >
                     07. Abstraction
@@ -1411,7 +1425,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OOP/08_interfaces/"
+                    href="../../OOP/08_interfaces/"
                     class="gdoc-nav__entry"
                   >
                     08. Interfaces in Java
@@ -1447,7 +1461,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OOP/09_exceptions/"
+                    href="../../OOP/09_exceptions/"
                     class="gdoc-nav__entry"
                   >
                     09. Exceptions
@@ -1483,7 +1497,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OOP/10_streams_and_files/"
+                    href="../../OOP/10_streams_and_files/"
                     class="gdoc-nav__entry"
                   >
                     10. Streams and Files
@@ -1529,7 +1543,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OS/"
+                    href="../../OS/"
                     class="gdoc-nav__entry"
                   >
                     Operating Systems
@@ -1583,7 +1597,7 @@
               
                 <span class="flex">
                   <a
-                    href="../OS/0_intro/"
+                    href="../../OS/0_intro/"
                     class="gdoc-nav__entry"
                   >
                     0. Introduction
@@ -1629,7 +1643,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/"
+                    href="../../ProbStats/"
                     class="gdoc-nav__entry"
                   >
                     Probability and Statistics
@@ -1683,7 +1697,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/1_BasicProb1/"
+                    href="../../ProbStats/1_BasicProb1/"
                     class="gdoc-nav__entry"
                   >
                     1. Basic Probability 1
@@ -1719,7 +1733,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/2_BasicProb2/"
+                    href="../../ProbStats/2_BasicProb2/"
                     class="gdoc-nav__entry"
                   >
                     2. Basic Probability 2
@@ -1755,7 +1769,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/3_DiscreteRandVar/"
+                    href="../../ProbStats/3_DiscreteRandVar/"
                     class="gdoc-nav__entry"
                   >
                     3. Discrete Random Variables 1
@@ -1791,7 +1805,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/4_DiscreteRandVar/"
+                    href="../../ProbStats/4_DiscreteRandVar/"
                     class="gdoc-nav__entry"
                   >
                     4. Discrete Random Variables 2
@@ -1827,7 +1841,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/5_Advanced/"
+                    href="../../ProbStats/5_Advanced/"
                     class="gdoc-nav__entry"
                   >
                     5. Advanced Topics
@@ -1863,7 +1877,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/6_LimitTheorem/"
+                    href="../../ProbStats/6_LimitTheorem/"
                     class="gdoc-nav__entry"
                   >
                     6. Limit Theorem
@@ -1902,7 +1916,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/Exercises/"
+                    href="../../ProbStats/Exercises/"
                     class="gdoc-nav__entry"
                   >
                     Exercises
@@ -1956,7 +1970,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/Exercises/01/"
+                    href="../../ProbStats/Exercises/01/"
                     class="gdoc-nav__entry"
                   >
                     01. Ex. Basic Prob. 1
@@ -1992,7 +2006,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/Exercises/02/"
+                    href="../../ProbStats/Exercises/02/"
                     class="gdoc-nav__entry"
                   >
                     02. Ex. Basic Prob. 2
@@ -2028,7 +2042,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/Exercises/03/"
+                    href="../../ProbStats/Exercises/03/"
                     class="gdoc-nav__entry"
                   >
                     03. Ex. Discrete Uni. Law
@@ -2064,7 +2078,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/Exercises/04/"
+                    href="../../ProbStats/Exercises/04/"
                     class="gdoc-nav__entry"
                   >
                     04. Ex. Discrete Rand. Var.
@@ -2100,7 +2114,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/Exercises/05/"
+                    href="../../ProbStats/Exercises/05/"
                     class="gdoc-nav__entry"
                   >
                     05. Ex. Continuous Uni. Law
@@ -2136,7 +2150,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/Exercises/09/"
+                    href="../../ProbStats/Exercises/09/"
                     class="gdoc-nav__entry"
                   >
                     09. Limit theorem
@@ -2172,7 +2186,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/Exercises/10/"
+                    href="../../ProbStats/Exercises/10/"
                     class="gdoc-nav__entry"
                   >
                     10. Review
@@ -2208,7 +2222,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/Exercises/Final2021/"
+                    href="../../ProbStats/Exercises/Final2021/"
                     class="gdoc-nav__entry"
                   >
                     Final Exam 2021
@@ -2244,7 +2258,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/Exercises/Final2022/"
+                    href="../../ProbStats/Exercises/Final2022/"
                     class="gdoc-nav__entry"
                   >
                     Final Exam 2022
@@ -2280,7 +2294,7 @@
               
                 <span class="flex">
                   <a
-                    href="../ProbStats/Exercises/Midterm2022/"
+                    href="../../ProbStats/Exercises/Midterm2022/"
                     class="gdoc-nav__entry"
                   >
                     Midterm Exam 2022
@@ -2322,7 +2336,7 @@
               type="checkbox"
               
                 class="gdoc-nav__toggle" id="navtree-407dc6f0"
-                
+                checked
               
             />
             <label
@@ -2333,7 +2347,7 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/"
+                    href="../../SignalSystem/"
                     class="gdoc-nav__entry"
                   >
                     Signals and Systems
@@ -2387,7 +2401,7 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/1_Signals/"
+                    href="../../SignalSystem/1_Signals/"
                     class="gdoc-nav__entry"
                   >
                     1. Signals
@@ -2423,7 +2437,7 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/2_Systems/"
+                    href="../../SignalSystem/2_Systems/"
                     class="gdoc-nav__entry"
                   >
                     2. System
@@ -2459,10 +2473,10 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/3_FourierContinuous/"
-                    class="gdoc-nav__entry"
+                    href="../../SignalSystem/3_DiscreteLTI/"
+                    class="gdoc-nav__entry is-active"
                   >
-                    3. Fourier Series Representation of Continuous-time Periodic Signals
+                    3. Discrete Linear Time-Invariant Systems
                   </a>
                 </span>
               
@@ -2495,10 +2509,10 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/4_FourierDiscrete/"
+                    href="../../SignalSystem/4_ContinuousLTI/"
                     class="gdoc-nav__entry"
                   >
-                    4. Fourier Series Representation of Discrete-time Periodic Signals
+                    4. Continuous Linear Time-Invariant (LTI) System
                   </a>
                 </span>
               
@@ -2531,10 +2545,10 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/5_DiscreteLTI/"
+                    href="../../SignalSystem/5_FourierContinuous/"
                     class="gdoc-nav__entry"
                   >
-                    5. Discrete Linear Time-Invariant Systems
+                    5. Fourier Series Representation of Continuous-time Periodic Signals
                   </a>
                 </span>
               
@@ -2567,10 +2581,10 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/6_ContinuousLTI/"
+                    href="../../SignalSystem/6_FourierDiscrete/"
                     class="gdoc-nav__entry"
                   >
-                    6. Continuous Linear Time-Invariant (LTI) System
+                    6. Fourier Series Representation of Discrete-time Periodic Signals
                   </a>
                 </span>
               
@@ -2606,7 +2620,7 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/Exercises/"
+                    href="../../SignalSystem/Exercises/"
                     class="gdoc-nav__entry"
                   >
                     Exercises
@@ -2660,7 +2674,7 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/Exercises/01/"
+                    href="../../SignalSystem/Exercises/01/"
                     class="gdoc-nav__entry"
                   >
                     1. Signal
@@ -2696,7 +2710,7 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/Exercises/02/"
+                    href="../../SignalSystem/Exercises/02/"
                     class="gdoc-nav__entry"
                   >
                     2. System
@@ -2732,10 +2746,10 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/Exercises/03/"
+                    href="../../SignalSystem/Exercises/03/"
                     class="gdoc-nav__entry"
                   >
-                    3. Fourier Series ()
+                    3. LTI []
                   </a>
                 </span>
               
@@ -2768,10 +2782,10 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/Exercises/04/"
+                    href="../../SignalSystem/Exercises/04/"
                     class="gdoc-nav__entry"
                   >
-                    4. Fourier Series []
+                    4. LTI ()
                   </a>
                 </span>
               
@@ -2804,10 +2818,10 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/Exercises/05/"
+                    href="../../SignalSystem/Exercises/05/"
                     class="gdoc-nav__entry"
                   >
-                    5. LTI []
+                    5. Fourier Series ()
                   </a>
                 </span>
               
@@ -2840,10 +2854,10 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/Exercises/06/"
+                    href="../../SignalSystem/Exercises/06/"
                     class="gdoc-nav__entry"
                   >
-                    6. LTI ()
+                    6. Fourier Series []
                   </a>
                 </span>
               
@@ -2876,10 +2890,46 @@
               
                 <span class="flex">
                   <a
-                    href="../SignalSystem/Exercises/Midterm-2021/"
+                    href="../../SignalSystem/Exercises/Midterm-2021/"
                     class="gdoc-nav__entry"
                   >
                     Midterm 2021
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="../../SignalSystem/Exercises/Miterm-2022/"
+                    class="gdoc-nav__entry"
+                  >
+                    Midterm 2022
                   </a>
                 </span>
               
@@ -2964,7 +3014,15 @@
     
   
   
-    <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='../'><span itemprop='name'>Welcome</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>ADS</span><meta itemprop='position' content='2' /></li>
+    
+    
+    
+    
+  
+  
+    <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='../../'><span itemprop='name'>Welcome</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/SignalSystem/' href='../../SignalSystem/'><span itemprop='name'>Signals and Systems</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>3. Discrete Linear Time-Invariant Systems</span><meta itemprop='position' content='3' /></li>
+  
+
   
 
   
@@ -2980,8 +3038,306 @@
   <article
     class="gdoc-markdown gdoc-markdown__align--left"
   >
-    <h1>ADS</h1>
-    
+    <h1>3. Discrete Linear Time-Invariant Systems</h1>
+    <div class="gdoc-toc gdoc-toc__level--6">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#i-lesson-objectives">I. Lesson objectives</a></li>
+    <li><a href="#ii-convolution-sum">II. Convolution sum</a>
+      <ul>
+        <li><a href="#signal-representation-using-impulses">Signal representation using impulses</a>
+          <ul>
+            <li><a href="#remind-delta-impulse">Remind: delta impulse</a></li>
+            <li><a href="#weighted-sum-of-shifted-impulses">Weighted Sum of Shifted Impulses</a></li>
+          </ul>
+        </li>
+        <li><a href="#convolution">Convolution</a></li>
+      </ul>
+    </li>
+    <li><a href="#iii-properties">III. Properties</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#commutative">Commutative</a></li>
+            <li><a href="#distributive">Distributive</a></li>
+            <li><a href="#associative">Associative</a></li>
+            <li><a href="#invertibility">Invertibility</a></li>
+            <li><a href="#causality">Causality</a></li>
+            <li><a href="#stability">Stability</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#iv-exercises">IV. Exercises</a></li>
+  </ul>
+</nav>
+      <hr />
+    </div>
+<div class="gdoc-page__anchorwrap">
+    <h1 id="i-lesson-objectives">
+        I. Lesson objectives
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#i-lesson-objectives" class="gdoc-page__anchor clip flex align-center" title="Anchor to: I. Lesson objectives" aria-label="Anchor to: I. Lesson objectives" href="#i-lesson-objectives">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h1>
+</div>
+<p>At the end of this chapter, you should be able to:</p>
+<ul>
+<li>Understand the input-output relationship of a LTI system.</li>
+<li>Calculate the convolution sum using different approaches.</li>
+<li>Determine (and justify) properties of a LTI system:
+<ul>
+<li>Causality</li>
+<li>Stability</li>
+<li>&hellip;</li>
+</ul>
+</li>
+</ul>
+<div class="gdoc-page__anchorwrap">
+    <h1 id="ii-convolution-sum">
+        II. Convolution sum
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#ii-convolution-sum" class="gdoc-page__anchor clip flex align-center" title="Anchor to: II. Convolution sum" aria-label="Anchor to: II. Convolution sum" href="#ii-convolution-sum">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h1>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="signal-representation-using-impulses">
+        Signal representation using impulses
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#signal-representation-using-impulses" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Signal representation using impulses" aria-label="Anchor to: Signal representation using impulses" href="#signal-representation-using-impulses">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="remind-delta-impulse">
+        Remind: delta impulse
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#remind-delta-impulse" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Remind: delta impulse" aria-label="Anchor to: Remind: delta impulse" href="#remind-delta-impulse">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Delta signal"></i></div>
+  <div class="gdoc-hint__text">$$\delta[n] = \begin{cases} 1 &amp; \text{if } n = 0 \\ 0 &amp; \text{otherwise} \end{cases}$$</div>
+</blockquote>
+
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Why is this signal important?"></i></div>
+  <div class="gdoc-hint__text"><ul>
+<li>Delta is the building block of all signals.</li>
+<li>It helps to define a <c-red>Linear Time-Invariant</c-red> (LTI) system.</li>
+</ul>
+</div>
+</blockquote>
+
+<div class="gdoc-page__anchorwrap">
+    <h3 id="weighted-sum-of-shifted-impulses">
+        Weighted Sum of Shifted Impulses
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#weighted-sum-of-shifted-impulses" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Weighted Sum of Shifted Impulses" aria-label="Anchor to: Weighted Sum of Shifted Impulses" href="#weighted-sum-of-shifted-impulses">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="01_weighted_sum_of_shifted_impulses.avif" />
+    <img src="01_weighted_sum_of_shifted_impulses.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  
+</figure></p>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Important"></i></div>
+  <div class="gdoc-hint__text">$$x[n] = \sum_{k=-\infty}^{\infty} x[k]\delta[n-k]$$</div>
+</blockquote>
+
+<div class="gdoc-page__anchorwrap">
+    <h2 id="convolution">
+        Convolution
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#convolution" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Convolution" aria-label="Anchor to: Convolution" href="#convolution">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/KuXjwB4LzSA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<div class="gdoc-page__anchorwrap">
+    <h1 id="iii-properties">
+        III. Properties
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#iii-properties" class="gdoc-page__anchor clip flex align-center" title="Anchor to: III. Properties" aria-label="Anchor to: III. Properties" href="#iii-properties">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h1>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="commutative">
+        Commutative
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#commutative" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Commutative" aria-label="Anchor to: Commutative" href="#commutative">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text">$$x[n] * h[n] = h[n] * x[n]$$</div>
+</blockquote>
+
+<div class="gdoc-page__anchorwrap">
+    <h3 id="distributive">
+        Distributive
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#distributive" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Distributive" aria-label="Anchor to: Distributive" href="#distributive">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text">$$x[n] * (h[n] + g[n]) = x[n] * h[n] + x[n] * g[n]$$</div>
+</blockquote>
+
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="02_distributive.avif" />
+    <img src="02_distributive.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  <figcaption>Parallel interconnection</figcaption>
+</figure></p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="associative">
+        Associative
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#associative" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Associative" aria-label="Anchor to: Associative" href="#associative">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text">$$x[n] * (h[n] * g[n]) = (x[n] * h[n]) * g[n]$$</div>
+</blockquote>
+
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="03_associative.avif" />
+    <img src="03_associative.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  <figcaption>Series Interconnection</figcaption>
+</figure></p>
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="04_associative.avif" />
+    <img src="04_associative.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  <figcaption>Associative &amp; Commutative</figcaption>
+</figure></p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="invertibility">
+        Invertibility
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#invertibility" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Invertibility" aria-label="Anchor to: Invertibility" href="#invertibility">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<p>Identity system $h[n] = \delta[n]$, an example of telecommunication.</p>
+
+
+
+
+
+<blockquote class="gdoc-hint note">
+  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Example"></i></div>
+  <div class="gdoc-hint__text"><p>Given a system with impulse response
+$$h_1[n] = u[n]$$</p>
+<p>Verify that its inverse system has $h_2[n] = \delta[n] - \delta[n-1]$</p>
+</div>
+</blockquote>
+
+<div class="gdoc-page__anchorwrap">
+    <h3 id="causality">
+        Causality
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#causality" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Causality" aria-label="Anchor to: Causality" href="#causality">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<p>A LTI system is causal if its impulse response satisfy the condition:
+$$h[n] = 0 \text{ for } n &lt; 0$$</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="stability">
+        Stability
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#stability" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Stability" aria-label="Anchor to: Stability" href="#stability">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<p>A LTI system is stable if its impulse response is absolutely summable:
+$$\sum |h[n]| &lt; \infty$$</p>
+<div class="gdoc-page__anchorwrap">
+    <h1 id="iv-exercises">
+        IV. Exercises
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/#iv-exercises" class="gdoc-page__anchor clip flex align-center" title="Anchor to: IV. Exercises" aria-label="Anchor to: IV. Exercises" href="#iv-exercises">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h1>
+</div>
+<p>In an $n^{th}$ semester, $x[n]$ students enroll in a course requiring a certain textbook. The publisher sells $y[n]$ new copies of the book in the $n^{th}$ semester. On the average, one-quarter of students with books in salable condition resell the texts at the end of the semester, and the book life is three semesters. Write the equation relating $y[n]$ to $x[n]$, assuming that every student buys a book.</p>
+
+<div class="gdoc-expand">
+  <label class="gdoc-expand__head flex justify-between" for="a9ba849f-9">
+    <span>Result</span>
+    <span>🍵</span>
+  </label>
+  <input id="a9ba849f-9" type="checkbox" class="gdoc-expand__control hidden" />
+  <div class="gdoc-markdown--nested gdoc-expand__content">
+    $$y[n] = x[n] + \frac{1}{4}y[n-3]$$
+  </div>
+</div>
+
+
   </article>
 
 
@@ -3042,9 +3398,9 @@
     </div>
 
     
-  <script defer src="../js/search-5a80054d.bundle.min.js"></script>
+  <script defer src="../../js/search-5a80054d.bundle.min.js"></script>
 
 
-<link rel="stylesheet" href="../css/custom.min.css">
+<link rel="stylesheet" href="../../css/custom.min.css">
   </body>
 </html>

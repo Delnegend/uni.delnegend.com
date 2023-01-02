@@ -12,9 +12,10 @@
 <meta name="generator" content="Hugo 0.109.0">
 
 
-  <meta name="description" content="I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi &#43; j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7." />
+  <meta name="description" content="I. Lesson Objectives II. Fourier Representation 1. Periodic signal Fundamental period 2 basic periodic signals Exercies: sum of $e^{j\omega_0n}$ 2. Definition Fourier series Fourier series equation pair Examples III. Properties 1. Multiplication 2. Parseval&rsquo;s Relation I. Lesson Objectives At the end of this chapter, you should be able to:
+Be familiar with discrete complex signal. Find Fourier coefficients of any discrete periodic signal. Understand various properties of Fourier series. II." />
 
-    <title>3. Fourier Series Representation of Continuous-time Periodic Signals | BK HQV</title>
+    <title>6. Fourier Series Representation of Discrete-time Periodic Signals | BK HQV</title>
 
     <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
 <link
@@ -35,19 +36,21 @@
     
   <meta
     property="og:title"
-    content="3. Fourier Series Representation of Continuous-time Periodic Signals"
+    content="6. Fourier Series Representation of Discrete-time Periodic Signals"
   />
   <meta property="og:site_name" content="BK HQV" />
-  <meta property="og:description" content="I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi &#43; j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7." />
+  <meta property="og:description" content="I. Lesson Objectives II. Fourier Representation 1. Periodic signal Fundamental period 2 basic periodic signals Exercies: sum of $e^{j\omega_0n}$ 2. Definition Fourier series Fourier series equation pair Examples III. Properties 1. Multiplication 2. Parseval’s Relation I. Lesson Objectives At the end of this chapter, you should be able to:
+Be familiar with discrete complex signal. Find Fourier coefficients of any discrete periodic signal. Understand various properties of Fourier series. II." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/" />
+<meta property="og:url" content="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/" />
 
 <meta property="article:section" content="Signal System" />
 
 
   <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="3. Fourier Series Representation of Continuous-time Periodic Signals" />
-  <meta name="twitter:description" content="I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi &#43; j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7." />
+<meta name="twitter:title" content="6. Fourier Series Representation of Discrete-time Periodic Signals" />
+  <meta name="twitter:description" content="I. Lesson Objectives II. Fourier Representation 1. Periodic signal Fundamental period 2 basic periodic signals Exercies: sum of $e^{j\omega_0n}$ 2. Definition Fourier series Fourier series equation pair Examples III. Properties 1. Multiplication 2. Parseval’s Relation I. Lesson Objectives At the end of this chapter, you should be able to:
+Be familiar with discrete complex signal. Find Fourier coefficients of any discrete periodic signal. Understand various properties of Fourier series. II." />
 
 
   <script type="application/ld+json">
@@ -55,16 +58,16 @@
       "@context": "http://schema.org",
       "@type": "TechArticle",
       "articleSection": "Signal System",
-      "name": "3. Fourier Series Representation of Continuous-time Periodic Signals",
-      "url" : "https://uni.delnegend.com/SignalSystem/3_FourierContinuous/",
-      "headline": "3. Fourier Series Representation of Continuous-time Periodic Signals",
-      "description": "I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\\psi} = \\cos\\psi \u002b j\\sin\\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7.",
-      "wordCount" : "633",
+      "name": "6. Fourier Series Representation of Discrete-time Periodic Signals",
+      "url" : "https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/",
+      "headline": "6. Fourier Series Representation of Discrete-time Periodic Signals",
+      "description": "I. Lesson Objectives II. Fourier Representation 1. Periodic signal Fundamental period 2 basic periodic signals Exercies: sum of $e^{j\\omega_0n}$ 2. Definition Fourier series Fourier series equation pair Examples III. Properties 1. Multiplication 2. Parseval’s Relation I. Lesson Objectives At the end of this chapter, you should be able to:\nBe familiar with discrete complex signal. Find Fourier coefficients of any discrete periodic signal. Understand various properties of Fourier series. II.",
+      "wordCount" : "452",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://uni.delnegend.com/SignalSystem/3_FourierContinuous/"
+          "@id": "https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/"
       },
       "copyrightHolder" : "BK HQV",
       "copyrightYear" : "0001",
@@ -148,7 +151,7 @@
   href="../../custom.css"
   media="all"
 />
-  <link href="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/" rel="canonical" type="text/html" />
+  <link href="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/" rel="canonical" type="text/html" />
 
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
@@ -324,17 +327,24 @@
             <input
               type="checkbox"
               
-                class="gdoc-nav__toggle" id="navtree-0c876ae7"
+                class="gdoc-nav__toggle" id="navtree-e3a53700"
                 
               
             />
             <label
               
-                for="navtree-0c876ae7" class="flex justify-between align-center"
+                for="navtree-e3a53700" class="flex justify-between align-center"
               
             >
               
-                <span class="flex">ADS</span>
+                <span class="flex">
+                  <a
+                    href="../../ADS/"
+                    class="gdoc-nav__entry"
+                  >
+                    ADS
+                  </a>
+                </span>
               
               
                 <svg class="gdoc-icon toggle gdoc_keyboard_arrow_left">
@@ -2463,118 +2473,118 @@
               
                 <span class="flex">
                   <a
-                    href="../../SignalSystem/3_FourierContinuous/"
+                    href="../../SignalSystem/3_DiscreteLTI/"
+                    class="gdoc-nav__entry"
+                  >
+                    3. Discrete Linear Time-Invariant Systems
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="../../SignalSystem/4_ContinuousLTI/"
+                    class="gdoc-nav__entry"
+                  >
+                    4. Continuous Linear Time-Invariant (LTI) System
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="../../SignalSystem/5_FourierContinuous/"
+                    class="gdoc-nav__entry"
+                  >
+                    5. Fourier Series Representation of Continuous-time Periodic Signals
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="../../SignalSystem/6_FourierDiscrete/"
                     class="gdoc-nav__entry is-active"
                   >
-                    3. Fourier Series Representation of Continuous-time Periodic Signals
-                  </a>
-                </span>
-              
-              
-            </label>
-
-            
-          </li>
-        
-      
-        
-          
-          
-          
-          
-          
-          
-
-
-          <li>
-            <input
-              type="checkbox"
-              
-                class="hidden"
-              
-            />
-            <label
-              
-            >
-              
-                <span class="flex">
-                  <a
-                    href="../../SignalSystem/4_FourierDiscrete/"
-                    class="gdoc-nav__entry"
-                  >
-                    4. Fourier Series Representation of Discrete-time Periodic Signals
-                  </a>
-                </span>
-              
-              
-            </label>
-
-            
-          </li>
-        
-      
-        
-          
-          
-          
-          
-          
-          
-
-
-          <li>
-            <input
-              type="checkbox"
-              
-                class="hidden"
-              
-            />
-            <label
-              
-            >
-              
-                <span class="flex">
-                  <a
-                    href="../../SignalSystem/5_DiscreteLTI/"
-                    class="gdoc-nav__entry"
-                  >
-                    5. Discrete Linear Time-Invariant Systems
-                  </a>
-                </span>
-              
-              
-            </label>
-
-            
-          </li>
-        
-      
-        
-          
-          
-          
-          
-          
-          
-
-
-          <li>
-            <input
-              type="checkbox"
-              
-                class="hidden"
-              
-            />
-            <label
-              
-            >
-              
-                <span class="flex">
-                  <a
-                    href="../../SignalSystem/6_ContinuousLTI/"
-                    class="gdoc-nav__entry"
-                  >
-                    6. Continuous Linear Time-Invariant (LTI) System
+                    6. Fourier Series Representation of Discrete-time Periodic Signals
                   </a>
                 </span>
               
@@ -2739,7 +2749,7 @@
                     href="../../SignalSystem/Exercises/03/"
                     class="gdoc-nav__entry"
                   >
-                    3. Fourier Series ()
+                    3. LTI []
                   </a>
                 </span>
               
@@ -2775,7 +2785,7 @@
                     href="../../SignalSystem/Exercises/04/"
                     class="gdoc-nav__entry"
                   >
-                    4. Fourier Series []
+                    4. LTI ()
                   </a>
                 </span>
               
@@ -2811,7 +2821,7 @@
                     href="../../SignalSystem/Exercises/05/"
                     class="gdoc-nav__entry"
                   >
-                    5. LTI []
+                    5. Fourier Series ()
                   </a>
                 </span>
               
@@ -2847,7 +2857,7 @@
                     href="../../SignalSystem/Exercises/06/"
                     class="gdoc-nav__entry"
                   >
-                    6. LTI ()
+                    6. Fourier Series []
                   </a>
                 </span>
               
@@ -2884,6 +2894,42 @@
                     class="gdoc-nav__entry"
                   >
                     Midterm 2021
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="../../SignalSystem/Exercises/Miterm-2022/"
+                    class="gdoc-nav__entry"
+                  >
+                    Midterm 2022
                   </a>
                 </span>
               
@@ -2974,7 +3020,7 @@
     
   
   
-    <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='../../'><span itemprop='name'>Welcome</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/SignalSystem/' href='../../SignalSystem/'><span itemprop='name'>Signals and Systems</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>3. Fourier Series Representation of Continuous-time Periodic Signals</span><meta itemprop='position' content='3' /></li>
+    <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='../../'><span itemprop='name'>Welcome</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/SignalSystem/' href='../../SignalSystem/'><span itemprop='name'>Signals and Systems</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>6. Fourier Series Representation of Discrete-time Periodic Signals</span><meta itemprop='position' content='3' /></li>
   
 
   
@@ -2992,161 +3038,54 @@
   <article
     class="gdoc-markdown gdoc-markdown__align--left"
   >
-    <h1>3. Fourier Series Representation of Continuous-time Periodic Signals</h1>
+    <h1>6. Fourier Series Representation of Discrete-time Periodic Signals</h1>
     <div class="gdoc-toc gdoc-toc__level--6">
       <nav id="TableOfContents">
   <ul>
     <li><a href="#i-lesson-objectives">I. Lesson Objectives</a></li>
-    <li><a href="#ii-review-of-complex-numbers">II. Review of Complex Numbers</a>
-      <ul>
-        <li><a href="#1-complex-number-conjugation">1. Complex number, Conjugation</a></li>
-        <li><a href="#2-euler-formulanbspejpsi--cospsi--jsinpsi">2. Euler formula $e^{j\psi} = \cos\psi + j\sin\psi$</a></li>
-        <li><a href="#3-complex-exponential-signalnbspest">3. Complex exponential signal $e^{st}$</a></li>
-        <li><a href="#4-lti-response-to-complex-exponential">4. LTI response to complex exponential</a></li>
-      </ul>
-    </li>
-    <li><a href="#iii-fourier-series-representation">III. Fourier Series Representation</a>
+    <li><a href="#ii-fourier-representation">II. Fourier Representation</a>
       <ul>
         <li><a href="#1-periodic-signal">1. Periodic signal</a>
           <ul>
             <li><a href="#fundamental-period">Fundamental period</a></li>
             <li><a href="#2-basic-periodic-signals">2 basic periodic signals</a></li>
-            <li><a href="#an-example">An example</a></li>
-            <li><a href="#review-integral-ofnbspejomega_0t">Review: integral of $e^{j\omega_0t}$</a></li>
+            <li><a href="#exercies-sum-ofnbspejomega_0n">Exercies: sum of $e^{j\omega_0n}$</a></li>
           </ul>
         </li>
-        <li><a href="#2-definition">2. Definition</a></li>
+        <li><a href="#2-definition">2. Definition</a>
+          <ul>
+            <li><a href="#fourier-series">Fourier series</a></li>
+            <li><a href="#fourier-series-equation-pair">Fourier series equation pair</a></li>
+            <li><a href="#examples">Examples</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
-    <li><a href="#iv-properties">IV. Properties</a>
+    <li><a href="#iii-properties">III. Properties</a>
       <ul>
-        <li><a href="#notations">Notations</a></li>
-        <li><a href="#1-linearity">1. Linearity</a></li>
-        <li><a href="#2-time-shifting">2. Time shifting</a></li>
-        <li><a href="#3-time-reversal">3. Time reversal</a></li>
-        <li><a href="#4-time-scaling">4. Time scaling</a></li>
-        <li><a href="#5-multiplication">5. Multiplication</a></li>
-        <li><a href="#6-conjugation">6. Conjugation</a></li>
-        <li><a href="#7-parsevals-relation">7. Parseval&rsquo;s relation</a></li>
+        <li><a href="#1-multiplication">1. Multiplication</a></li>
+        <li><a href="#2-parsevals-relation">2. Parseval&rsquo;s Relation</a></li>
       </ul></nav>
       <hr />
     </div>
 <div class="gdoc-page__anchorwrap">
     <h1 id="i-lesson-objectives">
         I. Lesson Objectives
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#i-lesson-objectives" class="gdoc-page__anchor clip flex align-center" title="Anchor to: I. Lesson Objectives" aria-label="Anchor to: I. Lesson Objectives" href="#i-lesson-objectives">
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#i-lesson-objectives" class="gdoc-page__anchor clip flex align-center" title="Anchor to: I. Lesson Objectives" aria-label="Anchor to: I. Lesson Objectives" href="#i-lesson-objectives">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
 </div>
 <p>At the end of this chapter, you should be able to:</p>
 <ul>
-<li>Be familiar with complex number.</li>
-<li>Find Fourier coefficients of any continuous periodic signal.</li>
+<li>Be familiar with discrete complex signal.</li>
+<li>Find Fourier coefficients of any discrete periodic signal.</li>
 <li>Understand various properties of Fourier series.</li>
 </ul>
 <div class="gdoc-page__anchorwrap">
-    <h1 id="ii-review-of-complex-numbers">
-        II. Review of Complex Numbers
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#ii-review-of-complex-numbers" class="gdoc-page__anchor clip flex align-center" title="Anchor to: II. Review of Complex Numbers" aria-label="Anchor to: II. Review of Complex Numbers" href="#ii-review-of-complex-numbers">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h1>
-</div>
-<div class="gdoc-page__anchorwrap">
-    <h2 id="1-complex-number-conjugation">
-        1. Complex number, Conjugation
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#1-complex-number-conjugation" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 1. Complex number, Conjugation" aria-label="Anchor to: 1. Complex number, Conjugation" href="#1-complex-number-conjugation">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h2>
-</div>
-<p>
-
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="01.avif" />
-    <img src="01.webp" alt="" type="image/webp" loading="lazy">
-  </picture>
-  <figcaption>Complex plane with Cartesian (L) and polar (R) representation of complex number</figcaption>
-</figure></p>
-<div class="gdoc-page__anchorwrap">
-    <h2 id="2-euler-formulanbspejpsi--cospsi--jsinpsi">
-        2. Euler formula $e^{j\psi} = \cos\psi + j\sin\psi$
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#2-euler-formulanbspejpsi--cospsi--jsinpsi" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2. Euler formula $e^{j\psi} = \cos\psi &#43; j\sin\psi$" aria-label="Anchor to: 2. Euler formula $e^{j\psi} = \cos\psi &#43; j\sin\psi$" href="#2-euler-formulanbspejpsi--cospsi--jsinpsi">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h2>
-</div>
-<p>
-
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="02.avif" />
-    <img src="02.webp" alt="" type="image/webp" loading="lazy">
-  </picture>
-  <figcaption>Euler formula</figcaption>
-</figure></p>
-<p>$e^{j\varphi} = \cos\varphi + j\sin\varphi$</p>
-<p>$cos(\varphi) = \dfrac{e^{j\varphi} + e^{-j\varphi}}{2}$</p>
-<p>$sin(\varphi) = \dfrac{e^{j\varphi} - e^{-j\varphi}}{2i}$</p>
-<div class="gdoc-page__anchorwrap">
-    <h2 id="3-complex-exponential-signalnbspest">
-        3. Complex exponential signal $e^{st}$
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#3-complex-exponential-signalnbspest" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3. Complex exponential signal $e^{st}$" aria-label="Anchor to: 3. Complex exponential signal $e^{st}$" href="#3-complex-exponential-signalnbspest">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h2>
-</div>
-<p>$e^{st} = e^{(a + jb)t} = e^{at}e^{jbt}$</p>
-<p>
-
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="03.avif" />
-    <img src="03.webp" alt="" type="image/webp" loading="lazy">
-  </picture>
-  <figcaption>$e^{jbt}$: complex exponential signal</figcaption>
-</figure></p>
-<p>
-
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="04.avif" />
-    <img src="04.webp" alt="" type="image/webp" loading="lazy">
-  </picture>
-  <figcaption>$e^{at}$: real exponential signal</figcaption>
-</figure></p>
-<ul>
-<li>$e^{jbt}$: complex exponential signal</li>
-</ul>
-<div class="gdoc-page__anchorwrap">
-    <h2 id="4-lti-response-to-complex-exponential">
-        4. LTI response to complex exponential
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#4-lti-response-to-complex-exponential" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 4. LTI response to complex exponential" aria-label="Anchor to: 4. LTI response to complex exponential" href="#4-lti-response-to-complex-exponential">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h2>
-</div>
-
-
-
-
-
-<blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Convolution integral"></i></div>
-  <div class="gdoc-hint__text">$$y(t) = \int_{-\infty}^{\infty} h(\tau)x(t-\tau)d\tau$$</div>
-</blockquote>
-
-<p>The response of an LTI system to a complex exponential input is the <c-red>same</c-red> complex exponential with only <c-red>a change in amplitude</c-red>.</p>
-<div class="gdoc-page__anchorwrap">
-    <h1 id="iii-fourier-series-representation">
-        III. Fourier Series Representation
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#iii-fourier-series-representation" class="gdoc-page__anchor clip flex align-center" title="Anchor to: III. Fourier Series Representation" aria-label="Anchor to: III. Fourier Series Representation" href="#iii-fourier-series-representation">
+    <h1 id="ii-fourier-representation">
+        II. Fourier Representation
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#ii-fourier-representation" class="gdoc-page__anchor clip flex align-center" title="Anchor to: II. Fourier Representation" aria-label="Anchor to: II. Fourier Representation" href="#ii-fourier-representation">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
@@ -3154,7 +3093,7 @@
 <div class="gdoc-page__anchorwrap">
     <h2 id="1-periodic-signal">
         1. Periodic signal
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#1-periodic-signal" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 1. Periodic signal" aria-label="Anchor to: 1. Periodic signal" href="#1-periodic-signal">
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#1-periodic-signal" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 1. Periodic signal" aria-label="Anchor to: 1. Periodic signal" href="#1-periodic-signal">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h2>
@@ -3162,105 +3101,75 @@
 <div class="gdoc-page__anchorwrap">
     <h3 id="fundamental-period">
         Fundamental period
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#fundamental-period" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Fundamental period" aria-label="Anchor to: Fundamental period" href="#fundamental-period">
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#fundamental-period" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Fundamental period" aria-label="Anchor to: Fundamental period" href="#fundamental-period">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h3>
 </div>
 <ul>
-<li>
-<p>The minimum positive, non-zero value of T so that
-$$x(t) = x(t + T)$$</p>
-</li>
-<li>
-<p>Fundamental frequency: $\omega_0 = \dfrac{2\pi}{T}$</p>
-</li>
-</ul>
-<div class="gdoc-page__anchorwrap">
-    <h3 id="2-basic-periodic-signals">
-        2 basic periodic signals
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#2-basic-periodic-signals" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2 basic periodic signals" aria-label="Anchor to: 2 basic periodic signals" href="#2-basic-periodic-signals">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h3>
-</div>
-<ul>
-<li>The sinusoidal signal: $x(t) = cos(\omega_0t)$</li>
-<li>The periodic complex exponential: $x(t) = e^{j\omega_0t}$</li>
-</ul>
-<div class="gdoc-page__anchorwrap">
-    <h3 id="an-example">
-        An example
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#an-example" class="gdoc-page__anchor clip flex align-center" title="Anchor to: An example" aria-label="Anchor to: An example" href="#an-example">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h3>
-</div>
-<ul>
-<li>Consider a peridic signal $x(t)$ with fundamental frequency $2\pi$
-$$x(t) = \sum_{k = -3}^{3} a_ke^{jk2\pi t}$$</li>
-</ul>
-<p>where $a_0 = 1, a_1 = a_{-1} = \frac{1}{4}, a_2 = a_{-2} = \frac{1}{2}, a_3 = a_{-3} = \frac{1}{3}$</p>
-<ul>
-<li>$e^{j\varphi} = \cos\varphi + j\sin\varphi$</li>
-<li>$e^{-j\varphi = \cos\varphi - j\sin\varphi}$</li>
-<li>$\Rightarrow cos(\varphi) = \dfrac{e^{j\varphi} + e^{-j\varphi}}{2}$</li>
-<li>$\Rightarrow sin(\varphi) = \dfrac{e^{j\varphi} - e^{-j\varphi}}{2j}$</li>
+<li>The minimum positive, non-zero value of N so that
+$$x[n] = x[n + N]$$</li>
+<li>Fundamental frequency: $\omega_0 = \dfrac{2\pi}{N}$</li>
 </ul>
 <p>
 
 
 <figure>
   <picture>
-    <source type="image/avif" srcset="05.avif" />
-    <img src="05.webp" alt="" type="image/webp" loading="lazy">
-  </picture>
-  
-</figure>
-
-
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="06.avif" />
-    <img src="06.webp" alt="" type="image/webp" loading="lazy">
-  </picture>
-  
-</figure>
-
-
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="07.avif" />
-    <img src="07.webp" alt="" type="image/webp" loading="lazy">
+    <source type="image/avif" srcset="01_fundamental_period.avif" />
+    <img src="01_fundamental_period.webp" alt="" type="image/webp" loading="lazy">
   </picture>
   
 </figure></p>
 <div class="gdoc-page__anchorwrap">
-    <h3 id="review-integral-ofnbspejomega_0t">
-        Review: integral of $e^{j\omega_0t}$
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#review-integral-ofnbspejomega_0t" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Review: integral of $e^{j\omega_0t}$" aria-label="Anchor to: Review: integral of $e^{j\omega_0t}$" href="#review-integral-ofnbspejomega_0t">
+    <h3 id="2-basic-periodic-signals">
+        2 basic periodic signals
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#2-basic-periodic-signals" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2 basic periodic signals" aria-label="Anchor to: 2 basic periodic signals" href="#2-basic-periodic-signals">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h3>
 </div>
-<p>Given $\omega_0 = \frac{2\pi}{T}$, calculate:</p>
-<ol>
-<li>$$\int_{0}^{T} e^{j\omega_0t}dt$$</li>
-</ol>
-<p>$$ = \frac{e^{j\omega_0T} -1}{j\omega_0T} = \frac{e^{j2\pi}}{j2\pi}$$</p>
-<ol start="2">
-<li>$$\int_{0}^{T} e^{jk\omega_0t}dt$$</li>
-</ol>
-<p>$$ = \frac{e^{jk2\pi}}{jk2\pi} $$</p>
+<ul>
+<li>The sinusoidal signal: $x[n] = cos(\omega_0n)$</li>
+<li>The periodic complex exponential: $x[n] = e^{j\omega_0n}$</li>
+</ul>
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="02_basic_periodic_signals.avif" />
+    <img src="02_basic_periodic_signals.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  
+</figure></p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="exercies-sum-ofnbspejomega_0n">
+        Exercies: sum of $e^{j\omega_0n}$
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#exercies-sum-ofnbspejomega_0n" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Exercies: sum of $e^{j\omega_0n}$" aria-label="Anchor to: Exercies: sum of $e^{j\omega_0n}$" href="#exercies-sum-ofnbspejomega_0n">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<ul>
+<li>Given $\omega_0 = \frac{2\pi}{N}$, proof that</li>
+</ul>
+<p>$$\sum_{n=&lt;N&gt;}e^{j\omega_0n} = \sum_{n=&lt;N&gt;}e^{jk(2\pi/N)n} = \begin{cases} N &amp; \text{if } k = 0, \pm N, \pm 2N, \dots \\ 0 &amp; \text{otherwise} \end{cases}$$</p>
 <div class="gdoc-page__anchorwrap">
     <h2 id="2-definition">
         2. Definition
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#2-definition" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2. Definition" aria-label="Anchor to: 2. Definition" href="#2-definition">
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#2-definition" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2. Definition" aria-label="Anchor to: 2. Definition" href="#2-definition">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h2>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="fourier-series">
+        Fourier series
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#fourier-series" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Fourier series" aria-label="Anchor to: Fourier series" href="#fourier-series">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
 </div>
 <p>
 
@@ -3269,14 +3178,22 @@ $$x(t) = \sum_{k = -3}^{3} a_ke^{jk2\pi t}$$</li>
 
 <blockquote class="gdoc-hint important">
   <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
-  <div class="gdoc-hint__text"><p>Assume that</p>
-<p>$$ x(t) = \sum_{k = -\infty}^{\infty} a_ke^{jk\omega_0t}$$</p>
-<p>then</p>
-<p>$$a_k = ?$$</p>
+  <div class="gdoc-hint__text"><p>Assume that
+$$x[n] = \sum_{k=&lt;N&gt;}a_ke^{jk\omega_0n}$$</p>
+<p>Then
+$$a_k = ???$$</p>
 </div>
 </blockquote>
 
-Hint: calculate $x(t)e^{-jk\omega_0t}$, and its integral from $0$ to $T$.</p>
+Hint: calculate $x[n]e^{-jk\omega_0n}$, and its sum over $N$ terms.</p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="fourier-series-equation-pair">
+        Fourier series equation pair
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#fourier-series-equation-pair" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Fourier series equation pair" aria-label="Anchor to: Fourier series equation pair" href="#fourier-series-equation-pair">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
 
 
 
@@ -3285,107 +3202,131 @@ Hint: calculate $x(t)e^{-jk\omega_0t}$, and its integral from $0$ to $T$.</p>
 <blockquote class="gdoc-hint important">
   <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
   <div class="gdoc-hint__text"><p>The <c-red>synthesis</c-red> equation</p>
-<p>$$ x(t) = \sum_{k = -\infty}^{\infty} a_ke^{jk\omega_0t} = \sum_{k = -\infty}^{\infty} a_ke^{jk\frac{2\pi}{T}t}$$</p>
+<p>$$x[n] = \sum_{k=&lt;N&gt;}a_ke^{jk\omega_0n} = \frac{1}{N} \sum_{k=&lt;N&gt;}x[n]e^{-jk\frac{2\pi}{N}n}$$</p>
 <p>The <c-red>analysis</c-red> equation</p>
-<p>$$ a_k = \frac{1}{T}\int_{T} x(t)e^{-jk\omega_0t}dt = \frac{1}{T}\int_{T} x(t)e^{-jk\frac{2\pi}{T}t}dt$$</p>
+<p>$$a_k = \dfrac{1}{N}\sum_{n=&lt;N&gt;}x[n]e^{-jk\omega_0n} = \frac{1}{N} \sum_{n=&lt;N&gt;}x[n]e^{-jk\frac{2\pi}{N}n}$$</p>
 </div>
 </blockquote>
 
+<div class="gdoc-page__anchorwrap">
+    <h3 id="examples">
+        Examples
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#examples" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Examples" aria-label="Anchor to: Examples" href="#examples">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
 
 
 
 
 
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Example"></i></div>
-  <div class="gdoc-hint__text"><p>Determine Fourier series coefficients of</p>
-<p>$$x(t) = sin(\omega_0t)$$</p>
-</div>
+  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Number 1"></i></div>
+  <div class="gdoc-hint__text">Consider the signal $x[n] = sin(\frac{2\pi}{5}n)$, determine and plot its Fourier series coefficients.</div>
 </blockquote>
 
-<p>$= \frac{e^{j\omega_0t} - e^{-\omega_0t}}{2j}$</p>
-<p>$sin(\omega_0t) = \frac{1}{2j}e^{j\omega_0t} + (\frac{-1}{2j}e^{-j\omega_0t})$</p>
-
-
-
-
-
-<blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Example"></i></div>
-  <div class="gdoc-hint__text"><p>Determine Fourier series coefficients of</p>
-<p>$$x(t) = 1 + sin(\omega_0t) + 2cos(\omega_0t) + cos(2\omega_0t + \frac{\pi}{4})$$</p>
-</div>
-</blockquote>
-
-<ul>
-<li>
-<p>We have:</p>
-<p>$cos(\varphi) = \dfrac{e^{j\varphi} + e^{-j\varphi}}{2}$</p>
-<p>$sin(\varphi) = \dfrac{e^{j\varphi} - e^{-j\varphi}}{2j}$</p>
-</li>
-<li>
-<p>So:</p>
-<p>$sin(\omega_0t) = \frac{e^{j\omega_0t} - e^{-j\omega_0t}}{2j}$</p>
-<p>$cos(\omega_0t) = \frac{e^{j\omega_0t} + e^{-j\omega_0t}}{2}$</p>
-<p>$cos(2\omega_0t + \frac{\pi}{4}) = \frac{e^{j2\omega_0t + \frac{\pi}{4}} + e^{-j2\omega_0t - \frac{\pi}{4}}}{2}$</p>
-<p>$x(t) = 1 + \frac{e^{j\omega_0t} - e^{-j\omega_0t}}{2j} + \frac{e^{j\omega_0t} + e^{-j\omega_0t}}{2} + \frac{e^{j2\omega_0t + \frac{\pi}{4}} + e^{-j2\omega_0t - \frac{\pi}{4}}}{2}$</p>
-</li>
-</ul>
 <p>
 
 
 <figure>
   <picture>
-    <source type="image/avif" srcset="08_example.avif" />
-    <img src="08_example.webp" alt="" type="image/webp" loading="lazy">
+    <source type="image/avif" srcset="03_example1.avif" />
+    <img src="03_example1.webp" alt="" type="image/webp" loading="lazy">
   </picture>
-  <figcaption>Example 2</figcaption>
+  
+</figure></p>
+<ul>
+<li>
+<p>Step 1: verify the signal is periodic $\rightarrow N = ?$</p>
+<p>Lets set $N = 5$</p>
+<p>$\begin{aligned}
+x[n+5]
+&amp;= sin(\frac{2\pi}{5}(n+5)) \\
+&amp;= sin(\frac{2\pi}{5}n + 2\pi) \\
+&amp;= sin(\frac{2\pi}{5}n) = x[n]
+\end{aligned}$</p>
+<p>$x_{(n)} = x_{(n+5)} \rightarrow N = 5 \rightarrow \omega_0 = \frac{2\pi}{5}$</p>
+</li>
+<li>
+<p>Step 2: $e^{j\omega} = cos\varphi + jsin\varphi$</p>
+<p>$\begin{aligned}
+sin(\frac{2\pi}{5}n)
+&amp;= \frac{1}{2j}e^{j\frac{2\pi}{5}n} - \frac{1}{2j}e^{-j\frac{2\pi}{5}n} \\
+&amp;= \frac{1}{2j}(e^{j\frac{2\pi}{5}n} - e^{-j\frac{2\pi}{5}n}) \\
+&amp;= \frac{1}{2j}(e^{j\omega_0n} - e^{-j\omega_0n})
+\end{aligned}$</p>
+</li>
+</ul>
+
+
+
+
+
+<blockquote class="gdoc-hint note">
+  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Number 2"></i></div>
+  <div class="gdoc-hint__text">Consider the signal $x[n] = sin3(\frac{2\pi}{5}n)$, determine and plot its Fourier series coefficients.</div>
+</blockquote>
+
+<p>$$x_{(n)} = sin(\frac{6\pi}{5}n) \rightarrow \text{ verify period signal}$$</p>
+<ul>
+<li>
+<p>Step 1: discrete time domain</p>
+<p>$sin(\frac{6\pi}{5}n) = sin(\frac{6\pi}{5}n + \frac{6\pi}{5}N)$ ($\frac{6\pi}{5}N = k^*2\pi, k \in N$)</p>
+<p>$\Rightarrow \frac{6\pi}{5}N = k^*2\pi$</p>
+<p>$\Rightarrow 6N = k^* 10$</p>
+<p>$\Rightarrow 3N = k^* 5$</p>
+<p>$\Leftrightarrow N = k^* \frac{5}{3} = 5$</p>
+</li>
+</ul>
+<hr>
+<p>$\begin{aligned}
+sin(\frac{6\pi}{5}n)
+&amp;=\frac{e^{j\frac{6\pi}{5}n}-e^{-j\frac{6\pi}{5}n}}{2j} \\
+&amp;=\frac{1}{2j} e^{j\frac{6\pi}{5}n} - \frac{1}{2j} e^{-j\frac{6\pi}{5}n} \\
+\end{aligned}$</p>
+<hr>
+<ul>
+<li>$k\frac{2\pi}{5} = \frac{6\pi}{5} \Leftrightarrow k = 3$</li>
+<li>$a_3 = \frac{1}{2j} - a_{-2}$</li>
+<li>$a_{-3} = \frac{-1}{2j}$</li>
+</ul>
+<hr>
+<p>$\begin{aligned}
+a{-3} &amp;: a_{1} \\
+a_{-2} &amp;: a_{2} \\
+a_{-1} &amp;: a_{j} = a{-2}
+\end{aligned}$</p>
+<hr>
+<p>$\begin{aligned}
+a{-3} &amp;= \frac{-1}{2j} \\
+a_{-2} &amp;= \frac{1}{2j} \\
+a_{-1} &amp;= 0 \\
+a_0 &amp;= 0 \\
+a_1 &amp;= 0 \\
+\end{aligned}$</p>
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="04_example2.avif" />
+    <img src="04_example2.webp" alt="04_example2.webp" type="image/webp" loading="lazy">
+  </picture>
+  
 </figure></p>
 <div class="gdoc-page__anchorwrap">
-    <h1 id="iv-properties">
-        IV. Properties
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#iv-properties" class="gdoc-page__anchor clip flex align-center" title="Anchor to: IV. Properties" aria-label="Anchor to: IV. Properties" href="#iv-properties">
+    <h1 id="iii-properties">
+        III. Properties
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#iii-properties" class="gdoc-page__anchor clip flex align-center" title="Anchor to: III. Properties" aria-label="Anchor to: III. Properties" href="#iii-properties">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
 </div>
 <div class="gdoc-page__anchorwrap">
-    <h2 id="notations">
-        Notations
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#notations" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Notations" aria-label="Anchor to: Notations" href="#notations">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h2>
-</div>
-<p>$x(t)$ is a periodic signal with period $T$ and fundamental frequency $\omega_0 = \frac{2\pi}{T}$. Its Fourier coefficients are denoted by $a_k$.</p>
-<p>
-
-
-<figure>
-  <picture>
-    <source type="image/avif" srcset="09_notations.avif" />
-    <img src="09_notations.webp" alt="" type="image/webp" loading="lazy">
-  </picture>
-  
-</figure></p>
-
-
-
-
-
-<blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Fourier Pair"></i></div>
-  <div class="gdoc-hint__text"><p>The <c-red>synthesis</c-red> equation</p>
-<p>$$x(t) = \sum_{x = -\infty}^{\infty} a_ke^{jk\omega_0t} = \sum_{k = -\infty}^{\infty} a_ke^{jk\frac{2\pi}{T}t}$$</p>
-<p>The <c-red>analysis</c-red> equation</p>
-<p>$$a_k = \frac{1}{T}\int_{T} x(t)e^{-jk\omega_0t}dt = \frac{1}{T}\int_{T} x(t)e^{-jk\frac{2\pi}{T}t}dt$$</p>
-</div>
-</blockquote>
-
-<div class="gdoc-page__anchorwrap">
-    <h2 id="1-linearity">
-        1. Linearity
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#1-linearity" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 1. Linearity" aria-label="Anchor to: 1. Linearity" href="#1-linearity">
+    <h2 id="1-multiplication">
+        1. Multiplication
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#1-multiplication" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 1. Multiplication" aria-label="Anchor to: 1. Multiplication" href="#1-multiplication">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h2>
@@ -3398,17 +3339,18 @@ Hint: calculate $x(t)e^{-jk\omega_0t}$, and its integral from $0$ to $T$.</p>
 <blockquote class="gdoc-hint important">
   <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
   <div class="gdoc-hint__text"><p>Given
-$$x(t) \leftarrow\text{FS}\rightarrow a_k$$</p>
-<p>$$y(t) \leftarrow\text{FS}\rightarrow b_k$$</p>
+$$x[n] = \leftarrow\text{FS}\rightarrow a_k$$
+$$y[n] = \leftarrow\text{FS}\rightarrow b_k$$</p>
 <p>Then
-$$z(t) = Ax(t) + By(t) \leftarrow\text{FS}\rightarrow c_k = Aa_k + Bb_k$$</p>
+$$x[n]y[n] = \leftarrow\text{FS}\rightarrow c_k = \sum_{l=&lt;N&gt;}a_lb_{k-l}$$</p>
 </div>
 </blockquote>
 
+<p>The right-hand side is a <c-red>periodic convolution</c-red> between the two periodic sequences of Fourier coefficients.</p>
 <div class="gdoc-page__anchorwrap">
-    <h2 id="2-time-shifting">
-        2. Time shifting
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#2-time-shifting" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2. Time shifting" aria-label="Anchor to: 2. Time shifting" href="#2-time-shifting">
+    <h2 id="2-parsevals-relation">
+        2. Parseval&rsquo;s Relation
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/#2-parsevals-relation" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2. Parseval&rsquo;s Relation" aria-label="Anchor to: 2. Parseval&rsquo;s Relation" href="#2-parsevals-relation">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h2>
@@ -3420,125 +3362,10 @@ $$z(t) = Ax(t) + By(t) \leftarrow\text{FS}\rightarrow c_k = Aa_k + Bb_k$$</p>
 
 <blockquote class="gdoc-hint important">
   <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
-  <div class="gdoc-hint__text"><p>Given
-$$x(t) \leftarrow\text{FS}\rightarrow a_k$$</p>
-<p>Then</p>
-<p>$$x(t - t_0) \leftarrow\text{FS}\rightarrow e^{-j\omega_0t_0}a_k$$</p>
-</div>
+  <div class="gdoc-hint__text">$$\frac{1}{N} \sum_{n=&lt;N&gt;}|x[n]|^2dt = \sum_{k=&lt;N&gt;}|a_k|^2$$</div>
 </blockquote>
 
-<div class="gdoc-page__anchorwrap">
-    <h2 id="3-time-reversal">
-        3. Time reversal
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#3-time-reversal" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3. Time reversal" aria-label="Anchor to: 3. Time reversal" href="#3-time-reversal">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h2>
-</div>
-
-
-
-
-
-<blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
-  <div class="gdoc-hint__text"><p>Given
-$$x(t) \leftarrow\text{FS}\rightarrow a_k$$</p>
-<p>Then
-$$x(-t) \leftarrow\text{FS}\rightarrow a_{-k}$$</p>
-</div>
-</blockquote>
-
-<div class="gdoc-page__anchorwrap">
-    <h2 id="4-time-scaling">
-        4. Time scaling
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#4-time-scaling" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 4. Time scaling" aria-label="Anchor to: 4. Time scaling" href="#4-time-scaling">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h2>
-</div>
-
-
-
-
-
-<blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
-  <div class="gdoc-hint__text"><p>Given
-$$x(t) \leftarrow\text{FS}\rightarrow a_k$$</p>
-<p>Then
-$$x(\alpha t) \leftarrow\text{FS}\rightarrow ???$$</p>
-</div>
-</blockquote>
-
-<p>Attention:</p>
-<ul>
-<li>the Fourier coefficients have not changed</li>
-<li>the Fourier series representation <c-red>has changed</c-red>.</li>
-</ul>
-<div class="gdoc-page__anchorwrap">
-    <h2 id="5-multiplication">
-        5. Multiplication
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#5-multiplication" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 5. Multiplication" aria-label="Anchor to: 5. Multiplication" href="#5-multiplication">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h2>
-</div>
-
-
-
-
-
-<blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
-  <div class="gdoc-hint__text"><p>Given
-$$x(t) \leftarrow\text{FS}\rightarrow a_k$$
-$$y(t) \leftarrow\text{FS}\rightarrow b_k$$</p>
-<p>Then</p>
-<p>$$z(t) = x(t)y(t) \leftarrow\text{FS}\rightarrow c_k = \sum_{l = -\infty}^{\infty} a_lb_{k-l}$$</p>
-</div>
-</blockquote>
-
-<div class="gdoc-page__anchorwrap">
-    <h2 id="6-conjugation">
-        6. Conjugation
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#6-conjugation" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 6. Conjugation" aria-label="Anchor to: 6. Conjugation" href="#6-conjugation">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h2>
-</div>
-
-
-
-
-
-<blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
-  <div class="gdoc-hint__text"><p>Given
-$$x(t) \leftarrow\text{FS}\rightarrow a_k$$</p>
-<p>Then
-$$x^{*}(t) \leftarrow\text{FS}\rightarrow a^{*}_{-k}$$</p>
-</div>
-</blockquote>
-
-<div class="gdoc-page__anchorwrap">
-    <h2 id="7-parsevals-relation">
-        7. Parseval&rsquo;s relation
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/3_FourierContinuous/#7-parsevals-relation" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 7. Parseval&rsquo;s relation" aria-label="Anchor to: 7. Parseval&rsquo;s relation" href="#7-parsevals-relation">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h2>
-</div>
-
-
-
-
-
-<blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
-  <div class="gdoc-hint__text">$$\frac{1}{T} \int_{T} |x(t)|^2dt = \sum_{k = -\infty}^{\infty} |a_k|^2$$</div>
-</blockquote>
-
+<p>The average power in a periodic signal <c-red>equals</c-red> the sum of the average powers in all of its harmonic components.</p>
 
   </article>
 

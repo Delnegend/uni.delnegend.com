@@ -283,6 +283,16 @@ where $x_1[n]$ and $x_2[n]$ denote input signals.</description>
     </item>
     
     <item>
+      <title>3. Discrete Linear Time-Invariant Systems</title>
+      <link>https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/</guid>
+      <description>I. Lesson objectives II. Convolution sum Signal representation using impulses Remind: delta impulse Weighted Sum of Shifted Impulses Convolution III. Properties Commutative Distributive Associative Invertibility Causality Stability IV. Exercises I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the input-output relationship of a LTI system. Calculate the convolution sum using different approaches. Determine (and justify) properties of a LTI system: Causality Stability &amp;hellip; II.</description>
+    </item>
+    
+    <item>
       <title>3. Discrete Random Variables 1</title>
       <link>https://uni.delnegend.com/ProbStats/3_DiscreteRandVar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -292,23 +302,21 @@ where $x_1[n]$ and $x_2[n]$ denote input signals.</description>
     </item>
     
     <item>
-      <title>3. Fourier Series ()</title>
+      <title>3. LTI []</title>
       <link>https://uni.delnegend.com/SignalSystem/Exercises/03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uni.delnegend.com/SignalSystem/Exercises/03/</guid>
-      <description>3.1 3.4 3.5 3.17 3.22 3.46 3.1 A continuous-time periodic signal $x(t)$ is real valued and has a fundamental period $T = 8$. The nonzero Fourier series coefficients for $x(t)$ are $$a_1 = a_{-1} = 2, a^{*}_{-3} = 4j$$
-Express $x(t)$ in the form $$x(t) = \sum_{k=0}^{\infty} A_k cos(\omega_k t + \phi_k)$$
-3.4 Use the Fourier series analysis equation (3.39) to calculate the coefficients ak for the continuous-time periodic signal $$x(t) = \begin{cases} 1.</description>
-    </item>
-    
-    <item>
-      <title>3. Fourier Series Representation of Continuous-time Periodic Signals</title>
-      <link>https://uni.delnegend.com/SignalSystem/3_FourierContinuous/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://uni.delnegend.com/SignalSystem/3_FourierContinuous/</guid>
-      <description>I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi + j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7.</description>
+      <description>2.3 2.4 2.7 2.24 2.3 Consider an input $x[n]$ and unit impulse response $h[n]$ given by
+$$x[n] = (\frac{1}{2})^{n-2}u[n-2]$$
+$$h[n] = u[n+2]$$
+Determine and plot the output $y[n] = x[n] * h[n]$.
+Solution We have $y[n] = x[n] * h[n] = \sum_{k = -\infty}^{\infty} x[k]h[n-k]$
+$x[n] = (\frac{1}{2})^{n-2}u[n-2]$
+$h[n] = u[n+2] \implies h[n-k] = u[n-k+2]$
+$y[n] = \sum_{k = -\infty}^{\infty} (\frac{1}{2})^{k-2}u[k-2]u[n-k+2]$
+Set $m = k-2$
+$y[n] = \sum_{m = -\infty}^{\infty} (\frac{1}{2})^{m}u[m]u[n-m-2]$</description>
     </item>
     
     <item>
@@ -323,6 +331,16 @@ Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \e
     </item>
     
     <item>
+      <title>4. Continuous Linear Time-Invariant (LTI) System</title>
+      <link>https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/</guid>
+      <description>I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:
+Understand the origin of the Delta signal in continuous-time domain.</description>
+    </item>
+    
+    <item>
       <title>4. Discrete Random Variables 2</title>
       <link>https://uni.delnegend.com/ProbStats/4_DiscreteRandVar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -332,27 +350,17 @@ Let $A = \text{\{} 1, 2, 3 \text{\}}, B = \text{\{} x, y \text{\}}$, and $C = \e
     </item>
     
     <item>
-      <title>4. Fourier Series []</title>
+      <title>4. LTI ()</title>
       <link>https://uni.delnegend.com/SignalSystem/Exercises/04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uni.delnegend.com/SignalSystem/Exercises/04/</guid>
-      <description>3.2 3.9 3.11 3.28 3.2 A discrete-time periodic signal $x[n]$ is real value and has a fundamental period $N = 5$. The nonzero Fourier series coefficients for $x[n]$ are
-$$a_0 = 1, a_2 = a^{*}_{-2} = e^{j\pi/4}$$
-$$a_4 = a^{*}_{-4} = 2e^{-j\pi/3}$$
-Express $x[n]$ in the form
-$$x[n] = \sum_{k=1}^{\infty} A_k sin(\omega_k n + \phi_k)$$
-3.9 Use the analysis equation (3.95) to evaluate the numerical values of one period of the Fourier series coefficients of the periodic signal</description>
-    </item>
-    
-    <item>
-      <title>4. Fourier Series Representation of Discrete-time Periodic Signals</title>
-      <link>https://uni.delnegend.com/SignalSystem/4_FourierDiscrete/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://uni.delnegend.com/SignalSystem/4_FourierDiscrete/</guid>
-      <description>I. Lesson Objectives II. Fourier Representation 1. Periodic signal Fundamental period 2 basic periodic signals Exercies: sum of $e^{j\omega_0n}$ 2. Definition Fourier series Fourier series equation pair Examples III. Properties 1. Multiplication 2. Parseval&amp;rsquo;s Relation I. Lesson Objectives At the end of this chapter, you should be able to:
-Be familiar with discrete complex signal. Find Fourier coefficients of any discrete periodic signal. Understand various properties of Fourier series. II.</description>
+      <description>2.8 2.9 2.10 2.22 2.23 2.8 Determine and sketch the convolution of the following 2 signals:
+$$x(t) = \begin{cases} t + 1 &amp;amp; \text{if } 0 \leq n \leq 1 \\ 2-t &amp;amp; \text{if } 1 &amp;lt; t \leq 2 \\ 0 &amp;amp; \text{otherwise} \end{cases}$$
+$$h(t) = \delta(t+2) + 2\delta(t+1)$$
+2.9 Let $h(t) = e^{2t}u(-t+4)+e^{-2t}u(t-5)$
+Determine A and B such that
+$$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp;amp; \text{if } \tau &amp;lt; A \\ 0 &amp;amp; \text{if } A &amp;lt; \tau &amp;lt; B \\ e^{2(t-\tau)} &amp;amp; \text{if } B &amp;lt; \tau \end{cases}$$</description>
     </item>
     
     <item>
@@ -365,41 +373,47 @@ Be familiar with discrete complex signal. Find Fourier coefficients of any discr
     </item>
     
     <item>
-      <title>5. Discrete Linear Time-Invariant Systems</title>
-      <link>https://uni.delnegend.com/SignalSystem/5_DiscreteLTI/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://uni.delnegend.com/SignalSystem/5_DiscreteLTI/</guid>
-      <description>I. Lesson objectives II. Convolution sum Signal representation using impulses Remind: delta impulse Weighted Sum of Shifted Impulses Convolution III. Properties Commutative Distributive Associative Invertibility Causality Stability IV. Exercises I. Lesson objectives At the end of this chapter, you should be able to:
-Understand the input-output relationship of a LTI system. Calculate the convolution sum using different approaches. Determine (and justify) properties of a LTI system: Causality Stability &amp;hellip; II.</description>
-    </item>
-    
-    <item>
-      <title>5. LTI []</title>
+      <title>5. Fourier Series ()</title>
       <link>https://uni.delnegend.com/SignalSystem/Exercises/05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uni.delnegend.com/SignalSystem/Exercises/05/</guid>
-      <description>2.3 2.4 2.7 2.24 2.3 Consider an input $x[n]$ and unit impulse response $h[n]$ given by
-$$x[n] = (\frac{1}{2})^{n-2}u[n-2]$$
-$$h[n] = u[n+2]$$
-Determine and plot the output $y[n] = x[n] * h[n]$.
-Solution We have $y[n] = x[n] * h[n] = \sum_{k = -\infty}^{\infty} x[k]h[n-k]$
-$x[n] = (\frac{1}{2})^{n-2}u[n-2]$
-$h[n] = u[n+2] \implies h[n-k] = u[n-k+2]$
-$y[n] = \sum_{k = -\infty}^{\infty} (\frac{1}{2})^{k-2}u[k-2]u[n-k+2]$
-Set $m = k-2$
-$y[n] = \sum_{m = -\infty}^{\infty} (\frac{1}{2})^{m}u[m]u[n-m-2]$</description>
+      <description>3.1 3.4 3.5 3.17 3.22 3.46 3.1 A continuous-time periodic signal $x(t)$ is real valued and has a fundamental period $T = 8$. The nonzero Fourier series coefficients for $x(t)$ are $$a_1 = a_{-1} = 2, a^{*}_{-3} = 4j$$
+Express $x(t)$ in the form $$x(t) = \sum_{k=0}^{\infty} A_k cos(\omega_k t + \phi_k)$$
+3.4 Use the Fourier series analysis equation (3.39) to calculate the coefficients ak for the continuous-time periodic signal $$x(t) = \begin{cases} 1.</description>
     </item>
     
     <item>
-      <title>6. Continuous Linear Time-Invariant (LTI) System</title>
-      <link>https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/</link>
+      <title>5. Fourier Series Representation of Continuous-time Periodic Signals</title>
+      <link>https://uni.delnegend.com/SignalSystem/5_FourierContinuous/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/</guid>
-      <description>I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:
-Understand the origin of the Delta signal in continuous-time domain.</description>
+      <guid>https://uni.delnegend.com/SignalSystem/5_FourierContinuous/</guid>
+      <description>I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi + j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7.</description>
+    </item>
+    
+    <item>
+      <title>6. Fourier Series []</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/06/</guid>
+      <description>3.2 3.9 3.11 3.28 3.2 A discrete-time periodic signal $x[n]$ is real value and has a fundamental period $N = 5$. The nonzero Fourier series coefficients for $x[n]$ are
+$$a_0 = 1, a_2 = a^{*}_{-2} = e^{j\pi/4}$$
+$$a_4 = a^{*}_{-4} = 2e^{-j\pi/3}$$
+Express $x[n]$ in the form
+$$x[n] = \sum_{k=1}^{\infty} A_k sin(\omega_k n + \phi_k)$$
+3.9 Use the analysis equation (3.95) to evaluate the numerical values of one period of the Fourier series coefficients of the periodic signal</description>
+    </item>
+    
+    <item>
+      <title>6. Fourier Series Representation of Discrete-time Periodic Signals</title>
+      <link>https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/</guid>
+      <description>I. Lesson Objectives II. Fourier Representation 1. Periodic signal Fundamental period 2 basic periodic signals Exercies: sum of $e^{j\omega_0n}$ 2. Definition Fourier series Fourier series equation pair Examples III. Properties 1. Multiplication 2. Parseval&amp;rsquo;s Relation I. Lesson Objectives At the end of this chapter, you should be able to:
+Be familiar with discrete complex signal. Find Fourier coefficients of any discrete periodic signal. Understand various properties of Fourier series. II.</description>
     </item>
     
     <item>
@@ -409,20 +423,6 @@ Understand the origin of the Delta signal in continuous-time domain.</descript
       
       <guid>https://uni.delnegend.com/ProbStats/6_LimitTheorem/</guid>
       <description>The course so far I. The context II. Inequalities Markov&amp;rsquo;s inequality Chebyshev&amp;rsquo;s inequality III. Limit theorem The weak law of large numbers The central limit theorem The course so far Fundamental probability. Discrete random variables, probability mass function (PMF). Continuous random variables, probability density function (PDF). I. The context A sequence $X_1, X_2, \dots$ of independent identically distributed random variables with mean $\mu$ and variance $\sigma^2$. Let $S_n = X_1 + X_2 + \dots + X_n$.</description>
-    </item>
-    
-    <item>
-      <title>6. LTI ()</title>
-      <link>https://uni.delnegend.com/SignalSystem/Exercises/06/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://uni.delnegend.com/SignalSystem/Exercises/06/</guid>
-      <description>2.8 2.9 2.10 2.22 2.23 2.8 Determine and sketch the convolution of the following 2 signals:
-$$x(t) = \begin{cases} t + 1 &amp;amp; \text{if } 0 \leq n \leq 1 \\ 2-t &amp;amp; \text{if } 1 &amp;lt; t \leq 2 \\ 0 &amp;amp; \text{otherwise} \end{cases}$$
-$$h(t) = \delta(t+2) + 2\delta(t+1)$$
-2.9 Let $h(t) = e^{2t}u(-t+4)+e^{-2t}u(t-5)$
-Determine A and B such that
-$$h(t - \tau) = \begin{cases} e^{-2(t-\tau)} &amp;amp; \text{if } \tau &amp;lt; A \\ 0 &amp;amp; \text{if } A &amp;lt; \tau &amp;lt; B \\ e^{2(t-\tau)} &amp;amp; \text{if } B &amp;lt; \tau \end{cases}$$</description>
     </item>
     
     <item>
@@ -490,9 +490,20 @@ Many problems in informatics can be solved by using a computer. want it to go fa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2021/</guid>
-      <description>1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 1. Strictly follow this question to find out which exercises you have to do
+      <description>1 Strictly follow this question to find out which exercises you have to do
 a. Dividend = your student ID (for example, BI11-179 means Dividend = 179). Plus 2 with the remainder after dividing by 3, this is your 1st question (179/3=59, R2), your first question is 2+2=4.
 b. Dividend = the above quotient (i.e 59). Plus 5 with the remainder after dividing by 3, this is your second question (59 / 3 = 19 (remainder 2), your second equation is number 2 + 5 = 7)</description>
+    </item>
+    
+    <item>
+      <title>Midterm 2022</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/Miterm-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Miterm-2022/</guid>
+      <description>0 There are 8 question, but you have to do only 3 based on your student ID:
+$q_1 = (3 + (ID \% 4)) \% 7 + 1$ $q_2 = (4 + (ID \% 4)) \% 7 + 1$ $q_3 = ID \% 7 + 1$ If duplicate, choose any question. 1. Signals Given a continuous signal $x(t)$, and a discrete signal $x[n]$
+Sketch each of the following signals:</description>
     </item>
     
     <item>

@@ -26,42 +26,42 @@ Recognize basic system types and system interconnections Deermine (and justify) 
     </item>
     
     <item>
-      <title>3. Fourier Series Representation of Continuous-time Periodic Signals</title>
-      <link>https://uni.delnegend.com/SignalSystem/3_FourierContinuous/</link>
+      <title>3. Discrete Linear Time-Invariant Systems</title>
+      <link>https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uni.delnegend.com/SignalSystem/3_FourierContinuous/</guid>
-      <description>I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi + j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7.</description>
-    </item>
-    
-    <item>
-      <title>4. Fourier Series Representation of Discrete-time Periodic Signals</title>
-      <link>https://uni.delnegend.com/SignalSystem/4_FourierDiscrete/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://uni.delnegend.com/SignalSystem/4_FourierDiscrete/</guid>
-      <description>I. Lesson Objectives II. Fourier Representation 1. Periodic signal Fundamental period 2 basic periodic signals Exercies: sum of $e^{j\omega_0n}$ 2. Definition Fourier series Fourier series equation pair Examples III. Properties 1. Multiplication 2. Parseval&amp;rsquo;s Relation I. Lesson Objectives At the end of this chapter, you should be able to:
-Be familiar with discrete complex signal. Find Fourier coefficients of any discrete periodic signal. Understand various properties of Fourier series. II.</description>
-    </item>
-    
-    <item>
-      <title>5. Discrete Linear Time-Invariant Systems</title>
-      <link>https://uni.delnegend.com/SignalSystem/5_DiscreteLTI/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://uni.delnegend.com/SignalSystem/5_DiscreteLTI/</guid>
+      <guid>https://uni.delnegend.com/SignalSystem/3_DiscreteLTI/</guid>
       <description>I. Lesson objectives II. Convolution sum Signal representation using impulses Remind: delta impulse Weighted Sum of Shifted Impulses Convolution III. Properties Commutative Distributive Associative Invertibility Causality Stability IV. Exercises I. Lesson objectives At the end of this chapter, you should be able to:
 Understand the input-output relationship of a LTI system. Calculate the convolution sum using different approaches. Determine (and justify) properties of a LTI system: Causality Stability &amp;hellip; II.</description>
     </item>
     
     <item>
-      <title>6. Continuous Linear Time-Invariant (LTI) System</title>
-      <link>https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/</link>
+      <title>4. Continuous Linear Time-Invariant (LTI) System</title>
+      <link>https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/</guid>
+      <guid>https://uni.delnegend.com/SignalSystem/4_ContinuousLTI/</guid>
       <description>I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:
 Understand the origin of the Delta signal in continuous-time domain.</description>
+    </item>
+    
+    <item>
+      <title>5. Fourier Series Representation of Continuous-time Periodic Signals</title>
+      <link>https://uni.delnegend.com/SignalSystem/5_FourierContinuous/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/5_FourierContinuous/</guid>
+      <description>I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi + j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7.</description>
+    </item>
+    
+    <item>
+      <title>6. Fourier Series Representation of Discrete-time Periodic Signals</title>
+      <link>https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/6_FourierDiscrete/</guid>
+      <description>I. Lesson Objectives II. Fourier Representation 1. Periodic signal Fundamental period 2 basic periodic signals Exercies: sum of $e^{j\omega_0n}$ 2. Definition Fourier series Fourier series equation pair Examples III. Properties 1. Multiplication 2. Parseval&amp;rsquo;s Relation I. Lesson Objectives At the end of this chapter, you should be able to:
+Be familiar with discrete complex signal. Find Fourier coefficients of any discrete periodic signal. Understand various properties of Fourier series. II.</description>
     </item>
     
   </channel>

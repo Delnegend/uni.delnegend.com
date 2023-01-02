@@ -12,10 +12,9 @@
 <meta name="generator" content="Hugo 0.109.0">
 
 
-  <meta name="description" content="I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:
-Understand the origin of the Delta signal in continuous-time domain." />
+  <meta name="description" content="I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi &#43; j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7." />
 
-    <title>6. Continuous Linear Time-Invariant (LTI) System | BK HQV</title>
+    <title>5. Fourier Series Representation of Continuous-time Periodic Signals | BK HQV</title>
 
     <link rel="icon" type="image/svg+xml" href="../../favicon/favicon.svg" />
 <link
@@ -36,21 +35,19 @@ Understand the origin of the Delta signal in continuous-time domain." />
     
   <meta
     property="og:title"
-    content="6. Continuous Linear Time-Invariant (LTI) System"
+    content="5. Fourier Series Representation of Continuous-time Periodic Signals"
   />
   <meta property="og:site_name" content="BK HQV" />
-  <meta property="og:description" content="I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:
-Understand the origin of the Delta signal in continuous-time domain." />
+  <meta property="og:description" content="I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi &#43; j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/" />
+<meta property="og:url" content="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/" />
 
 <meta property="article:section" content="Signal System" />
 
 
   <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="6. Continuous Linear Time-Invariant (LTI) System" />
-  <meta name="twitter:description" content="I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:
-Understand the origin of the Delta signal in continuous-time domain." />
+<meta name="twitter:title" content="5. Fourier Series Representation of Continuous-time Periodic Signals" />
+  <meta name="twitter:description" content="I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\psi} = \cos\psi &#43; j\sin\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7." />
 
 
   <script type="application/ld+json">
@@ -58,16 +55,16 @@ Understand the origin of the Delta signal in continuous-time domain." />
       "@context": "http://schema.org",
       "@type": "TechArticle",
       "articleSection": "Signal System",
-      "name": "6. Continuous Linear Time-Invariant (LTI) System",
-      "url" : "https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/",
-      "headline": "6. Continuous Linear Time-Invariant (LTI) System",
-      "description": "I. Lesson objectives II. Continuous-time Delta 1. Weighted Sum of Shifted Impulses Delta in Continuous-time Domain Weighted Sum of Shifted Impulses 2. Definition Summary: Continuous-time Delta Impulse 3. Discrete vs Continuous $\\delta(t)$ and $u(t)$ III. Convolution Integral Definition Convolution Integral of a LTI system Example IV. Properties I. Lesson objectives At the end of this chapter, you should be able to:\nUnderstand the origin of the Delta signal in continuous-time domain.",
-      "wordCount" : "290",
+      "name": "5. Fourier Series Representation of Continuous-time Periodic Signals",
+      "url" : "https://uni.delnegend.com/SignalSystem/5_FourierContinuous/",
+      "headline": "5. Fourier Series Representation of Continuous-time Periodic Signals",
+      "description": "I. Lesson Objectives II. Review of Complex Numbers 1. Complex number, Conjugation 2. Euler formula $e^{j\\psi} = \\cos\\psi \u002b j\\sin\\psi$ 3. Complex exponential signal $e^{st}$ 4. LTI response to complex exponential III. Fourier Series Representation 1. Periodic signal Fundamental period 2 basic periodic signals An example Review: integral of $e^{j\\omega_0t}$ 2. Definition IV. Properties Notations 1. Linearity 2. Time shifting 3. Time reversal 4. Time scaling 5. Multiplication 6. Conjugation 7.",
+      "wordCount" : "633",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/"
+          "@id": "https://uni.delnegend.com/SignalSystem/5_FourierContinuous/"
       },
       "copyrightHolder" : "BK HQV",
       "copyrightYear" : "0001",
@@ -151,7 +148,7 @@ Understand the origin of the Delta signal in continuous-time domain." />
   href="../../custom.css"
   media="all"
 />
-  <link href="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/" rel="canonical" type="text/html" />
+  <link href="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/" rel="canonical" type="text/html" />
 
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
 
@@ -327,17 +324,24 @@ Understand the origin of the Delta signal in continuous-time domain." />
             <input
               type="checkbox"
               
-                class="gdoc-nav__toggle" id="navtree-0c876ae7"
+                class="gdoc-nav__toggle" id="navtree-e3a53700"
                 
               
             />
             <label
               
-                for="navtree-0c876ae7" class="flex justify-between align-center"
+                for="navtree-e3a53700" class="flex justify-between align-center"
               
             >
               
-                <span class="flex">ADS</span>
+                <span class="flex">
+                  <a
+                    href="../../ADS/"
+                    class="gdoc-nav__entry"
+                  >
+                    ADS
+                  </a>
+                </span>
               
               
                 <svg class="gdoc-icon toggle gdoc_keyboard_arrow_left">
@@ -2466,10 +2470,10 @@ Understand the origin of the Delta signal in continuous-time domain." />
               
                 <span class="flex">
                   <a
-                    href="../../SignalSystem/3_FourierContinuous/"
+                    href="../../SignalSystem/3_DiscreteLTI/"
                     class="gdoc-nav__entry"
                   >
-                    3. Fourier Series Representation of Continuous-time Periodic Signals
+                    3. Discrete Linear Time-Invariant Systems
                   </a>
                 </span>
               
@@ -2502,10 +2506,10 @@ Understand the origin of the Delta signal in continuous-time domain." />
               
                 <span class="flex">
                   <a
-                    href="../../SignalSystem/4_FourierDiscrete/"
+                    href="../../SignalSystem/4_ContinuousLTI/"
                     class="gdoc-nav__entry"
                   >
-                    4. Fourier Series Representation of Discrete-time Periodic Signals
+                    4. Continuous Linear Time-Invariant (LTI) System
                   </a>
                 </span>
               
@@ -2538,46 +2542,46 @@ Understand the origin of the Delta signal in continuous-time domain." />
               
                 <span class="flex">
                   <a
-                    href="../../SignalSystem/5_DiscreteLTI/"
-                    class="gdoc-nav__entry"
-                  >
-                    5. Discrete Linear Time-Invariant Systems
-                  </a>
-                </span>
-              
-              
-            </label>
-
-            
-          </li>
-        
-      
-        
-          
-          
-          
-          
-          
-          
-
-
-          <li>
-            <input
-              type="checkbox"
-              
-                class="hidden"
-              
-            />
-            <label
-              
-            >
-              
-                <span class="flex">
-                  <a
-                    href="../../SignalSystem/6_ContinuousLTI/"
+                    href="../../SignalSystem/5_FourierContinuous/"
                     class="gdoc-nav__entry is-active"
                   >
-                    6. Continuous Linear Time-Invariant (LTI) System
+                    5. Fourier Series Representation of Continuous-time Periodic Signals
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="../../SignalSystem/6_FourierDiscrete/"
+                    class="gdoc-nav__entry"
+                  >
+                    6. Fourier Series Representation of Discrete-time Periodic Signals
                   </a>
                 </span>
               
@@ -2742,7 +2746,7 @@ Understand the origin of the Delta signal in continuous-time domain." />
                     href="../../SignalSystem/Exercises/03/"
                     class="gdoc-nav__entry"
                   >
-                    3. Fourier Series ()
+                    3. LTI []
                   </a>
                 </span>
               
@@ -2778,7 +2782,7 @@ Understand the origin of the Delta signal in continuous-time domain." />
                     href="../../SignalSystem/Exercises/04/"
                     class="gdoc-nav__entry"
                   >
-                    4. Fourier Series []
+                    4. LTI ()
                   </a>
                 </span>
               
@@ -2814,7 +2818,7 @@ Understand the origin of the Delta signal in continuous-time domain." />
                     href="../../SignalSystem/Exercises/05/"
                     class="gdoc-nav__entry"
                   >
-                    5. LTI []
+                    5. Fourier Series ()
                   </a>
                 </span>
               
@@ -2850,7 +2854,7 @@ Understand the origin of the Delta signal in continuous-time domain." />
                     href="../../SignalSystem/Exercises/06/"
                     class="gdoc-nav__entry"
                   >
-                    6. LTI ()
+                    6. Fourier Series []
                   </a>
                 </span>
               
@@ -2887,6 +2891,42 @@ Understand the origin of the Delta signal in continuous-time domain." />
                     class="gdoc-nav__entry"
                   >
                     Midterm 2021
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="../../SignalSystem/Exercises/Miterm-2022/"
+                    class="gdoc-nav__entry"
+                  >
+                    Midterm 2022
                   </a>
                 </span>
               
@@ -2977,7 +3017,7 @@ Understand the origin of the Delta signal in continuous-time domain." />
     
   
   
-    <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='../../'><span itemprop='name'>Welcome</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/SignalSystem/' href='../../SignalSystem/'><span itemprop='name'>Signals and Systems</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>6. Continuous Linear Time-Invariant (LTI) System</span><meta itemprop='position' content='3' /></li>
+    <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='../../'><span itemprop='name'>Welcome</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/SignalSystem/' href='../../SignalSystem/'><span itemprop='name'>Signals and Systems</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>5. Fourier Series Representation of Continuous-time Periodic Signals</span><meta itemprop='position' content='3' /></li>
   
 
   
@@ -2995,106 +3035,379 @@ Understand the origin of the Delta signal in continuous-time domain." />
   <article
     class="gdoc-markdown gdoc-markdown__align--left"
   >
-    <h1>6. Continuous Linear Time-Invariant (LTI) System</h1>
+    <h1>5. Fourier Series Representation of Continuous-time Periodic Signals</h1>
     <div class="gdoc-toc gdoc-toc__level--6">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#i-lesson-objectives">I. Lesson objectives</a></li>
-    <li><a href="#ii-continuous-time-delta">II. Continuous-time Delta</a>
+    <li><a href="#i-lesson-objectives">I. Lesson Objectives</a></li>
+    <li><a href="#ii-review-of-complex-numbers">II. Review of Complex Numbers</a>
       <ul>
-        <li><a href="#1-weighted-sum-of-shifted-impulses">1. Weighted Sum of Shifted Impulses</a>
-          <ul>
-            <li><a href="#delta-in-continuous-time-domain">Delta in Continuous-time Domain</a></li>
-            <li><a href="#weighted-sum-of-shifted-impulses">Weighted Sum of Shifted Impulses</a></li>
-          </ul>
-        </li>
-        <li><a href="#2-definition">2. Definition</a>
-          <ul>
-            <li><a href="#summary-continuous-time-delta-impulse">Summary: Continuous-time Delta Impulse</a></li>
-          </ul>
-        </li>
-        <li><a href="#3-discrete-vs-continuous">3. Discrete vs Continuous</a>
-          <ul>
-            <li><a href="#deltat-and-ut">$\delta(t)$ and $u(t)$</a></li>
-          </ul>
-        </li>
+        <li><a href="#1-complex-number-conjugation">1. Complex number, Conjugation</a></li>
+        <li><a href="#2-euler-formulanbspejpsi--cospsi--jsinpsi">2. Euler formula $e^{j\psi} = \cos\psi + j\sin\psi$</a></li>
+        <li><a href="#3-complex-exponential-signalnbspest">3. Complex exponential signal $e^{st}$</a></li>
+        <li><a href="#4-lti-response-to-complex-exponential">4. LTI response to complex exponential</a></li>
       </ul>
     </li>
-    <li><a href="#iii-convolution-integral">III. Convolution Integral</a>
+    <li><a href="#iii-fourier-series-representation">III. Fourier Series Representation</a>
       <ul>
-        <li><a href="#definition">Definition</a>
+        <li><a href="#1-periodic-signal">1. Periodic signal</a>
           <ul>
-            <li><a href="#convolution-integral-of-a-lti-system">Convolution Integral of a LTI system</a></li>
+            <li><a href="#fundamental-period">Fundamental period</a></li>
+            <li><a href="#2-basic-periodic-signals">2 basic periodic signals</a></li>
+            <li><a href="#an-example">An example</a></li>
+            <li><a href="#review-integral-ofnbspejomega_0t">Review: integral of $e^{j\omega_0t}$</a></li>
           </ul>
         </li>
-        <li><a href="#example">Example</a></li>
+        <li><a href="#2-definition">2. Definition</a></li>
       </ul>
     </li>
-    <li><a href="#iv-properties">IV. Properties</a></li>
-  </ul>
-</nav>
+    <li><a href="#iv-properties">IV. Properties</a>
+      <ul>
+        <li><a href="#notations">Notations</a></li>
+        <li><a href="#1-linearity">1. Linearity</a></li>
+        <li><a href="#2-time-shifting">2. Time shifting</a></li>
+        <li><a href="#3-time-reversal">3. Time reversal</a></li>
+        <li><a href="#4-time-scaling">4. Time scaling</a></li>
+        <li><a href="#5-multiplication">5. Multiplication</a></li>
+        <li><a href="#6-conjugation">6. Conjugation</a></li>
+        <li><a href="#7-parsevals-relation">7. Parseval&rsquo;s relation</a></li>
+      </ul></nav>
       <hr />
     </div>
 <div class="gdoc-page__anchorwrap">
     <h1 id="i-lesson-objectives">
-        I. Lesson objectives
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#i-lesson-objectives" class="gdoc-page__anchor clip flex align-center" title="Anchor to: I. Lesson objectives" aria-label="Anchor to: I. Lesson objectives" href="#i-lesson-objectives">
+        I. Lesson Objectives
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#i-lesson-objectives" class="gdoc-page__anchor clip flex align-center" title="Anchor to: I. Lesson Objectives" aria-label="Anchor to: I. Lesson Objectives" href="#i-lesson-objectives">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
 </div>
 <p>At the end of this chapter, you should be able to:</p>
 <ul>
-<li>Understand the <c-red>origin</c-red> of the Delta signal in continuous-time domain.</li>
-<li>Calculate convolution <c-red>integral</c-red>.</li>
+<li>Be familiar with complex number.</li>
+<li>Find Fourier coefficients of any continuous periodic signal.</li>
+<li>Understand various properties of Fourier series.</li>
 </ul>
 <div class="gdoc-page__anchorwrap">
-    <h1 id="ii-continuous-time-delta">
-        II. Continuous-time Delta
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#ii-continuous-time-delta" class="gdoc-page__anchor clip flex align-center" title="Anchor to: II. Continuous-time Delta" aria-label="Anchor to: II. Continuous-time Delta" href="#ii-continuous-time-delta">
+    <h1 id="ii-review-of-complex-numbers">
+        II. Review of Complex Numbers
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#ii-review-of-complex-numbers" class="gdoc-page__anchor clip flex align-center" title="Anchor to: II. Review of Complex Numbers" aria-label="Anchor to: II. Review of Complex Numbers" href="#ii-review-of-complex-numbers">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h1>
 </div>
 <div class="gdoc-page__anchorwrap">
-    <h2 id="1-weighted-sum-of-shifted-impulses">
-        1. Weighted Sum of Shifted Impulses
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#1-weighted-sum-of-shifted-impulses" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 1. Weighted Sum of Shifted Impulses" aria-label="Anchor to: 1. Weighted Sum of Shifted Impulses" href="#1-weighted-sum-of-shifted-impulses">
+    <h2 id="1-complex-number-conjugation">
+        1. Complex number, Conjugation
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#1-complex-number-conjugation" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 1. Complex number, Conjugation" aria-label="Anchor to: 1. Complex number, Conjugation" href="#1-complex-number-conjugation">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h2>
-</div>
-<div class="gdoc-page__anchorwrap">
-    <h3 id="delta-in-continuous-time-domain">
-        Delta in Continuous-time Domain
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#delta-in-continuous-time-domain" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Delta in Continuous-time Domain" aria-label="Anchor to: Delta in Continuous-time Domain" href="#delta-in-continuous-time-domain">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h3>
-</div>
-<ul>
-<li>Question: how should we define the continuous Delta signal?</li>
-<li>Let&rsquo;s start with
-$$\delta_{\Delta} (t) = \begin{cases}
-1 &amp; \text{if } t = 0 \\
-0 &amp; \text{otherwise}
-\end{cases}$$</li>
-</ul>
-<div class="gdoc-page__anchorwrap">
-    <h3 id="weighted-sum-of-shifted-impulses">
-        Weighted Sum of Shifted Impulses
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#weighted-sum-of-shifted-impulses" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Weighted Sum of Shifted Impulses" aria-label="Anchor to: Weighted Sum of Shifted Impulses" href="#weighted-sum-of-shifted-impulses">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h3>
 </div>
 <p>
 
 
 <figure>
   <picture>
-    <source type="image/avif" srcset="01_weighted_sum_of_shifted_impulses.avif" />
-    <img src="01_weighted_sum_of_shifted_impulses.webp" alt="" type="image/webp" loading="lazy">
+    <source type="image/avif" srcset="01.avif" />
+    <img src="01.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  <figcaption>Complex plane with Cartesian (L) and polar (R) representation of complex number</figcaption>
+</figure></p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="2-euler-formulanbspejpsi--cospsi--jsinpsi">
+        2. Euler formula $e^{j\psi} = \cos\psi + j\sin\psi$
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#2-euler-formulanbspejpsi--cospsi--jsinpsi" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2. Euler formula $e^{j\psi} = \cos\psi &#43; j\sin\psi$" aria-label="Anchor to: 2. Euler formula $e^{j\psi} = \cos\psi &#43; j\sin\psi$" href="#2-euler-formulanbspejpsi--cospsi--jsinpsi">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="02.avif" />
+    <img src="02.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  <figcaption>Euler formula</figcaption>
+</figure></p>
+<p>$e^{j\varphi} = \cos\varphi + j\sin\varphi$</p>
+<p>$cos(\varphi) = \dfrac{e^{j\varphi} + e^{-j\varphi}}{2}$</p>
+<p>$sin(\varphi) = \dfrac{e^{j\varphi} - e^{-j\varphi}}{2i}$</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="3-complex-exponential-signalnbspest">
+        3. Complex exponential signal $e^{st}$
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#3-complex-exponential-signalnbspest" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3. Complex exponential signal $e^{st}$" aria-label="Anchor to: 3. Complex exponential signal $e^{st}$" href="#3-complex-exponential-signalnbspest">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<p>$e^{st} = e^{(a + jb)t} = e^{at}e^{jbt}$</p>
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="03.avif" />
+    <img src="03.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  <figcaption>$e^{jbt}$: complex exponential signal</figcaption>
+</figure></p>
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="04.avif" />
+    <img src="04.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  <figcaption>$e^{at}$: real exponential signal</figcaption>
+</figure></p>
+<ul>
+<li>$e^{jbt}$: complex exponential signal</li>
+</ul>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="4-lti-response-to-complex-exponential">
+        4. LTI response to complex exponential
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#4-lti-response-to-complex-exponential" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 4. LTI response to complex exponential" aria-label="Anchor to: 4. LTI response to complex exponential" href="#4-lti-response-to-complex-exponential">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Convolution integral"></i></div>
+  <div class="gdoc-hint__text">$$y(t) = \int_{-\infty}^{\infty} h(\tau)x(t-\tau)d\tau$$</div>
+</blockquote>
+
+<p>The response of an LTI system to a complex exponential input is the <c-red>same</c-red> complex exponential with only <c-red>a change in amplitude</c-red>.</p>
+<div class="gdoc-page__anchorwrap">
+    <h1 id="iii-fourier-series-representation">
+        III. Fourier Series Representation
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#iii-fourier-series-representation" class="gdoc-page__anchor clip flex align-center" title="Anchor to: III. Fourier Series Representation" aria-label="Anchor to: III. Fourier Series Representation" href="#iii-fourier-series-representation">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h1>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="1-periodic-signal">
+        1. Periodic signal
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#1-periodic-signal" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 1. Periodic signal" aria-label="Anchor to: 1. Periodic signal" href="#1-periodic-signal">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="fundamental-period">
+        Fundamental period
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#fundamental-period" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Fundamental period" aria-label="Anchor to: Fundamental period" href="#fundamental-period">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<ul>
+<li>
+<p>The minimum positive, non-zero value of T so that
+$$x(t) = x(t + T)$$</p>
+</li>
+<li>
+<p>Fundamental frequency: $\omega_0 = \dfrac{2\pi}{T}$</p>
+</li>
+</ul>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="2-basic-periodic-signals">
+        2 basic periodic signals
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#2-basic-periodic-signals" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2 basic periodic signals" aria-label="Anchor to: 2 basic periodic signals" href="#2-basic-periodic-signals">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<ul>
+<li>The sinusoidal signal: $x(t) = cos(\omega_0t)$</li>
+<li>The periodic complex exponential: $x(t) = e^{j\omega_0t}$</li>
+</ul>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="an-example">
+        An example
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#an-example" class="gdoc-page__anchor clip flex align-center" title="Anchor to: An example" aria-label="Anchor to: An example" href="#an-example">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<ul>
+<li>Consider a peridic signal $x(t)$ with fundamental frequency $2\pi$
+$$x(t) = \sum_{k = -3}^{3} a_ke^{jk2\pi t}$$</li>
+</ul>
+<p>where $a_0 = 1, a_1 = a_{-1} = \frac{1}{4}, a_2 = a_{-2} = \frac{1}{2}, a_3 = a_{-3} = \frac{1}{3}$</p>
+<ul>
+<li>$e^{j\varphi} = \cos\varphi + j\sin\varphi$</li>
+<li>$e^{-j\varphi = \cos\varphi - j\sin\varphi}$</li>
+<li>$\Rightarrow cos(\varphi) = \dfrac{e^{j\varphi} + e^{-j\varphi}}{2}$</li>
+<li>$\Rightarrow sin(\varphi) = \dfrac{e^{j\varphi} - e^{-j\varphi}}{2j}$</li>
+</ul>
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="05.avif" />
+    <img src="05.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  
+</figure>
+
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="06.avif" />
+    <img src="06.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  
+</figure>
+
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="07.avif" />
+    <img src="07.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  
+</figure></p>
+<div class="gdoc-page__anchorwrap">
+    <h3 id="review-integral-ofnbspejomega_0t">
+        Review: integral of $e^{j\omega_0t}$
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#review-integral-ofnbspejomega_0t" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Review: integral of $e^{j\omega_0t}$" aria-label="Anchor to: Review: integral of $e^{j\omega_0t}$" href="#review-integral-ofnbspejomega_0t">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h3>
+</div>
+<p>Given $\omega_0 = \frac{2\pi}{T}$, calculate:</p>
+<ol>
+<li>$$\int_{0}^{T} e^{j\omega_0t}dt$$</li>
+</ol>
+<p>$$ = \frac{e^{j\omega_0T} -1}{j\omega_0T} = \frac{e^{j2\pi}}{j2\pi}$$</p>
+<ol start="2">
+<li>$$\int_{0}^{T} e^{jk\omega_0t}dt$$</li>
+</ol>
+<p>$$ = \frac{e^{jk2\pi}}{jk2\pi} $$</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="2-definition">
+        2. Definition
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#2-definition" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2. Definition" aria-label="Anchor to: 2. Definition" href="#2-definition">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<p>
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text"><p>Assume that</p>
+<p>$$ x(t) = \sum_{k = -\infty}^{\infty} a_ke^{jk\omega_0t}$$</p>
+<p>then</p>
+<p>$$a_k = ?$$</p>
+</div>
+</blockquote>
+
+Hint: calculate $x(t)e^{-jk\omega_0t}$, and its integral from $0$ to $T$.</p>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text"><p>The <c-red>synthesis</c-red> equation</p>
+<p>$$ x(t) = \sum_{k = -\infty}^{\infty} a_ke^{jk\omega_0t} = \sum_{k = -\infty}^{\infty} a_ke^{jk\frac{2\pi}{T}t}$$</p>
+<p>The <c-red>analysis</c-red> equation</p>
+<p>$$ a_k = \frac{1}{T}\int_{T} x(t)e^{-jk\omega_0t}dt = \frac{1}{T}\int_{T} x(t)e^{-jk\frac{2\pi}{T}t}dt$$</p>
+</div>
+</blockquote>
+
+
+
+
+
+
+<blockquote class="gdoc-hint note">
+  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Example"></i></div>
+  <div class="gdoc-hint__text"><p>Determine Fourier series coefficients of</p>
+<p>$$x(t) = sin(\omega_0t)$$</p>
+</div>
+</blockquote>
+
+<p>$= \frac{e^{j\omega_0t} - e^{-\omega_0t}}{2j}$</p>
+<p>$sin(\omega_0t) = \frac{1}{2j}e^{j\omega_0t} + (\frac{-1}{2j}e^{-j\omega_0t})$</p>
+
+
+
+
+
+<blockquote class="gdoc-hint note">
+  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Example"></i></div>
+  <div class="gdoc-hint__text"><p>Determine Fourier series coefficients of</p>
+<p>$$x(t) = 1 + sin(\omega_0t) + 2cos(\omega_0t) + cos(2\omega_0t + \frac{\pi}{4})$$</p>
+</div>
+</blockquote>
+
+<ul>
+<li>
+<p>We have:</p>
+<p>$cos(\varphi) = \dfrac{e^{j\varphi} + e^{-j\varphi}}{2}$</p>
+<p>$sin(\varphi) = \dfrac{e^{j\varphi} - e^{-j\varphi}}{2j}$</p>
+</li>
+<li>
+<p>So:</p>
+<p>$sin(\omega_0t) = \frac{e^{j\omega_0t} - e^{-j\omega_0t}}{2j}$</p>
+<p>$cos(\omega_0t) = \frac{e^{j\omega_0t} + e^{-j\omega_0t}}{2}$</p>
+<p>$cos(2\omega_0t + \frac{\pi}{4}) = \frac{e^{j2\omega_0t + \frac{\pi}{4}} + e^{-j2\omega_0t - \frac{\pi}{4}}}{2}$</p>
+<p>$x(t) = 1 + \frac{e^{j\omega_0t} - e^{-j\omega_0t}}{2j} + \frac{e^{j\omega_0t} + e^{-j\omega_0t}}{2} + \frac{e^{j2\omega_0t + \frac{\pi}{4}} + e^{-j2\omega_0t - \frac{\pi}{4}}}{2}$</p>
+</li>
+</ul>
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="08_example.avif" />
+    <img src="08_example.webp" alt="" type="image/webp" loading="lazy">
+  </picture>
+  <figcaption>Example 2</figcaption>
+</figure></p>
+<div class="gdoc-page__anchorwrap">
+    <h1 id="iv-properties">
+        IV. Properties
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#iv-properties" class="gdoc-page__anchor clip flex align-center" title="Anchor to: IV. Properties" aria-label="Anchor to: IV. Properties" href="#iv-properties">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h1>
+</div>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="notations">
+        Notations
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#notations" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Notations" aria-label="Anchor to: Notations" href="#notations">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+<p>$x(t)$ is a periodic signal with period $T$ and fundamental frequency $\omega_0 = \frac{2\pi}{T}$. Its Fourier coefficients are denoted by $a_k$.</p>
+<p>
+
+
+<figure>
+  <picture>
+    <source type="image/avif" srcset="09_notations.avif" />
+    <img src="09_notations.webp" alt="" type="image/webp" loading="lazy">
   </picture>
   
 </figure></p>
@@ -3104,38 +3417,21 @@ $$\delta_{\Delta} (t) = \begin{cases}
 
 
 <blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Approximation"></i></div>
-  <div class="gdoc-hint__text"><!-- x with a hat = sum with k from -inf to +inf: x(k Delta) delta_Delta (t-k Delta) Delta -->
-<p>$$\hat{x}(t) = \sum_{k=-\infty}^{\infty} x(k \Delta) \delta_{\Delta} (t-k \Delta) \Delta$$</div>
-</blockquote>
-
-<p>The smaller the $\Delta$, the more accurate the approximation.</p>
-
-
-
-
-
-<blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Final Result"></i></div>
-  <div class="gdoc-hint__text"><!-- x(t) = integral from -inf to inf: x(tau)delta(t - tau) dtau -->
-<p>$$x(t) = \int_{-\infty}^{\infty} x(\tau) \delta(t - \tau) d\tau$$</div>
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Fourier Pair"></i></div>
+  <div class="gdoc-hint__text"><p>The <c-red>synthesis</c-red> equation</p>
+<p>$$x(t) = \sum_{x = -\infty}^{\infty} a_ke^{jk\omega_0t} = \sum_{k = -\infty}^{\infty} a_ke^{jk\frac{2\pi}{T}t}$$</p>
+<p>The <c-red>analysis</c-red> equation</p>
+<p>$$a_k = \frac{1}{T}\int_{T} x(t)e^{-jk\omega_0t}dt = \frac{1}{T}\int_{T} x(t)e^{-jk\frac{2\pi}{T}t}dt$$</p>
+</div>
 </blockquote>
 
 <div class="gdoc-page__anchorwrap">
-    <h2 id="2-definition">
-        2. Definition
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#2-definition" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2. Definition" aria-label="Anchor to: 2. Definition" href="#2-definition">
+    <h2 id="1-linearity">
+        1. Linearity
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#1-linearity" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 1. Linearity" aria-label="Anchor to: 1. Linearity" href="#1-linearity">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h2>
-</div>
-<div class="gdoc-page__anchorwrap">
-    <h3 id="summary-continuous-time-delta-impulse">
-        Summary: Continuous-time Delta Impulse
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#summary-continuous-time-delta-impulse" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Summary: Continuous-time Delta Impulse" aria-label="Anchor to: Summary: Continuous-time Delta Impulse" href="#summary-continuous-time-delta-impulse">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h3>
 </div>
 
 
@@ -3143,170 +3439,149 @@ $$\delta_{\Delta} (t) = \begin{cases}
 
 
 <blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Delta Signal"></i></div>
-  <div class="gdoc-hint__text">$$\delta(t) = \begin{cases}
-\infty &amp; \text{if } t = 0 \\
-0 &amp; \text{otherwise}
-\end{cases}$$</div>
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text"><p>Given
+$$x(t) \leftarrow\text{FS}\rightarrow a_k$$</p>
+<p>$$y(t) \leftarrow\text{FS}\rightarrow b_k$$</p>
+<p>Then
+$$z(t) = Ax(t) + By(t) \leftarrow\text{FS}\rightarrow c_k = Aa_k + Bb_k$$</p>
+</div>
 </blockquote>
 
-<p>Properties:</p>
-<!-- Integral from -inf to inf: delta(t)dt = 1 -->
+<div class="gdoc-page__anchorwrap">
+    <h2 id="2-time-shifting">
+        2. Time shifting
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#2-time-shifting" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 2. Time shifting" aria-label="Anchor to: 2. Time shifting" href="#2-time-shifting">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text"><p>Given
+$$x(t) \leftarrow\text{FS}\rightarrow a_k$$</p>
+<p>Then</p>
+<p>$$x(t - t_0) \leftarrow\text{FS}\rightarrow e^{-j\omega_0t_0}a_k$$</p>
+</div>
+</blockquote>
+
+<div class="gdoc-page__anchorwrap">
+    <h2 id="3-time-reversal">
+        3. Time reversal
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#3-time-reversal" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3. Time reversal" aria-label="Anchor to: 3. Time reversal" href="#3-time-reversal">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text"><p>Given
+$$x(t) \leftarrow\text{FS}\rightarrow a_k$$</p>
+<p>Then
+$$x(-t) \leftarrow\text{FS}\rightarrow a_{-k}$$</p>
+</div>
+</blockquote>
+
+<div class="gdoc-page__anchorwrap">
+    <h2 id="4-time-scaling">
+        4. Time scaling
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#4-time-scaling" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 4. Time scaling" aria-label="Anchor to: 4. Time scaling" href="#4-time-scaling">
+            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text"><p>Given
+$$x(t) \leftarrow\text{FS}\rightarrow a_k$$</p>
+<p>Then
+$$x(\alpha t) \leftarrow\text{FS}\rightarrow ???$$</p>
+</div>
+</blockquote>
+
+<p>Attention:</p>
 <ul>
-<li>$\int_{-\infty}^{\infty} \delta(t) dt = 1$</li>
-</ul>
-<!-- Integral from -inf to inf: x(t)delta(t- tau)dt = x(tau) -->
-<ul>
-<li>$\int_{-\infty}^{\infty} x(t) \delta(t - \tau) dt = x(\tau)$</li>
+<li>the Fourier coefficients have not changed</li>
+<li>the Fourier series representation <c-red>has changed</c-red>.</li>
 </ul>
 <div class="gdoc-page__anchorwrap">
-    <h2 id="3-discrete-vs-continuous">
-        3. Discrete vs Continuous
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#3-discrete-vs-continuous" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 3. Discrete vs Continuous" aria-label="Anchor to: 3. Discrete vs Continuous" href="#3-discrete-vs-continuous">
+    <h2 id="5-multiplication">
+        5. Multiplication
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#5-multiplication" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 5. Multiplication" aria-label="Anchor to: 5. Multiplication" href="#5-multiplication">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h2>
 </div>
-<div class="table-wrap"> <table>
-<thead>
-<tr>
-<th style="text-align:center">Discrete Delta</th>
-<th style="text-align:center">Continuous Delta</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">$\delta[n] = \begin{cases} 1 &amp; \text{if } n = 0 \\ 0 &amp; \text{otherwise} \end{cases}$</td>
-<td style="text-align:center">$\delta(t) = \begin{cases} \infty &amp; \text{if } t = 0 \\ 0 &amp; \text{otherwise} \end{cases}$</td>
-</tr>
-<tr>
-<td style="text-align:center">$\sum_{n=-\infty}^{\infty} \delta[n] = 1$</td>
-<td style="text-align:center">$\int_{-\infty}^{\infty} \delta(t) dt = 1$</td>
-</tr>
-<tr>
-<td style="text-align:center">$\sum_{n=-\infty}^{\infty} x[n] \delta[n - n_0] = x[n_0]$</td>
-<td style="text-align:center">$\int_{-\infty}^{\infty} x(t) \delta(t - \tau) dt = x(\tau)$</td>
-</tr>
-<tr>
-<td style="text-align:center">$x[n] = \sum_{k=-\infty}^{\infty} x[k] \delta[n - k]$</td>
-<td style="text-align:center">$x(t) = \int_{-\infty}^{\infty} x(\tau) \delta(t - \tau) d\tau$</td>
-</tr>
-</tbody>
-</table> </div>
-<div class="gdoc-page__anchorwrap">
-    <h3 id="deltat-and-ut">
-        $\delta(t)$ and $u(t)$
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#deltat-and-ut" class="gdoc-page__anchor clip flex align-center" title="Anchor to: $\delta(t)$ and $u(t)$" aria-label="Anchor to: $\delta(t)$ and $u(t)$" href="#deltat-and-ut">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h3>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text"><p>Given
+$$x(t) \leftarrow\text{FS}\rightarrow a_k$$
+$$y(t) \leftarrow\text{FS}\rightarrow b_k$$</p>
+<p>Then</p>
+<p>$$z(t) = x(t)y(t) \leftarrow\text{FS}\rightarrow c_k = \sum_{l = -\infty}^{\infty} a_lb_{k-l}$$</p>
 </div>
-<p>$$u(t) = \inf_{-\infty}^{t} \delta(t - \tau) d\tau$$</p>
+</blockquote>
+
 <div class="gdoc-page__anchorwrap">
-    <h1 id="iii-convolution-integral">
-        III. Convolution Integral
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#iii-convolution-integral" class="gdoc-page__anchor clip flex align-center" title="Anchor to: III. Convolution Integral" aria-label="Anchor to: III. Convolution Integral" href="#iii-convolution-integral">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h1>
-</div>
-<div class="gdoc-page__anchorwrap">
-    <h2 id="definition">
-        Definition
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#definition" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Definition" aria-label="Anchor to: Definition" href="#definition">
+    <h2 id="6-conjugation">
+        6. Conjugation
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#6-conjugation" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 6. Conjugation" aria-label="Anchor to: 6. Conjugation" href="#6-conjugation">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h2>
 </div>
-<div class="gdoc-page__anchorwrap">
-    <h3 id="convolution-integral-of-a-lti-system">
-        Convolution Integral of a LTI system
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#convolution-integral-of-a-lti-system" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Convolution Integral of a LTI system" aria-label="Anchor to: Convolution Integral of a LTI system" href="#convolution-integral-of-a-lti-system">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h3>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text"><p>Given
+$$x(t) \leftarrow\text{FS}\rightarrow a_k$$</p>
+<p>Then
+$$x^{*}(t) \leftarrow\text{FS}\rightarrow a^{*}_{-k}$$</p>
 </div>
-<p>Impulse response $h(t)$</p>
+</blockquote>
 
-
-
-
-
-
-
-
-
-
-
-
-
-<video id="_hfjznmtxwgobacurqivkpyedls" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/convolution_integral/thumb.webp">
-</video>
-
-<script defer>
-  document.addEventListener('DOMContentLoaded', function() {
-    
-    
-    fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/en.vtt')
-      .then(response => response.text())
-      .then(data => {
-        player = document.getElementById('_hfjznmtxwgobacurqivkpyedls');
-        track = document.createElement('track');
-        track.kind = 'captions';
-        track.label = 'English';
-        track.srclang = 'en';
-        track.src = URL.createObjectURL(new Blob([data], {type: 'text/vtt'}));
-        track.default = true;
-        player.appendChild(track);
-    });
-    const plyr_hfjznmtxwgobacurqivkpyedls = Plyr.setup('#_hfjznmtxwgobacurqivkpyedls', {
-      captions: { active: true, update: true },
-      seekTime: 5,
-      previewThumbnails: {
-        enabled: true,
-        src: 'https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/sprite.vtt',
-      },
-      iconUrl: '/plyr.svg',
-      invertTime: false,
-    });
-    if (Hls.isSupported()) {
-      let player = document.getElementById('_hfjznmtxwgobacurqivkpyedls');
-      let hls = new Hls();
-      hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/video\/_.m3u8');
-      hls.attachMedia(player);
-      plyr_hfjznmtxwgobacurqivkpyedls[0].on('languagechange', function() {
-        setTimeout(function() {
-          hls.subtitleTrack = player.currentTrack;
-        }, 50);
-      });
-    }
-  });
-</script>
-
-
-
-<div class="center">
-<p><a
-  class="gdoc-markdown__link"
-  href="https://www.youtube.com/watch?v=ShPguecXaaU"
->Convolution integral example - graphical method</a></p>
-</div>
 <div class="gdoc-page__anchorwrap">
-    <h2 id="example">
-        Example
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#example" class="gdoc-page__anchor clip flex align-center" title="Anchor to: Example" aria-label="Anchor to: Example" href="#example">
+    <h2 id="7-parsevals-relation">
+        7. Parseval&rsquo;s relation
+        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/5_FourierContinuous/#7-parsevals-relation" class="gdoc-page__anchor clip flex align-center" title="Anchor to: 7. Parseval&rsquo;s relation" aria-label="Anchor to: 7. Parseval&rsquo;s relation" href="#7-parsevals-relation">
             <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
         </a>
     </h2>
 </div>
-<div class="gdoc-page__anchorwrap">
-    <h1 id="iv-properties">
-        IV. Properties
-        <a data-clipboard-text="https://uni.delnegend.com/SignalSystem/6_ContinuousLTI/#iv-properties" class="gdoc-page__anchor clip flex align-center" title="Anchor to: IV. Properties" aria-label="Anchor to: IV. Properties" href="#iv-properties">
-            <svg class="gdoc-icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
-        </a>
-    </h1>
-</div>
+
+
+
+
+
+<blockquote class="gdoc-hint important">
+  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Definition"></i></div>
+  <div class="gdoc-hint__text">$$\frac{1}{T} \int_{T} |x(t)|^2dt = \sum_{k = -\infty}^{\infty} |a_k|^2$$</div>
+</blockquote>
+
 
   </article>
 
