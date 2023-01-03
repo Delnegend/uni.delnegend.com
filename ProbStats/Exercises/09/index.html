@@ -93,7 +93,6 @@ b. $P(X &lt; ̄10)$, where X ̄is the mean of a sample 3 independent observation
 
 
     
-  <script src="../../../js/colortheme-d3e4d351.bundle.min.js"></script>
 <script src="../../../js/main-56ca818c.bundle.min.js"></script>
 
 <link
@@ -171,6 +170,7 @@ b. $P(X &lt; ̄10)$, where X ̄is the mean of a sample 3 independent observation
 
 </script>
 <script defer>
+  
   document.addEventListener("DOMContentLoaded", function () {
     renderMathInElement(document.body, {
       delimiters: [
@@ -179,6 +179,11 @@ b. $P(X &lt; ̄10)$, where X ̄is the mean of a sample 3 independent observation
       ]
     });
   });
+
+  
+  if (document.querySelector("html").getAttribute("color-theme") != "dark") {
+    document.querySelector("html").setAttribute("color-theme", "dark");
+  }
 </script>
   </head>
 
@@ -3172,5 +3177,11 @@ d. $P (2X &gt; Y1 +Y2 +Y3)$, where $Y1$, $Y2$ and $Y3$ are 3 independent observa
 
 
 <link rel="stylesheet" href="../../../css/custom.min.css">
+
+<style>
+  html {
+    background-color: black;
+  }
+</style>
   </body>
 </html>

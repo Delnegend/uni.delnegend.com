@@ -90,7 +90,6 @@ $P(A \cap B)$ $P(A \cup B)$ $P(B^c | A)$ Question 2 A box contains 3 red balls a
 
 
     
-  <script src="../../../js/colortheme-d3e4d351.bundle.min.js"></script>
 <script src="../../../js/main-56ca818c.bundle.min.js"></script>
 
 <link
@@ -168,6 +167,7 @@ $P(A \cap B)$ $P(A \cup B)$ $P(B^c | A)$ Question 2 A box contains 3 red balls a
 
 </script>
 <script defer>
+  
   document.addEventListener("DOMContentLoaded", function () {
     renderMathInElement(document.body, {
       delimiters: [
@@ -176,6 +176,11 @@ $P(A \cap B)$ $P(A \cup B)$ $P(B^c | A)$ Question 2 A box contains 3 red balls a
       ]
     });
   });
+
+  
+  if (document.querySelector("html").getAttribute("color-theme") != "dark") {
+    document.querySelector("html").setAttribute("color-theme", "dark");
+  }
 </script>
   </head>
 
@@ -3208,5 +3213,11 @@ b. the total weight of the 3 men exceeds that of the 4 women.</p>
 
 
 <link rel="stylesheet" href="../../../css/custom.min.css">
+
+<style>
+  html {
+    background-color: black;
+  }
+</style>
   </body>
 </html>

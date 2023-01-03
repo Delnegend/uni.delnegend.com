@@ -93,7 +93,6 @@ Express $x(t)$ in the form $$x(t) = \sum_{k=0}^{\infty} A_k cos(\omega_k t &#43;
 
 
     
-  <script src="../../../js/colortheme-d3e4d351.bundle.min.js"></script>
 <script src="../../../js/main-56ca818c.bundle.min.js"></script>
 
 <link
@@ -171,6 +170,7 @@ Express $x(t)$ in the form $$x(t) = \sum_{k=0}^{\infty} A_k cos(\omega_k t &#43;
 
 </script>
 <script defer>
+  
   document.addEventListener("DOMContentLoaded", function () {
     renderMathInElement(document.body, {
       delimiters: [
@@ -179,6 +179,11 @@ Express $x(t)$ in the form $$x(t) = \sum_{k=0}^{\infty} A_k cos(\omega_k t &#43;
       ]
     });
   });
+
+  
+  if (document.querySelector("html").getAttribute("color-theme") != "dark") {
+    document.querySelector("html").setAttribute("color-theme", "dark");
+  }
 </script>
   </head>
 
@@ -3281,5 +3286,11 @@ $x_1(t)$, $x_2(t)$, and $x_3(t)$ depicted in fig P3.46.</p>
 
 
 <link rel="stylesheet" href="../../../css/custom.min.css">
+
+<style>
+  html {
+    background-color: black;
+  }
+</style>
   </body>
 </html>

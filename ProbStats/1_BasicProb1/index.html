@@ -90,7 +90,6 @@ Physical tendencies. Long-term frequency (repeatable)." />
 
 
     
-  <script src="../../js/colortheme-d3e4d351.bundle.min.js"></script>
 <script src="../../js/main-56ca818c.bundle.min.js"></script>
 
 <link
@@ -168,6 +167,7 @@ Physical tendencies. Long-term frequency (repeatable)." />
 
 </script>
 <script defer>
+  
   document.addEventListener("DOMContentLoaded", function () {
     renderMathInElement(document.body, {
       delimiters: [
@@ -176,6 +176,11 @@ Physical tendencies. Long-term frequency (repeatable)." />
       ]
     });
   });
+
+  
+  if (document.querySelector("html").getAttribute("color-theme") != "dark") {
+    document.querySelector("html").setAttribute("color-theme", "dark");
+  }
 </script>
   </head>
 
@@ -3665,5 +3670,11 @@ $$\sum_{i=0}^{\infty} \alpha^i = \frac{1}{1-\alpha}$$</p>
 
 
 <link rel="stylesheet" href="../../css/custom.min.css">
+
+<style>
+  html {
+    background-color: black;
+  }
+</style>
   </body>
 </html>

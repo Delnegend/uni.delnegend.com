@@ -87,7 +87,6 @@
 
 
     
-  <script src="../../js/colortheme-d3e4d351.bundle.min.js"></script>
 <script src="../../js/main-56ca818c.bundle.min.js"></script>
 
 <link
@@ -165,6 +164,7 @@
 
 </script>
 <script defer>
+  
   document.addEventListener("DOMContentLoaded", function () {
     renderMathInElement(document.body, {
       delimiters: [
@@ -173,6 +173,11 @@
       ]
     });
   });
+
+  
+  if (document.querySelector("html").getAttribute("color-theme") != "dark") {
+    document.querySelector("html").setAttribute("color-theme", "dark");
+  }
 </script>
   </head>
 
@@ -3257,7 +3262,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
 
 
 
-<video id="_mqksneprwluhizycdxgvtfojba" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/central_limit_theorem/thumb.webp">
+<video id="_kbmpsflarvugdywhjtczixeonq" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/central_limit_theorem/thumb.webp">
 </video>
 
 <script defer>
@@ -3267,7 +3272,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
     fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/central_limit_theorem\/en.vtt')
       .then(response => response.text())
       .then(data => {
-        player = document.getElementById('_mqksneprwluhizycdxgvtfojba');
+        player = document.getElementById('_kbmpsflarvugdywhjtczixeonq');
         track = document.createElement('track');
         track.kind = 'captions';
         track.label = 'English';
@@ -3276,7 +3281,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
         track.default = true;
         player.appendChild(track);
     });
-    const plyr_mqksneprwluhizycdxgvtfojba = Plyr.setup('#_mqksneprwluhizycdxgvtfojba', {
+    const plyr_kbmpsflarvugdywhjtczixeonq = Plyr.setup('#_kbmpsflarvugdywhjtczixeonq', {
       captions: { active: true, update: true },
       seekTime: 5,
       previewThumbnails: {
@@ -3287,11 +3292,11 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
       invertTime: false,
     });
     if (Hls.isSupported()) {
-      let player = document.getElementById('_mqksneprwluhizycdxgvtfojba');
+      let player = document.getElementById('_kbmpsflarvugdywhjtczixeonq');
       let hls = new Hls();
       hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/central_limit_theorem\/video\/_.m3u8');
       hls.attachMedia(player);
-      plyr_mqksneprwluhizycdxgvtfojba[0].on('languagechange', function() {
+      plyr_kbmpsflarvugdywhjtczixeonq[0].on('languagechange', function() {
         setTimeout(function() {
           hls.subtitleTrack = player.currentTrack;
         }, 50);
@@ -3456,5 +3461,11 @@ Calculate $P(N \geq 100)$.</li>
 
 
 <link rel="stylesheet" href="../../css/custom.min.css">
+
+<style>
+  html {
+    background-color: black;
+  }
+</style>
   </body>
 </html>

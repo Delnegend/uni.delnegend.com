@@ -90,7 +90,6 @@ Understand the origin of the Delta signal in continuous-time domain." />
 
 
     
-  <script src="../../js/colortheme-d3e4d351.bundle.min.js"></script>
 <script src="../../js/main-56ca818c.bundle.min.js"></script>
 
 <link
@@ -168,6 +167,7 @@ Understand the origin of the Delta signal in continuous-time domain." />
 
 </script>
 <script defer>
+  
   document.addEventListener("DOMContentLoaded", function () {
     renderMathInElement(document.body, {
       delimiters: [
@@ -176,6 +176,11 @@ Understand the origin of the Delta signal in continuous-time domain." />
       ]
     });
   });
+
+  
+  if (document.querySelector("html").getAttribute("color-theme") != "dark") {
+    document.querySelector("html").setAttribute("color-theme", "dark");
+  }
 </script>
   </head>
 
@@ -3319,7 +3324,7 @@ $$\delta_{\Delta} (t) = \begin{cases}
 
 
 
-<video id="_wvlhgzcpbajidoestkrfmyqxun" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/convolution_integral/thumb.webp">
+<video id="_pivorflsamqytzedkhnuxgbwjc" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/convolution_integral/thumb.webp">
 </video>
 
 <script defer>
@@ -3329,7 +3334,7 @@ $$\delta_{\Delta} (t) = \begin{cases}
     fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/en.vtt')
       .then(response => response.text())
       .then(data => {
-        player = document.getElementById('_wvlhgzcpbajidoestkrfmyqxun');
+        player = document.getElementById('_pivorflsamqytzedkhnuxgbwjc');
         track = document.createElement('track');
         track.kind = 'captions';
         track.label = 'English';
@@ -3338,7 +3343,7 @@ $$\delta_{\Delta} (t) = \begin{cases}
         track.default = true;
         player.appendChild(track);
     });
-    const plyr_wvlhgzcpbajidoestkrfmyqxun = Plyr.setup('#_wvlhgzcpbajidoestkrfmyqxun', {
+    const plyr_pivorflsamqytzedkhnuxgbwjc = Plyr.setup('#_pivorflsamqytzedkhnuxgbwjc', {
       captions: { active: true, update: true },
       seekTime: 5,
       previewThumbnails: {
@@ -3349,11 +3354,11 @@ $$\delta_{\Delta} (t) = \begin{cases}
       invertTime: false,
     });
     if (Hls.isSupported()) {
-      let player = document.getElementById('_wvlhgzcpbajidoestkrfmyqxun');
+      let player = document.getElementById('_pivorflsamqytzedkhnuxgbwjc');
       let hls = new Hls();
       hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/video\/_.m3u8');
       hls.attachMedia(player);
-      plyr_wvlhgzcpbajidoestkrfmyqxun[0].on('languagechange', function() {
+      plyr_pivorflsamqytzedkhnuxgbwjc[0].on('languagechange', function() {
         setTimeout(function() {
           hls.subtitleTrack = player.currentTrack;
         }, 50);
@@ -3451,5 +3456,11 @@ $$\delta_{\Delta} (t) = \begin{cases}
 
 
 <link rel="stylesheet" href="../../css/custom.min.css">
+
+<style>
+  html {
+    background-color: black;
+  }
+</style>
   </body>
 </html>

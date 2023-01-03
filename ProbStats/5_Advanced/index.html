@@ -87,7 +87,6 @@
 
 
     
-  <script src="../../js/colortheme-d3e4d351.bundle.min.js"></script>
 <script src="../../js/main-56ca818c.bundle.min.js"></script>
 
 <link
@@ -165,6 +164,7 @@
 
 </script>
 <script defer>
+  
   document.addEventListener("DOMContentLoaded", function () {
     renderMathInElement(document.body, {
       delimiters: [
@@ -173,6 +173,11 @@
       ]
     });
   });
+
+  
+  if (document.querySelector("html").getAttribute("color-theme") != "dark") {
+    document.querySelector("html").setAttribute("color-theme", "dark");
+  }
 </script>
   </head>
 
@@ -3316,7 +3321,7 @@ $\begin{aligned}
 
 
 
-<video id="_izudemysrqbnkgljfwvotaxcph" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/normal_distribution_probability_problems/thumb.webp">
+<video id="_hwpanzblfkdyrmxuqgveotjsic" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/normal_distribution_probability_problems/thumb.webp">
 </video>
 
 <script defer>
@@ -3326,7 +3331,7 @@ $\begin{aligned}
     fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/normal_distribution_probability_problems\/en.vtt')
       .then(response => response.text())
       .then(data => {
-        player = document.getElementById('_izudemysrqbnkgljfwvotaxcph');
+        player = document.getElementById('_hwpanzblfkdyrmxuqgveotjsic');
         track = document.createElement('track');
         track.kind = 'captions';
         track.label = 'English';
@@ -3335,7 +3340,7 @@ $\begin{aligned}
         track.default = true;
         player.appendChild(track);
     });
-    const plyr_izudemysrqbnkgljfwvotaxcph = Plyr.setup('#_izudemysrqbnkgljfwvotaxcph', {
+    const plyr_hwpanzblfkdyrmxuqgveotjsic = Plyr.setup('#_hwpanzblfkdyrmxuqgveotjsic', {
       captions: { active: true, update: true },
       seekTime: 5,
       previewThumbnails: {
@@ -3346,11 +3351,11 @@ $\begin{aligned}
       invertTime: false,
     });
     if (Hls.isSupported()) {
-      let player = document.getElementById('_izudemysrqbnkgljfwvotaxcph');
+      let player = document.getElementById('_hwpanzblfkdyrmxuqgveotjsic');
       let hls = new Hls();
       hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/normal_distribution_probability_problems\/video\/_.m3u8');
       hls.attachMedia(player);
-      plyr_izudemysrqbnkgljfwvotaxcph[0].on('languagechange', function() {
+      plyr_hwpanzblfkdyrmxuqgveotjsic[0].on('languagechange', function() {
         setTimeout(function() {
           hls.subtitleTrack = player.currentTrack;
         }, 50);
@@ -3655,5 +3660,11 @@ $$-1 \leq \rho_{X, Y} \leq 1$$</div>
 
 
 <link rel="stylesheet" href="../../css/custom.min.css">
+
+<style>
+  html {
+    background-color: black;
+  }
+</style>
   </body>
 </html>

@@ -90,7 +90,6 @@ Be familiar with discrete complex signal. Find Fourier coefficients of any discr
 
 
     
-  <script src="../../js/colortheme-d3e4d351.bundle.min.js"></script>
 <script src="../../js/main-56ca818c.bundle.min.js"></script>
 
 <link
@@ -168,6 +167,7 @@ Be familiar with discrete complex signal. Find Fourier coefficients of any discr
 
 </script>
 <script defer>
+  
   document.addEventListener("DOMContentLoaded", function () {
     renderMathInElement(document.body, {
       delimiters: [
@@ -176,6 +176,11 @@ Be familiar with discrete complex signal. Find Fourier coefficients of any discr
       ]
     });
   });
+
+  
+  if (document.querySelector("html").getAttribute("color-theme") != "dark") {
+    document.querySelector("html").setAttribute("color-theme", "dark");
+  }
 </script>
   </head>
 
@@ -3467,5 +3472,11 @@ $$x[n]y[n] = \leftarrow\text{FS}\rightarrow c_k = \sum_{l=&lt;N&gt;}a_lb_{k-l}$$
 
 
 <link rel="stylesheet" href="../../css/custom.min.css">
+
+<style>
+  html {
+    background-color: black;
+  }
+</style>
   </body>
 </html>
