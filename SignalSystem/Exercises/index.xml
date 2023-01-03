@@ -116,7 +116,7 @@ Sketch each of the following signals:</description>
       <description>1. Signals Using the discrete-time signals $x_1[n]$ and $x_2[n]$ given below
 represent each of the following signals by a graph and by a sequence of numbers.
 $y_1[n] = x_1[n] + x_2[n+1]$ $y_2[n] = 2x_1[n+2] + x_2[1-n]$ $y_3[n] = x_1[2n] \times x_2[n-2]$ 2. System Consider an LTI system whose response to the signal $x_1(t)$ is the signal $y_1(t)$ given below
-Determine and sketch carefully the response to the following input signals:</description>
+Determine and sketch carefully the response to the following input</description>
     </item>
     
   </channel>
