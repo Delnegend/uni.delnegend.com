@@ -3319,7 +3319,7 @@ $$\delta_{\Delta} (t) = \begin{cases}
 
 
 
-<video id="_iugawybhtsxcpznvmejlfrqkod" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/convolution_integral/thumb.webp">
+<video id="_wvlhgzcpbajidoestkrfmyqxun" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/convolution_integral/thumb.webp">
 </video>
 
 <script defer>
@@ -3329,7 +3329,7 @@ $$\delta_{\Delta} (t) = \begin{cases}
     fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/en.vtt')
       .then(response => response.text())
       .then(data => {
-        player = document.getElementById('_iugawybhtsxcpznvmejlfrqkod');
+        player = document.getElementById('_wvlhgzcpbajidoestkrfmyqxun');
         track = document.createElement('track');
         track.kind = 'captions';
         track.label = 'English';
@@ -3338,7 +3338,7 @@ $$\delta_{\Delta} (t) = \begin{cases}
         track.default = true;
         player.appendChild(track);
     });
-    const plyr_iugawybhtsxcpznvmejlfrqkod = Plyr.setup('#_iugawybhtsxcpznvmejlfrqkod', {
+    const plyr_wvlhgzcpbajidoestkrfmyqxun = Plyr.setup('#_wvlhgzcpbajidoestkrfmyqxun', {
       captions: { active: true, update: true },
       seekTime: 5,
       previewThumbnails: {
@@ -3349,11 +3349,11 @@ $$\delta_{\Delta} (t) = \begin{cases}
       invertTime: false,
     });
     if (Hls.isSupported()) {
-      let player = document.getElementById('_iugawybhtsxcpznvmejlfrqkod');
+      let player = document.getElementById('_wvlhgzcpbajidoestkrfmyqxun');
       let hls = new Hls();
       hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/video\/_.m3u8');
       hls.attachMedia(player);
-      plyr_iugawybhtsxcpznvmejlfrqkod[0].on('languagechange', function() {
+      plyr_wvlhgzcpbajidoestkrfmyqxun[0].on('languagechange', function() {
         setTimeout(function() {
           hls.subtitleTrack = player.currentTrack;
         }, 50);
