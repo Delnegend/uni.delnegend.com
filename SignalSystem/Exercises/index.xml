@@ -98,13 +98,25 @@ b. Dividend = the above quotient (i.e 59). Plus 5 with the remainder after divid
     
     <item>
       <title>Midterm 2022</title>
-      <link>https://uni.delnegend.com/SignalSystem/Exercises/Miterm-2022/</link>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Miterm-2022/</guid>
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2022/</guid>
       <description>0 There are 8 question, but you have to do only 3 based on your student ID:
 $q_1 = (3 + (ID \% 4)) \% 7 + 1$ $q_2 = (4 + (ID \% 4)) \% 7 + 1$ $q_3 = ID \% 7 + 1$ If duplicate, choose any question. 1. Signals Given a continuous signal $x(t)$, and a discrete signal $x[n]$
 Sketch each of the following signals:</description>
+    </item>
+    
+    <item>
+      <title>Retake 2022</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/Retake-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Retake-2022/</guid>
+      <description>1. Signals Using the discrete-time signals $x_1[n]$ and $x_2[n]$ given below
+represent each of the following signals by a graph and by a sequence of numbers.
+$y_1[n] = x_1[n] + x_2[n+1]$ $y_2[n] = 2x_1[n+2] + x_2[1-n]$ $y_3[n] = x_1[2n] \times x_2[n-2]$ 2. System Consider an LTI system whose response to the signal $x_1(t)$ is the signal $y_1(t)$ given below
+Determine and sketch carefully the response to the following input signals:</description>
     </item>
     
   </channel>
