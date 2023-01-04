@@ -1592,10 +1592,10 @@
               
                 <span class="flex">
                   <a
-                    href="../../OOP/Exercises/Midterm-2022/"
+                    href="../../OOP/Exercises/Final-2022/"
                     class="gdoc-nav__entry"
                   >
-                    Gen 12 A. Midterm (2022)
+                    Gen 12 B. Final (2022)
                   </a>
                 </span>
               
@@ -3398,7 +3398,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
 
 
 
-<video id="_fiwjyoeahuxdnqvgztpsrclkmb" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/central_limit_theorem/thumb.webp">
+<video id="_ilmhtjgdokrxfuwysvqapecnbz" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/central_limit_theorem/thumb.webp">
 </video>
 
 <script defer>
@@ -3408,7 +3408,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
     fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/central_limit_theorem\/en.vtt')
       .then(response => response.text())
       .then(data => {
-        player = document.getElementById('_fiwjyoeahuxdnqvgztpsrclkmb');
+        player = document.getElementById('_ilmhtjgdokrxfuwysvqapecnbz');
         track = document.createElement('track');
         track.kind = 'captions';
         track.label = 'English';
@@ -3417,7 +3417,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
         track.default = true;
         player.appendChild(track);
     });
-    const plyr_fiwjyoeahuxdnqvgztpsrclkmb = Plyr.setup('#_fiwjyoeahuxdnqvgztpsrclkmb', {
+    const plyr_ilmhtjgdokrxfuwysvqapecnbz = Plyr.setup('#_ilmhtjgdokrxfuwysvqapecnbz', {
       captions: { active: true, update: true },
       seekTime: 5,
       previewThumbnails: {
@@ -3428,11 +3428,11 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
       invertTime: false,
     });
     if (Hls.isSupported()) {
-      let player = document.getElementById('_fiwjyoeahuxdnqvgztpsrclkmb');
+      let player = document.getElementById('_ilmhtjgdokrxfuwysvqapecnbz');
       let hls = new Hls();
       hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/central_limit_theorem\/video\/_.m3u8');
       hls.attachMedia(player);
-      plyr_fiwjyoeahuxdnqvgztpsrclkmb[0].on('languagechange', function() {
+      plyr_ilmhtjgdokrxfuwysvqapecnbz[0].on('languagechange', function() {
         setTimeout(function() {
           hls.subtitleTrack = player.currentTrack;
         }, 50);
