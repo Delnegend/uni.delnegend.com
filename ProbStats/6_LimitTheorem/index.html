@@ -3298,7 +3298,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
 
 
 
-<video id="_cvoirgywsptqzbknxhjulmdfea" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/central_limit_theorem/thumb.webp">
+<video id="_rqlouxwgchtsafiebmjnpydvzk" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/central_limit_theorem/thumb.webp">
 </video>
 
 <script defer>
@@ -3308,7 +3308,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
     fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/central_limit_theorem\/en.vtt')
       .then(response => response.text())
       .then(data => {
-        player = document.getElementById('_cvoirgywsptqzbknxhjulmdfea');
+        player = document.getElementById('_rqlouxwgchtsafiebmjnpydvzk');
         track = document.createElement('track');
         track.kind = 'captions';
         track.label = 'English';
@@ -3317,7 +3317,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
         track.default = true;
         player.appendChild(track);
     });
-    const plyr_cvoirgywsptqzbknxhjulmdfea = Plyr.setup('#_cvoirgywsptqzbknxhjulmdfea', {
+    const plyr_rqlouxwgchtsafiebmjnpydvzk = Plyr.setup('#_rqlouxwgchtsafiebmjnpydvzk', {
       captions: { active: true, update: true },
       seekTime: 5,
       previewThumbnails: {
@@ -3328,11 +3328,11 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
       invertTime: false,
     });
     if (Hls.isSupported()) {
-      let player = document.getElementById('_cvoirgywsptqzbknxhjulmdfea');
+      let player = document.getElementById('_rqlouxwgchtsafiebmjnpydvzk');
       let hls = new Hls();
       hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/central_limit_theorem\/video\/_.m3u8');
       hls.attachMedia(player);
-      plyr_cvoirgywsptqzbknxhjulmdfea[0].on('languagechange', function() {
+      plyr_rqlouxwgchtsafiebmjnpydvzk[0].on('languagechange', function() {
         setTimeout(function() {
           hls.subtitleTrack = player.currentTrack;
         }, 50);
