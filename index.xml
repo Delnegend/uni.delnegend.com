@@ -426,6 +426,18 @@ Be familiar with discrete complex signal. Find Fourier coefficients of any discr
     </item>
     
     <item>
+      <title>Final 2021</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/Final-2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Final-2021/</guid>
+      <description>0. Requisites 1. Signals 2. Systems 3. LTI Systems 4. Convolution integral 5. Fourier Series 6. Fourier Transform 0. Requisites Remove the following 2 questions from the exam and do the rest, if $q_1 = q_2$ then remove any other question you want.
+$q_1 = ((ID+17)\%6) + 1$ $q_2 = ((ID+17)\%5) + 2$ 1. Signals Given the signal $x(t)$
+make a sketch of
+$y_1(t) = x(2-t)$ $y_2(t) = x(2t + 3)$ $y_3(t) = x(t)u(2-t)$ 2.</description>
+    </item>
+    
+    <item>
       <title>Final Exam 2021</title>
       <link>https://uni.delnegend.com/ProbStats/Exercises/Final2021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
