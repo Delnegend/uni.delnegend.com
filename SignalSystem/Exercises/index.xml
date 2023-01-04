@@ -86,18 +86,7 @@ $$x[n] = \sum_{k=1}^{\infty} A_k sin(\omega_k n + \phi_k)$$
     </item>
     
     <item>
-      <title>Final 2021</title>
-      <link>https://uni.delnegend.com/SignalSystem/Exercises/Final-2021/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Final-2021/</guid>
-      <description>0. Requisites 1. Signals 2. Systems 3. LTI Systems 4. Convolution integral 5. Fourier Series 6. Fourier Transform 0. Requisites Remove the following 2 questions from the exam and do the rest, if $q_1 = q_2$ then remove any other question you want.
-$q_1 = ((ID+17)\%6) + 1$ $q_2 = ((ID+17)\%5) + 2$ 1. Signals Given the signal $x(t)$
-make a sketch of - $y_1(t) = x(2-t)$ - $y_2(t) = x(2t + 3)$ - $y_3(t) = x(t)u(2-t)$ 2.</description>
-    </item>
-    
-    <item>
-      <title>Midterm 2021</title>
+      <title>Gen 11 A. Midterm (2021)</title>
       <link>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -108,18 +97,18 @@ b. Dividend = the above quotient (i.e 59). Plus 5 with the remainder after divid
     </item>
     
     <item>
-      <title>Midterm 2022</title>
-      <link>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2022/</link>
+      <title>Gen 11 B. Final (2022)</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/Final-2021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2022/</guid>
-      <description>0 There are 8 question, but you have to do only 3 based on your student ID:
-$q_1 = (3 + (ID \% 4)) \% 7 + 1$ $q_2 = (4 + (ID \% 4)) \% 7 + 1$ $q_3 = ID \% 7 + 1$ If duplicate, choose any question. 1. Signals Given a continuous signal $x(t)$, and a discrete signal $x[n]$
-Sketch each of the following signals:</description>
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Final-2021/</guid>
+      <description>0. Requisites 1. Signals 2. Systems 3. LTI Systems 4. Convolution integral 5. Fourier Series 6. Fourier Transform 0. Requisites Remove the following 2 questions from the exam and do the rest, if $q_1 = q_2$ then remove any other question you want.
+$q_1 = ((ID+17)\%6) + 1$ $q_2 = ((ID+17)\%5) + 2$ 1. Signals Given the signal $x(t)$
+make a sketch of - $y_1(t) = x(2-t)$ - $y_2(t) = x(2t + 3)$ - $y_3(t) = x(t)u(2-t)$ 2.</description>
     </item>
     
     <item>
-      <title>Retake 2022</title>
+      <title>Gen 11 C. Retake (2022)</title>
       <link>https://uni.delnegend.com/SignalSystem/Exercises/Retake-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -128,6 +117,17 @@ Sketch each of the following signals:</description>
 represent each of the following signals by a graph and by a sequence of numbers.
 $y_1[n] = x_1[n] + x_2[n+1]$ $y_2[n] = 2x_1[n+2] + x_2[1-n]$ $y_3[n] = x_1[2n] \times x_2[n-2]$ 2. System Consider an LTI system whose response to the signal $x_1(t)$ is the signal $y_1(t)$ given below
 Determine and sketch carefully the response to the following input</description>
+    </item>
+    
+    <item>
+      <title>Gen 12 A .Midterm (2022)</title>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2022/</guid>
+      <description>0 There are 8 question, but you have to do only 3 based on your student ID:
+$q_1 = (3 + (ID \% 4)) \% 7 + 1$ $q_2 = (4 + (ID \% 4)) \% 7 + 1$ $q_3 = ID \% 7 + 1$ If duplicate, choose any question. 1. Signals Given a continuous signal $x(t)$, and a discrete signal $x[n]$
+Sketch each of the following signals:</description>
     </item>
     
   </channel>
