@@ -3457,7 +3457,7 @@ $\begin{aligned}
 
 
 
-<video id="_xzwkdlhfrotvijqubsneygmapc" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/normal_distribution_probability_problems/thumb.webp">
+<video id="_rtyqiukebnzacmhfodxpswgjlv" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/normal_distribution_probability_problems/thumb.webp">
 </video>
 
 <script defer>
@@ -3467,7 +3467,7 @@ $\begin{aligned}
     fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/normal_distribution_probability_problems\/en.vtt')
       .then(response => response.text())
       .then(data => {
-        player = document.getElementById('_xzwkdlhfrotvijqubsneygmapc');
+        player = document.getElementById('_rtyqiukebnzacmhfodxpswgjlv');
         track = document.createElement('track');
         track.kind = 'captions';
         track.label = 'English';
@@ -3476,7 +3476,7 @@ $\begin{aligned}
         track.default = true;
         player.appendChild(track);
     });
-    const plyr_xzwkdlhfrotvijqubsneygmapc = Plyr.setup('#_xzwkdlhfrotvijqubsneygmapc', {
+    const plyr_rtyqiukebnzacmhfodxpswgjlv = Plyr.setup('#_rtyqiukebnzacmhfodxpswgjlv', {
       captions: { active: true, update: true },
       seekTime: 5,
       previewThumbnails: {
@@ -3487,11 +3487,11 @@ $\begin{aligned}
       invertTime: false,
     });
     if (Hls.isSupported()) {
-      let player = document.getElementById('_xzwkdlhfrotvijqubsneygmapc');
+      let player = document.getElementById('_rtyqiukebnzacmhfodxpswgjlv');
       let hls = new Hls();
       hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/normal_distribution_probability_problems\/video\/_.m3u8');
       hls.attachMedia(player);
-      plyr_xzwkdlhfrotvijqubsneygmapc[0].on('languagechange', function() {
+      plyr_rtyqiukebnzacmhfodxpswgjlv[0].on('languagechange', function() {
         setTimeout(function() {
           hls.subtitleTrack = player.currentTrack;
         }, 50);
