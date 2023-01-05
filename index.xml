@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://uni.delnegend.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>https://uni.delnegend.com/OS/1_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OS/1_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>0. Introduction</title>
       <link>https://uni.delnegend.com/OS/0_intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -503,7 +512,7 @@ Enter from the keyboard a number n (n &amp;gt; 1) Enter from the keyboard n pair
     </item>
     
     <item>
-      <title>Gen 12 B. Final (2022)</title>
+      <title>Gen 12 B. Final (2023)</title>
       <link>https://uni.delnegend.com/SignalSystem/Exercises/Final-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

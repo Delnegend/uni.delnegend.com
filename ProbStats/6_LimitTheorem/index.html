@@ -1697,6 +1697,35 @@
               
             >
               
+                <span class="flex">Index</span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
                 <span class="flex">
                   <a
                     href="../../OS/0_intro/"
@@ -3139,7 +3168,7 @@
                     href="../../SignalSystem/Exercises/Final-2022/"
                     class="gdoc-nav__entry"
                   >
-                    Gen 12 B. Final (2022)
+                    Gen 12 B. Final (2023)
                   </a>
                 </span>
               
@@ -3434,7 +3463,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
 
 
 
-<video id="_byrmnhpjdtwxzlivsqfeokaguc" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/central_limit_theorem/thumb.webp">
+<video id="_wyfjuqntspbevkhclgzaxdmoir" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/central_limit_theorem/thumb.webp">
 </video>
 
 <script defer>
@@ -3444,7 +3473,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
     fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/central_limit_theorem\/en.vtt')
       .then(response => response.text())
       .then(data => {
-        player = document.getElementById('_byrmnhpjdtwxzlivsqfeokaguc');
+        player = document.getElementById('_wyfjuqntspbevkhclgzaxdmoir');
         track = document.createElement('track');
         track.kind = 'captions';
         track.label = 'English';
@@ -3453,7 +3482,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
         track.default = true;
         player.appendChild(track);
     });
-    const plyr_byrmnhpjdtwxzlivsqfeokaguc = Plyr.setup('#_byrmnhpjdtwxzlivsqfeokaguc', {
+    const plyr_wyfjuqntspbevkhclgzaxdmoir = Plyr.setup('#_wyfjuqntspbevkhclgzaxdmoir', {
       captions: { active: true, update: true },
       seekTime: 5,
       previewThumbnails: {
@@ -3464,11 +3493,11 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
       invertTime: false,
     });
     if (Hls.isSupported()) {
-      let player = document.getElementById('_byrmnhpjdtwxzlivsqfeokaguc');
+      let player = document.getElementById('_wyfjuqntspbevkhclgzaxdmoir');
       let hls = new Hls();
       hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/central_limit_theorem\/video\/_.m3u8');
       hls.attachMedia(player);
-      plyr_byrmnhpjdtwxzlivsqfeokaguc[0].on('languagechange', function() {
+      plyr_wyfjuqntspbevkhclgzaxdmoir[0].on('languagechange', function() {
         setTimeout(function() {
           hls.subtitleTrack = player.currentTrack;
         }, 50);
