@@ -3117,6 +3117,42 @@ Understand the origin of the Delta signal in continuous-time domain." />
           </li>
         
       
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="../../SignalSystem/Exercises/Final-2022/"
+                    class="gdoc-nav__entry"
+                  >
+                    Gen 12 B. Final (2022)
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
     
   </ul>
 
@@ -3460,7 +3496,7 @@ $$\delta_{\Delta} (t) = \begin{cases}
 
 
 
-<video id="_qpduvclgrhinwkfoeaybmzjtsx" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/convolution_integral/thumb.webp">
+<video id="_foahlnekwzgdsycpmtjvbxuriq" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/convolution_integral/thumb.webp">
 </video>
 
 <script defer>
@@ -3470,7 +3506,7 @@ $$\delta_{\Delta} (t) = \begin{cases}
     fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/en.vtt')
       .then(response => response.text())
       .then(data => {
-        player = document.getElementById('_qpduvclgrhinwkfoeaybmzjtsx');
+        player = document.getElementById('_foahlnekwzgdsycpmtjvbxuriq');
         track = document.createElement('track');
         track.kind = 'captions';
         track.label = 'English';
@@ -3479,7 +3515,7 @@ $$\delta_{\Delta} (t) = \begin{cases}
         track.default = true;
         player.appendChild(track);
     });
-    const plyr_qpduvclgrhinwkfoeaybmzjtsx = Plyr.setup('#_qpduvclgrhinwkfoeaybmzjtsx', {
+    const plyr_foahlnekwzgdsycpmtjvbxuriq = Plyr.setup('#_foahlnekwzgdsycpmtjvbxuriq', {
       captions: { active: true, update: true },
       seekTime: 5,
       previewThumbnails: {
@@ -3490,11 +3526,11 @@ $$\delta_{\Delta} (t) = \begin{cases}
       invertTime: false,
     });
     if (Hls.isSupported()) {
-      let player = document.getElementById('_qpduvclgrhinwkfoeaybmzjtsx');
+      let player = document.getElementById('_foahlnekwzgdsycpmtjvbxuriq');
       let hls = new Hls();
       hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/convolution_integral\/video\/_.m3u8');
       hls.attachMedia(player);
-      plyr_qpduvclgrhinwkfoeaybmzjtsx[0].on('languagechange', function() {
+      plyr_foahlnekwzgdsycpmtjvbxuriq[0].on('languagechange', function() {
         setTimeout(function() {
           hls.subtitleTrack = player.currentTrack;
         }, 50);
