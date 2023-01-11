@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://uni.delnegend.com/OS/1_/</loc>
-  </url><url>
     <loc>https://uni.delnegend.com/OS/0_intro/</loc>
   </url><url>
     <loc>https://uni.delnegend.com/ProbStats/Exercises/01/</loc>
@@ -43,6 +41,8 @@
     <loc>https://uni.delnegend.com/AlgebraicStructures/1_Introduction/</loc>
   </url><url>
     <loc>https://uni.delnegend.com/FundamentalsDatabases/1_Overview/</loc>
+  </url><url>
+    <loc>https://uni.delnegend.com/OS/1_processes/</loc>
   </url><url>
     <loc>https://uni.delnegend.com/SignalSystem/Exercises/01/</loc>
   </url><url>
@@ -92,6 +92,8 @@
   </url><url>
     <loc>https://uni.delnegend.com/ProjectManagement/</loc>
   </url><url>
+    <loc>https://uni.delnegend.com/ADS/Exercises/</loc>
+  </url><url>
     <loc>https://uni.delnegend.com/AlgebraicStructures/Exercises/</loc>
   </url><url>
     <loc>https://uni.delnegend.com/OOP/Exercises/</loc>
@@ -108,15 +110,17 @@
   </url><url>
     <loc>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2021/</loc>
   </url><url>
-    <loc>https://uni.delnegend.com/SignalSystem/Exercises/Final-2021/</loc>
+    <loc>https://uni.delnegend.com/SignalSystem/Exercises/Final-2022/</loc>
   </url><url>
     <loc>https://uni.delnegend.com/SignalSystem/Exercises/Retake-2022/</loc>
   </url><url>
     <loc>https://uni.delnegend.com/SignalSystem/Exercises/Midterm-2022/</loc>
   </url><url>
+    <loc>https://uni.delnegend.com/ADS/Exercises/Final-2022/</loc>
+  </url><url>
     <loc>https://uni.delnegend.com/OOP/Exercises/Final-2022/</loc>
   </url><url>
-    <loc>https://uni.delnegend.com/SignalSystem/Exercises/Final-2022/</loc>
+    <loc>https://uni.delnegend.com/SignalSystem/Exercises/Final-2023/</loc>
   </url><url>
     <loc>https://uni.delnegend.com/ProjectManagement/Part1/I/</loc>
   </url><url>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exercises on BK HQV</title>
+    <link>https://uni.delnegend.com/ADS/Exercises/</link>
+    <description>Recent content in Exercises on BK HQV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://uni.delnegend.com/ADS/Exercises/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gen 12 B. Final (2022)</title>
+      <link>https://uni.delnegend.com/ADS/Exercises/Final-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ADS/Exercises/Final-2022/</guid>
+      <description>Given an array of 10 elements: 4, 15, 28, 45, 40, 9, 53, 41, 8, 17, 3, 5.
+In this problem, we try to find all Pythagorean triplets that consists of 3 integer numbers (a, b, c) where $a^2 + b^2 = c^2$. The Pythagorean triple from the above array is: {(4, 3, 5), (15, 8, 17), (40, 9, 41), (28, 45, 53)}
+Problem 1 Write pseudo code using Recursion to find all Pythagorean triplets, then write a program in C/C++ to complete your proposed algorithm in the pseudo-code.</description>
+    </item>
+    
+  </channel>
+</rss>

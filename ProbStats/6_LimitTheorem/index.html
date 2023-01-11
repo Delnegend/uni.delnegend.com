@@ -386,6 +386,106 @@
             <input
               type="checkbox"
               
+                class="gdoc-nav__toggle" id="navtree-1f80371f"
+                
+              
+            />
+            <label
+              
+                for="navtree-1f80371f" class="flex justify-between align-center"
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="../../ADS/Exercises/"
+                    class="gdoc-nav__entry"
+                  >
+                    Exercises
+                  </a>
+                </span>
+              
+              
+                <svg class="gdoc-icon toggle gdoc_keyboard_arrow_left">
+                  <use xlink:href="#gdoc_keyboard_arrow_left"></use>
+                </svg>
+                <svg class="gdoc-icon toggle gdoc_keyboard_arrow_down">
+                  <use xlink:href="#gdoc_keyboard_arrow_down"></use>
+                </svg>
+              
+            </label>
+
+            
+              
+  
+
+
+  <ul class="gdoc-nav__list">
+    
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="../../ADS/Exercises/Final-2022/"
+                    class="gdoc-nav__entry"
+                  >
+                    Gen 12 B. Final (2022)
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+  </ul>
+
+            
+          </li>
+        
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
                 class="hidden"
               
             />
@@ -1697,7 +1797,14 @@
               
             >
               
-                <span class="flex">Index</span>
+                <span class="flex">
+                  <a
+                    href="../../OS/0_intro/"
+                    class="gdoc-nav__entry"
+                  >
+                    0. Introduction
+                  </a>
+                </span>
               
               
             </label>
@@ -1728,10 +1835,10 @@
               
                 <span class="flex">
                   <a
-                    href="../../OS/0_intro/"
+                    href="../../OS/1_processes/"
                     class="gdoc-nav__entry"
                   >
-                    0. Introduction
+                    1. Processes
                   </a>
                 </span>
               
@@ -3057,7 +3164,7 @@
               
                 <span class="flex">
                   <a
-                    href="../../SignalSystem/Exercises/Final-2021/"
+                    href="../../SignalSystem/Exercises/Final-2022/"
                     class="gdoc-nav__entry"
                   >
                     Gen 11 B. Final (2022)
@@ -3165,7 +3272,7 @@
               
                 <span class="flex">
                   <a
-                    href="../../SignalSystem/Exercises/Final-2022/"
+                    href="../../SignalSystem/Exercises/Final-2023/"
                     class="gdoc-nav__entry"
                   >
                     Gen 12 B. Final (2023)
@@ -3463,7 +3570,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
 
 
 
-<video id="_wyfjuqntspbevkhclgzaxdmoir" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/central_limit_theorem/thumb.webp">
+<video id="_jagdcvpzwxybqsuhlftrkieonm" playsinline controls poster="https://cdn.jsdelivr.net/gh/unilec/central_limit_theorem/thumb.webp">
 </video>
 
 <script defer>
@@ -3473,7 +3580,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
     fetch('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/central_limit_theorem\/en.vtt')
       .then(response => response.text())
       .then(data => {
-        player = document.getElementById('_wyfjuqntspbevkhclgzaxdmoir');
+        player = document.getElementById('_jagdcvpzwxybqsuhlftrkieonm');
         track = document.createElement('track');
         track.kind = 'captions';
         track.label = 'English';
@@ -3482,7 +3589,7 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
         track.default = true;
         player.appendChild(track);
     });
-    const plyr_wyfjuqntspbevkhclgzaxdmoir = Plyr.setup('#_wyfjuqntspbevkhclgzaxdmoir', {
+    const plyr_jagdcvpzwxybqsuhlftrkieonm = Plyr.setup('#_jagdcvpzwxybqsuhlftrkieonm', {
       captions: { active: true, update: true },
       seekTime: 5,
       previewThumbnails: {
@@ -3493,11 +3600,11 @@ $$P(|M_n - \mu| \geq \epsilon) \rightarrow 0 \text{ as } n \rightarrow \infty$$<
       invertTime: false,
     });
     if (Hls.isSupported()) {
-      let player = document.getElementById('_wyfjuqntspbevkhclgzaxdmoir');
+      let player = document.getElementById('_jagdcvpzwxybqsuhlftrkieonm');
       let hls = new Hls();
       hls.loadSource('https:\/\/cdn.jsdelivr.net\/gh\/unilec\/central_limit_theorem\/video\/_.m3u8');
       hls.attachMedia(player);
-      plyr_wyfjuqntspbevkhclgzaxdmoir[0].on('languagechange', function() {
+      plyr_jagdcvpzwxybqsuhlftrkieonm[0].on('languagechange', function() {
         setTimeout(function() {
           hls.subtitleTrack = player.currentTrack;
         }, 50);

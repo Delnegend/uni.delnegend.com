@@ -7,15 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://uni.delnegend.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://uni.delnegend.com/OS/1_/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://uni.delnegend.com/OS/1_/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>0. Introduction</title>
       <link>https://uni.delnegend.com/OS/0_intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -207,6 +198,16 @@ Physical tendencies. Long-term frequency (repeatable).</description>
       
       <guid>https://uni.delnegend.com/FundamentalsDatabases/1_Overview/</guid>
       <description>I. Introduction, basic definitions 1. Why study databases? 2. Database application examples 3. Databases are everywhere 4. Basic definitions 5. A sample database 6. Main Characteristics of a Database Approach II. History of databases 1. History of DB Technology III. Trends in database technology 1. DB Technology&amp;rsquo;s Trends 3-Tier Architecture Client-Server Model IV. Database management systems 1. What is DBMS? 2. Relational database 3. Typical DMBS functionalities 4. Database users 5.</description>
+    </item>
+    
+    <item>
+      <title>1. Processes</title>
+      <link>https://uni.delnegend.com/OS/1_processes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OS/1_processes/</guid>
+      <description>Process Concurrent processes Execution context Process What&amp;rsquo;s the difference between a process and a program?
+A program is active: stored on disk as an executable file. A process is passive: executed on a processor. A process is a running program that is uniquely identified by a PID. A process is created by a parent process or the system. A process consists of two units: an execution unit and an addressing unit.</description>
     </item>
     
     <item>
@@ -468,10 +469,10 @@ b. Dividend = the above quotient (i.e 59). Plus 5 with the remainder after divid
     
     <item>
       <title>Gen 11 B. Final (2022)</title>
-      <link>https://uni.delnegend.com/SignalSystem/Exercises/Final-2021/</link>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/Final-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Final-2021/</guid>
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Final-2022/</guid>
       <description>0. Requisites 1. Signals 2. Systems 3. LTI Systems 4. Convolution integral 5. Fourier Series 6. Fourier Transform 0. Requisites Remove the following 2 questions from the exam and do the rest, if $q_1 = q_2$ then remove any other question you want.
 $q_1 = ((ID+17)\%6) + 1$ $q_2 = ((ID+17)\%5) + 2$ 1. Signals Given the signal $x(t)$
 make a sketch of
@@ -503,6 +504,17 @@ Sketch each of the following signals:</description>
     
     <item>
       <title>Gen 12 B. Final (2022)</title>
+      <link>https://uni.delnegend.com/ADS/Exercises/Final-2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/ADS/Exercises/Final-2022/</guid>
+      <description>Given an array of 10 elements: 4, 15, 28, 45, 40, 9, 53, 41, 8, 17, 3, 5.
+In this problem, we try to find all Pythagorean triplets that consists of 3 integer numbers (a, b, c) where $a^2 + b^2 = c^2$. The Pythagorean triple from the above array is: {(4, 3, 5), (15, 8, 17), (40, 9, 41), (28, 45, 53)}
+Problem 1 Write pseudo code using Recursion to find all Pythagorean triplets, then write a program in C/C++ to complete your proposed algorithm in the pseudo-code.</description>
+    </item>
+    
+    <item>
+      <title>Gen 12 B. Final (2022)</title>
       <link>https://uni.delnegend.com/OOP/Exercises/Final-2022/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -513,10 +525,10 @@ Enter from the keyboard a number n (n &amp;gt; 1) Enter from the keyboard n pair
     
     <item>
       <title>Gen 12 B. Final (2023)</title>
-      <link>https://uni.delnegend.com/SignalSystem/Exercises/Final-2022/</link>
+      <link>https://uni.delnegend.com/SignalSystem/Exercises/Final-2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Final-2022/</guid>
+      <guid>https://uni.delnegend.com/SignalSystem/Exercises/Final-2023/</guid>
       <description>0. Requisites 1. Signals 2. Continuous-time Systems 3. Discrete-time Systems 4. Convolution sum 5. Convolution integral 6. Continuous-time Fourier Series 7. Discrete-time Fourier Series 8. Fourier Transform 9. Inverse Fourier Transform Question 0: 2 points. Others: 3 points each. 0. Requisites Remove the following 3 questions from the exam and do the rest, remove any other question you want if duplication occurs.
 $q_1 = (ID\%4) + 1$ $q_2 = (ID\%3) + 5$ $q_3 = (ID\%2) + 8$ 1.</description>
     </item>

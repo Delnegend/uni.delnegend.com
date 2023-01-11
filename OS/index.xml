@@ -7,21 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://uni.delnegend.com/OS/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://uni.delnegend.com/OS/1_/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://uni.delnegend.com/OS/1_/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>0. Introduction</title>
       <link>https://uni.delnegend.com/OS/0_intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://uni.delnegend.com/OS/0_intro/</guid>
       <description>What is an Operating System? Abstract view of Components of Computer Computer system structure Computer system organization Computer-System operation Common functions of interrupt Interrupt: Timeline I/O cycle 2 methods for handling I/O Memory Secondary storage Memory hierarchy Multi-programming (batch systems) Multi-tasking (time-sharing) Memory layout for multiprogramming systems OS protection: dual-mode operation Transition from user mode to kernel mode Process management Process management activities Memory management File-system management Caching Characteristics of various types of storage Migration of data &amp;ldquo;A&amp;rdquo; from disk to register Protection and security Computer-system architecture Symmetric multiprocessing architecture Dual-core design Non-uniform memory access (NUMA) systems Clustered system System interfaces Basic shell commands Exercise (cmds) What is an Operating System?</description>
+    </item>
+    
+    <item>
+      <title>1. Processes</title>
+      <link>https://uni.delnegend.com/OS/1_processes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://uni.delnegend.com/OS/1_processes/</guid>
+      <description>Process Concurrent processes Execution context Process What&amp;rsquo;s the difference between a process and a program?
+A program is active: stored on disk as an executable file. A process is passive: executed on a processor. A process is a running program that is uniquely identified by a PID. A process is created by a parent process or the system. A process consists of two units: an execution unit and an addressing unit.</description>
     </item>
     
   </channel>
